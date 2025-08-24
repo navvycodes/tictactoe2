@@ -1,4 +1,5 @@
 import { Box, Stack } from "@mui/material";
+import type { Mark } from "../types";
 
 const cellStyle = {
   width: "33%",
@@ -12,7 +13,24 @@ const cellStyle = {
     borderRight: "2px solid #000",
   },
 };
-export const TicTacToeGrid = () => {
+
+const getDisplayValue = (value?: string) => {
+  if (value === "x") return "X";
+  if (value === "o") return "O";
+  return "";
+};
+
+export const TicTacToeGrid = ({
+  gameBoard,
+  onCellClick,
+  winner,
+  winningCombo,
+}: {
+  gameBoard: string[];
+  onCellClick: (index: number) => void;
+  winner?: Mark | null;
+  winningCombo?: number[] | null;
+}) => {
   return (
     <Stack
       sx={{
@@ -38,14 +56,22 @@ export const TicTacToeGrid = () => {
           sx={{
             ...cellStyle,
           }}
-        ></Box>
+          onClick={() => onCellClick(0)}
+        >
+          {getDisplayValue(gameBoard[0])}
+        </Box>
         <Box
           sx={{
             ...cellStyle,
           }}
           className="middleCell"
-        ></Box>
-        <Box sx={{ ...cellStyle }}>X</Box>
+          onClick={() => onCellClick(1)}
+        >
+          {getDisplayValue(gameBoard[1])}
+        </Box>
+        <Box sx={{ ...cellStyle }} onClick={() => onCellClick(2)}>
+          {getDisplayValue(gameBoard[2])}
+        </Box>
       </Box>
 
       {/* Row 1 */}
@@ -54,16 +80,22 @@ export const TicTacToeGrid = () => {
           sx={{
             ...cellStyle,
           }}
+          onClick={() => onCellClick(3)}
         >
-          O
+          {getDisplayValue(gameBoard[3])}
         </Box>
         <Box
           sx={{
             ...cellStyle,
           }}
           className="middleCell"
-        ></Box>
-        <Box sx={{ ...cellStyle }}></Box>
+          onClick={() => onCellClick(4)}
+        >
+          {getDisplayValue(gameBoard[4])}
+        </Box>
+        <Box sx={{ ...cellStyle }} onClick={() => onCellClick(5)}>
+          {getDisplayValue(gameBoard[5])}
+        </Box>
       </Box>
 
       <Box
@@ -74,9 +106,19 @@ export const TicTacToeGrid = () => {
           borderTop: "2px solid #000",
         }}
       >
-        <Box sx={{ ...cellStyle }}></Box>
-        <Box sx={{ ...cellStyle }} className="middleCell"></Box>
-        <Box sx={{ ...cellStyle }}></Box>
+        <Box sx={{ ...cellStyle }} onClick={() => onCellClick(6)}>
+          {getDisplayValue(gameBoard[6])}
+        </Box>
+        <Box
+          sx={{ ...cellStyle }}
+          className="middleCell"
+          onClick={() => onCellClick(7)}
+        >
+          {getDisplayValue(gameBoard[7])}
+        </Box>
+        <Box sx={{ ...cellStyle }} onClick={() => onCellClick(8)}>
+          {getDisplayValue(gameBoard[8])}
+        </Box>
       </Box>
     </Stack>
   );
