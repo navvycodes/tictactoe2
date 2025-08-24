@@ -1,5 +1,5 @@
 // determineAIMove.ts
-import type { Mark } from "../../types";
+import type { Mark } from "../../../utils/types";
 import { getPolicy } from "./aiPolicy";
 import {
   stateKey,

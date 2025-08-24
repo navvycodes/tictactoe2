@@ -1,5 +1,5 @@
 // aiHelpers.ts
-import type { Mark } from "../../types";
+import type { Mark } from "../../../utils/types";
 
 export const stateKey = (board: Mark[]) => board.join("");
 

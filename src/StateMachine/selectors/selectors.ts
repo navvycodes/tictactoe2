@@ -1,4 +1,4 @@
-import { WIN_LINES } from "../helpers";
+import { WIN_LINES } from "../../utils/helpers";
 import type { TicTacToeContext } from "../state/TicTacToeMultiMachine";
 
 export const selectGameBoard = ({ context }: { context: TicTacToeContext }) =>

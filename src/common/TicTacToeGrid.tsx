@@ -1,6 +1,6 @@
 import { Box, Stack } from "@mui/material";
 import { motion, AnimatePresence } from "framer-motion";
-import type { Mark } from "../types";
+import type { Mark } from "../utils/types";
 
 const getDisplayValue = (v?: string) =>
   v === "x" ? "X" : v === "o" ? "O" : "";

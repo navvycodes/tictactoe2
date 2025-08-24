@@ -1,11 +1,11 @@
 import { IconButton, Tooltip } from "@mui/material";
 import { MultiPlayer } from "./MultiPlayer";
-import { TicTacToeMultiProvider } from "../state/TicTacToeMultiProvider";
+import { TicTacToeMultiProvider } from "../StateMachine/state/TicTacToeMultiProvider";
 import HomeIcon from "@mui/icons-material/Home";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { GameInstructionsDialog } from "../common/GameInstructionsDialog";
+import { GameInstructionsDialog } from "../Common/GameInstructionsDialog";
 
 export const MultiPlayerWrapper = () => {
   const navigate = useNavigate();

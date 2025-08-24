@@ -12,8 +12,8 @@ import {
   Box,
 } from "@mui/material";
 import { useEffect, useState } from "react";
-
-const STORAGE_KEY = "ttt_hide_rules";
+import { STORAGE_KEY } from "../utils/localStorageHelpers";
+import { setShowInstructions } from "../utils/localStorageHelpers";
 
 export const GameInstructionsDialog = ({
   open,
@@ -24,32 +24,26 @@ export const GameInstructionsDialog = ({
 }) => {
   const [neverShow, setNeverShow] = useState(false);
 
-  // If you want the checkbox to reflect current saved pref when the dialog opens
   useEffect(() => {
     if (open) {
       const saved =
         typeof window !== "undefined"
           ? localStorage.getItem(STORAGE_KEY)
           : null;
-      setNeverShow(saved === "1");
+      setNeverShow(saved === "true");
     }
   }, [open]);
 
   const handleGotIt = () => {
     try {
       if (neverShow && typeof window !== "undefined") {
-        localStorage.setItem(STORAGE_KEY, "1");
+        setShowInstructions(true);
       } else if (typeof window !== "undefined") {
         localStorage.removeItem(STORAGE_KEY);
       }
-    } catch {
-      // ignore storage errors (private mode, etc.)
-    }
+    } catch {}
     handleClose();
   };
-
-  // Optional helper if you want to decide outside whether to show this dialog:
-  // const shouldShow = useMemo(() => localStorage.getItem(STORAGE_KEY) !== "1", []);
 
   return (
     <Dialog

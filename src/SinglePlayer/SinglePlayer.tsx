@@ -1,15 +1,15 @@
 import { useMediaQuery, Stack, Box, Typography } from "@mui/material";
-import { TicTacToeGrid } from "../common/TicTacToeGrid";
-import { useGameBoard } from "../hooks/useGameBoard";
-import { useNumOWins } from "../hooks/useNumOWins";
-import { useNumXWins } from "../hooks/useNumXWins";
-import { usePlacePiece } from "../hooks/usePlacePiece";
-import { useWinner } from "../hooks/useWinner";
+import { TicTacToeGrid } from "../Common/TicTacToeGrid";
+import { useGameBoard } from "../StateMachine/hooks/useGameBoard";
+import { useNumOWins } from "../StateMachine/hooks/useNumOWins";
+import { useNumXWins } from "../StateMachine/hooks/useNumXWins";
+import { usePlacePiece } from "../StateMachine/hooks/usePlacePiece";
+import { useWinner } from "../StateMachine/hooks/useWinner";
 import { useEffect } from "react";
-import { useIsSinglePlayerX } from "../hooks/useIsSinglePlayerX";
-import { useIsXTurn } from "../hooks/useIsXTurn";
-import { useSinglePlayerDifficulty } from "../hooks/useSinglePlayerDifficulty";
-import { determineAIMove } from "./utils/determineAIMove";
+import { useIsSinglePlayerX } from "../StateMachine/hooks/useIsSinglePlayerX";
+import { useIsXTurn } from "../StateMachine/hooks/useIsXTurn";
+import { useSinglePlayerDifficulty } from "../StateMachine/hooks/useSinglePlayerDifficulty";
+import { determineAIMove } from "./utils/GameAI/determineAIMove";
 
 export const SinglePlayer = () => {
   const gameBoard = useGameBoard();
@@ -23,15 +23,36 @@ export const SinglePlayer = () => {
   const isXTurn = useIsXTurn();
   const singlePlayerDifficulty = useSinglePlayerDifficulty();
 
-  useEffect(() => {
-    if (isPlayerX && !isXTurn && !winner) {
-      const aiMove = determineAIMove(gameBoard, singlePlayerDifficulty, false);
-      placePiece(aiMove);
-    } else if (!isPlayerX && isXTurn) {
-      const aiMove = determineAIMove(gameBoard, singlePlayerDifficulty, true);
-      placePiece(aiMove);
+  const placePiecePassThrough = (index: number) => {
+    if (isPlayerX && isXTurn) {
+      placePiece(index);
+    } else if (!isPlayerX && !isXTurn) {
+      placePiece(index);
     }
+  };
+  // ...existing code...
+  useEffect(() => {
+    let timeout: ReturnType<typeof setTimeout> | undefined;
+    if (isPlayerX && !isXTurn && !winner) {
+      timeout = setTimeout(() => {
+        const aiMove = determineAIMove(
+          gameBoard,
+          singlePlayerDifficulty,
+          false
+        );
+        placePiece(aiMove);
+      }, 1000);
+    } else if (!isPlayerX && isXTurn) {
+      timeout = setTimeout(() => {
+        const aiMove = determineAIMove(gameBoard, singlePlayerDifficulty, true);
+        placePiece(aiMove);
+      }, 1000);
+    }
+    return () => {
+      if (timeout) clearTimeout(timeout);
+    };
   }, [isPlayerX, isXTurn, gameBoard, winner]);
+  // ...existing code...
   return (
     <Stack
       direction={landscape ? "row" : "column"}
@@ -46,7 +67,7 @@ export const SinglePlayer = () => {
     >
       <TicTacToeGrid
         gameBoard={gameBoard}
-        onCellClick={placePiece}
+        onCellClick={placePiecePassThrough}
         winner={winner}
         winningCombo={combo}
       />

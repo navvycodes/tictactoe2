@@ -1,7 +1,7 @@
 // TicTacToeLocalMachine.ts
 import { setup, assign } from "xstate";
-import type { Mark } from "../types";
-import { boardFull, checkWin, legal } from "../helpers";
+import type { Mark } from "../../utils/types";
+import { boardFull, checkWin, legal } from "../../utils/helpers";
 
 export interface TicTacToeContext {
   board: Mark[]; // length 9
