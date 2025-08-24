@@ -1,11 +1,10 @@
-import { Box, Button, Stack } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import { IconButton, Tooltip } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { GameInstructionsDialog } from "../common/GameInstructionsDialog";
-import { MultiPlayer } from "../MultiPlayer/MultiPlayer";
 export const Home = () => {
   const [showExplanation, setShowExplanation] = useState(false);
   const navigate = useNavigate();
