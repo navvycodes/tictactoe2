@@ -133,7 +133,7 @@ export const TicTacToeMultiMachine = setup({
     numXWins: 0,
     numOWins: 0,
     singlePlayerIsX: true,
-    singlePlayerDifficulty: "hard",
+    singlePlayerDifficulty: "easy",
     singlePlayerThinkMs: 1000,
   },
 

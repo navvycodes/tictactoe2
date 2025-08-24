@@ -37,10 +37,14 @@ export function SinglePlayerSettingsDialog({
   onClose: () => void;
 }) {
   const [v, setV] = useState<SPSettings>(value);
+  const [singlePlayerThinkMs, setSinglePlayerThinkMs] = useState<number>(
+    value.thinkMs
+  );
 
   useEffect(() => {
     if (open) {
       setV(value);
+      setSinglePlayerThinkMs(value.thinkMs);
     }
   }, [open, value]);
 
@@ -113,11 +117,14 @@ export function SinglePlayerSettingsDialog({
 
             <Box>
               <Typography variant="subtitle2" sx={{ opacity: 0.8, mb: 0.5 }}>
-                Bot think time (ms)
+                Bot Think time ({singlePlayerThinkMs} ms)
               </Typography>
               <Slider
-                value={v.thinkMs}
-                onChange={(_, val) => setV({ ...v, thinkMs: val as number })}
+                value={singlePlayerThinkMs}
+                onChange={(_, val) => {
+                  setSinglePlayerThinkMs(val as number);
+                  setV({ ...v, thinkMs: val as number });
+                }}
                 min={500}
                 max={2000}
                 step={50}

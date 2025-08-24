@@ -37,3 +37,11 @@ export const selectSinglePlayerDifficulty = ({
 }) => {
   return context.singlePlayerDifficulty;
 };
+
+export const selectSinglePlayerThinkMs = ({
+  context,
+}: {
+  context: TicTacToeContext;
+}) => {
+  return context.singlePlayerThinkMs;
+};

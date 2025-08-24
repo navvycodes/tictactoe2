@@ -1,4 +1,12 @@
-import { useMediaQuery, Stack, Box, Typography, Button } from "@mui/material";
+import {
+  useMediaQuery,
+  Stack,
+  Box,
+  Typography,
+  Tooltip,
+  IconButton,
+} from "@mui/material";
+import SettingsIcon from "@mui/icons-material/Settings";
 import { TicTacToeGrid } from "../Common/TicTacToeGrid";
 import { useGameBoard } from "../StateMachine/hooks/useGameBoard";
 import { useNumOWins } from "../StateMachine/hooks/useNumOWins";
@@ -13,6 +21,7 @@ import { determineAIMove } from "./utils/GameAI/determineAIMove";
 import { useState } from "react";
 import { SinglePlayerSettingsDialog } from "./SinglePlayerSettingsDialog";
 import { useUpdateSettings } from "../StateMachine/hooks/useSaveNewSettings";
+import { useSinglePlayerThinkMs } from "../StateMachine/hooks/usePlayerInterval";
 
 export const SinglePlayer = () => {
   const gameBoard = useGameBoard();
@@ -26,6 +35,7 @@ export const SinglePlayer = () => {
   const isXTurn = useIsXTurn();
   const singlePlayerDifficulty = useSinglePlayerDifficulty();
   const updateSettings = useUpdateSettings();
+  const singlePlayerThinkMs = useSinglePlayerThinkMs();
 
   const placePiecePassThrough = (index: number) => {
     if (isPlayerX && isXTurn) {
@@ -37,7 +47,6 @@ export const SinglePlayer = () => {
 
   useEffect(() => {
     let timeout: ReturnType<typeof setTimeout> | undefined;
-    console.log("AI THINKING");
     if (isPlayerX && !isXTurn && !winner) {
       timeout = setTimeout(() => {
         const aiMove = determineAIMove(
@@ -46,12 +55,12 @@ export const SinglePlayer = () => {
           false
         );
         placePiece(aiMove);
-      }, 1000);
+      }, singlePlayerThinkMs);
     } else if ((!isPlayerX && isXTurn) || (winner && !isPlayerX)) {
       timeout = setTimeout(() => {
         const aiMove = determineAIMove(gameBoard, singlePlayerDifficulty, true);
         placePiece(aiMove);
-      }, 1000);
+      }, singlePlayerThinkMs);
     }
     return () => {
       if (timeout) clearTimeout(timeout);
@@ -75,7 +84,7 @@ export const SinglePlayer = () => {
         value={{
           difficulty: singlePlayerDifficulty,
           side: isPlayerX ? "x" : "o",
-          thinkMs: 1000,
+          thinkMs: singlePlayerThinkMs,
         }}
         onSave={(v) => {
           // Handle save
@@ -120,7 +129,13 @@ export const SinglePlayer = () => {
               {"X Wins"}
             </Typography>
             <Typography
-              sx={{ color: "#60a5fa", fontWeight: 500, fontSize: "1.1rem" }}
+              sx={{
+                color: "#60a5fa",
+                fontWeight: 500,
+                fontSize: "1.1rem",
+                maxWidth: "200px",
+              }}
+              textOverflow="ellipsis"
             >
               {numXWins}
             </Typography>
@@ -138,18 +153,45 @@ export const SinglePlayer = () => {
               {"O Wins"}
             </Typography>
             <Typography
-              sx={{ color: "#f43f5e", fontWeight: 500, fontSize: "1.1rem" }}
+              sx={{
+                color: "#f43f5e",
+                fontWeight: 500,
+                fontSize: "1.1rem",
+                maxWidth: "200px",
+              }}
+              textOverflow="ellipsis"
             >
               {numOWins}
             </Typography>
           </Stack>
         </Box>
         <Box>
-          <Typography variant="body2" sx={{ color: "#E5E7EB" }}>
+          <Typography
+            variant="body2"
+            sx={{
+              color: "#E5E7EB",
+              fontWeight: 600,
+              letterSpacing: "0.02em",
+              textShadow: "0 0 6px rgba(99,102,241,0.35)", // subtle indigo glow
+              mb: 1,
+            }}
+          >
             {isPlayerX ? "You are X" : "You are O"}
           </Typography>
         </Box>
-        <Button onClick={() => setSettingsOpen(true)}> Settings </Button>
+        <Tooltip title="Game Settings">
+          <IconButton
+            onClick={() => setSettingsOpen(true)}
+            sx={{
+              backgroundColor: "#6366f1",
+              color: "#fff",
+              zIndex: 10,
+              "&:hover": { backgroundColor: "#818cf8" }, // indigo-400
+            }}
+          >
+            <SettingsIcon />
+          </IconButton>
+        </Tooltip>
       </Box>
     </Stack>
   );
