@@ -1,0 +1,7586 @@
+{
+  "_________": {
+    "nextStates": [
+      "_______x_",
+      "________x",
+      "____x____"
+    ],
+    "xWins": 527370,
+    "oWins": 472630
+  },
+  "_______x_": {
+    "nextStates": [
+      "_____o_x_",
+      "_______xo",
+      "_____xo__",
+      "____o__x_",
+      "___o_x___"
+    ],
+    "xWins": 230427,
+    "oWins": 213355
+  },
+  "_____o_x_": {
+    "nextStates": [
+      "_____oxx_",
+      "___x_x_o_",
+      "___o_x_x_",
+      "_____o_xx",
+      "_____xxo_",
+      "____xo_x_",
+      "__xo___x_"
+    ],
+    "xWins": 59284,
+    "oWins": 51896
+  },
+  "_____oxx_": {
+    "nextStates": [
+      "___o_o_xx",
+      "__oo___xx",
+      "_____oxxo",
+      "__o__oxx_",
+      "__xo_x_o_",
+      "____ooxx_"
+    ],
+    "xWins": 17553,
+    "oWins": 14225
+  },
+  "___o_o_xx": {
+    "nextStates": [
+      "__xo_o_xx",
+      "_o_x_x_ox",
+      "___o_oxxx",
+      "__xo_oxx_",
+      "___oxo_xx"
+    ],
+    "xWins": 6151,
+    "oWins": 4388
+  },
+  "__xo_o_xx": {
+    "nextStates": [
+      "_o_o_xxox",
+      "__xooo_xx",
+      "_oox__xox",
+      "__xo_ooxx"
+    ],
+    "xWins": 2464,
+    "oWins": 3920
+  },
+  "_o_o_xxox": {
+    "nextStates": [
+      "_oxo__xox",
+      "_o_oxxxo_",
+      "_o_ooxx_x",
+      "__xo_ooxx",
+      "_oox__xox",
+      "_o_o_oxxx",
+      "_oxo_oxx_",
+      "__xoxo_ox",
+      "__oo_xxox",
+      "_oxx_o_ox",
+      "__xooo_xx",
+      "___ooxxox",
+      "_ooo_xx_x",
+      "_o_oxo_xx",
+      "_oox_ox_x",
+      "__ox_oxox",
+      "__xo_oxox"
+    ],
+    "xWins": 21614,
+    "oWins": 20543
+  },
+  "_oxo__xox": {
+    "nextStates": [
+      "__xo_oxox",
+      "__xoo_xox",
+      "_oxo__xox",
+      "_o_o_xxox",
+      "o_xo_ox_x",
+      "_oxo_oxx_",
+      "o_xo__xox",
+      "__xooox_x",
+      "__xoxo_ox",
+      "_o_o_oxxx",
+      "_oxoo_x_x",
+      "__xoxoxo_",
+      "_o_oxox_x",
+      "ooxo__x_x"
+    ],
+    "xWins": 21390,
+    "oWins": 16798
+  },
+  "__xo_oxox": {
+    "nextStates": [
+      "_oxo_oxx_",
+      "__xoxoxo_",
+      "__xoxo_ox",
+      "_o_o_xxox",
+      "_oxo__xox",
+      "__xo_oxox",
+      "__x_ooxox",
+      "_oxx_o_ox",
+      "__xoo_xox",
+      "o_x__oxox",
+      "__xooox_x",
+      "o_xo_ox_x",
+      "o_xo__xox",
+      "___oxoxox"
+    ],
+    "xWins": 21445,
+    "oWins": 20531
+  },
+  "_oxo_oxx_": {
+    "nextStates": [
+      "__xo_oxxo",
+      "_o_o_oxxx",
+      "_oxx__xoo",
+      "__xx_oxoo",
+      "__xooxxo_",
+      "_o_oxxxo_",
+      "_o_o_xxox",
+      "_oxo__xxo",
+      "_oxx_o_ox",
+      "__xxooxo_",
+      "__xo_oxox",
+      "_o_oxo_xx",
+      "__xoxoxo_",
+      "__xoooxx_",
+      "__xo_xxoo",
+      "_oxo__xox",
+      "_oxx_ox_o"
+    ],
+    "xWins": 22475,
+    "oWins": 17645
+  },
+  "__xo_oxxo": {
+    "nextStates": [
+      "_oox_x_ox",
+      "_o_x_xoox",
+      "_oxx__xoo",
+      "__xo_ooxx",
+      "o_x__oxxo",
+      "__xoooxx_",
+      "___oxooxx",
+      "__xoxox_o",
+      "__xo_xxoo",
+      "__x_ooxxo",
+      "_oxo_oxx_",
+      "__xoo_xxo",
+      "__xoxo_xo",
+      "o_xo_ox_x",
+      "_oxo__xxo",
+      "_oxx__oox",
+      "o_xo__xxo"
+    ],
+    "xWins": 21510,
+    "oWins": 20149
+  },
+  "_oox_x_ox": {
+    "nextStates": [
+      "__ox_xoox",
+      "_oox__xox",
+      "_oox_xo_x",
+      "_oox_xxo_",
+      "__xx_xooo",
+      "___oxooxx",
+      "_o_xxx_oo",
+      "_ooxx__ox",
+      "_oxx_xo_o",
+      "__xxox_oo",
+      "__xo_ooxx",
+      "_o_x_xoox",
+      "_oxx__xoo",
+      "__oxox_ox",
+      "_o_xox_ox",
+      "__xo_oxxo"
+    ],
+    "xWins": 17572,
+    "oWins": 20529
+  },
+  "__ox_xoox": {
+    "nextStates": [
+      "__oxxxoo_",
+      "___xoxoox",
+      "_oox_xo_x",
+      "__oxox_ox",
+      "__o_xooxx",
+      "__ox_xxoo",
+      "_xox__oox",
+      "o_x__oxxo",
+      "_oxx_xo_o",
+      "_oox_x_ox",
+      "__oxx_oox",
+      "o_ox_xo_x",
+      "__ox_ooxx",
+      "o_xo__xxo",
+      "__oxoxo_x",
+      "_o_x_xoox",
+      "_oox_xox_"
+    ],
+    "xWins": 20987,
+    "oWins": 21068
+  },
+  "__oxxxoo_": {
+    "nextStates": [],
+    "xWins": 22947,
+    "oWins": 0
+  },
+  "_______xo": {
+    "nextStates": [
+      "_____x_xo",
+      "____x__xo",
+      "___x_x__o",
+      "__o__xx__",
+      "______oxx",
+      "_____xx_o",
+      "_____xox_"
+    ],
+    "xWins": 57435,
+    "oWins": 53259
+  },
+  "_____x_xo": {
+    "nextStates": [
+      "_____xoxo",
+      "__ox__ox_",
+      "___o_x_xo",
+      "____ox_xo"
+    ],
+    "xWins": 7772,
+    "oWins": 8125
+  },
+  "_____xoxo": {
+    "nextStates": [
+      "__xx__oxo",
+      "___x_xoxo",
+      "__ox_x_xo",
+      "__o__xxxo",
+      "____xxoxo"
+    ],
+    "xWins": 5741,
+    "oWins": 4836
+  },
+  "__xx__oxo": {
+    "nextStates": [
+      "_oxx__oxo",
+      "__xxo_oxo",
+      "__xx_ooxo",
+      "o_xx__oxo"
+    ],
+    "xWins": 3090,
+    "oWins": 3328
+  },
+  "_oxx__oxo": {
+    "nextStates": [
+      "__oo_xxxo",
+      "_xox__oox",
+      "_oxx_o_xo",
+      "_oxx_xo_o",
+      "__xx_ooxo",
+      "__ooxx_xo",
+      "_oxxo__xo",
+      "__xxo_oxo",
+      "_o_x_xoxo",
+      "_oxx_oox_",
+      "o_xx__oxo",
+      "__ooxxx_o",
+      "__xxooox_",
+      "o_o__xxox",
+      "_oxxx_o_o",
+      "o_xx_oo_x"
+    ],
+    "xWins": 25817,
+    "oWins": 25892
+  },
+  "__oo_xxxo": {
+    "nextStates": [
+      "__ox_ooxx",
+      "_oxx__oxo",
+      "__ooxxx_o",
+      "_o_x_xoxo",
+      "__oox_xxo",
+      "__xo_xoxo",
+      "_ooo_xxx_",
+      "_oxx_xo_o",
+      "_xox__xoo",
+      "___ooxxxo",
+      "__oooxxx_",
+      "o_o__xxox",
+      "__ooxx_xo",
+      "_o_o_xxxo",
+      "o_xx_oo_x",
+      "__o_oxxxo",
+      "o_o__xxxo"
+    ],
+    "xWins": 25502,
+    "oWins": 26224
+  },
+  "__ox_ooxx": {
+    "nextStates": [
+      "__ox_xoox",
+      "__o_xooxx",
+      "_oox__oxx",
+      "_oox_xox_",
+      "__oxxoo_x",
+      "_o_o_xxxo",
+      "___ooxxxo",
+      "__oxxoox_",
+      "o_xo_xx_o",
+      "_xox__oox",
+      "o_xo__xxo",
+      "_xox__xoo",
+      "_oox_o_xx",
+      "__oxo_oxx",
+      "__oo_xxxo",
+      "o_o__xxxo",
+      "__oxoo_xx"
+    ],
+    "xWins": 21663,
+    "oWins": 25371
+  },
+  "___xoxoox": {
+    "nextStates": [
+      "__xxox_oo",
+      "__oxoo_xx",
+      "__oxoxxo_",
+      "_ooxox_x_",
+      "_o_xoxo_x",
+      "__o_ooxxx",
+      "__xxoxoo_",
+      "__ox_xxoo",
+      "__xxoo_xo",
+      "__oxox_ox",
+      "__xxo_xoo",
+      "__x_ooxxo",
+      "__xxo_oox",
+      "__ox_xoox",
+      "__oxoxx_o",
+      "_o_xox_ox",
+      "_o_x_xoox",
+      "__oxoxo_x"
+    ],
+    "xWins": 18339,
+    "oWins": 22036
+  },
+  "__xxox_oo": {
+    "nextStates": [
+      "__xxoxo_o",
+      "__xxoxoo_",
+      "__xxo_xoo",
+      "_ooxox_x_",
+      "___xoxoox",
+      "___ooxoxx",
+      "__xx_xooo",
+      "__xoo_oxx",
+      "_oox_xo_x",
+      "_ooxo_x_x",
+      "_o_xoxo_x",
+      "__oxoxo_x",
+      "_ooxo__xx",
+      "__x_ooxxo",
+      "_oox_x_ox",
+      "_o_xox_ox",
+      "__oxox_ox"
+    ],
+    "xWins": 14436,
+    "oWins": 24576
+  },
+  "__xxoxo_o": {
+    "nextStates": [
+      "__oxo_xxo",
+      "__xxox_oo",
+      "_oxx_xo_o",
+      "_x_xoxo_o",
+      "__xxoxo_o",
+      "__xx_xooo",
+      "__oxoxxo_",
+      "__oxox_ox",
+      "___xoxoxo",
+      "o_o_oxx_x",
+      "__o_oxxxo",
+      "o_ox_xo_x",
+      "__xxoxoo_",
+      "__oxoxx_o",
+      "_xoxo_x_o",
+      "__oxoxo_x",
+      "__xxo_oxo"
+    ],
+    "xWins": 17678,
+    "oWins": 25925
+  },
+  "__oxo_xxo": {
+    "nextStates": [
+      "__oxooxx_",
+      "__o_oxoxx",
+      "_oox__xxo",
+      "o_o_o_xxx",
+      "o_o_oxx_x",
+      "__oxoxx_o",
+      "__ooox_xx",
+      "_xoxo_x_o",
+      "__ox_oxxo",
+      "o_o__xoxx",
+      "___ooxoxx",
+      "__oxox_xo",
+      "__xxoxo_o",
+      "_x_xoxo_o",
+      "__oxo_xxo",
+      "__o_oxxxo"
+    ],
+    "xWins": 17599,
+    "oWins": 21865
+  },
+  "__oxooxx_": {
+    "nextStates": [
+      "__xxoxoo_",
+      "_ooxox_x_",
+      "__oxoox_x",
+      "_o_oox_xx",
+      "__ox_oxxo",
+      "__oxooxx_",
+      "__oxoo_xx",
+      "___ooxoxx",
+      "__xooxo_x",
+      "_oox_oxx_",
+      "__xooxox_",
+      "__oxo_xxo",
+      "_ooxo_x_x",
+      "__o_ooxxx",
+      "_ooxo__xx",
+      "__ooox_xx",
+      "_oox__xxo"
+    ],
+    "xWins": 20758,
+    "oWins": 18085
+  },
+  "__xxoxoo_": {
+    "nextStates": [
+      "__xx_xooo",
+      "__xxox_oo",
+      "__oxoxx_o",
+      "__xoo_oxx",
+      "__oxooxx_",
+      "_o_xoxo_x",
+      "__oxoxxo_",
+      "___xoxoox",
+      "_ooxo_x_x",
+      "__xxoxo_o",
+      "_oox_xxo_",
+      "__o_ooxxx",
+      "_o_xox_ox",
+      "_ooxox_x_",
+      "__xooxox_",
+      "_oox_xx_o",
+      "__xxo_oox"
+    ],
+    "xWins": 17702,
+    "oWins": 21490
+  },
+  "__xx_xooo": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 24684
+  },
+  "________x": {
+    "nextStates": [
+      "_____ox__",
+      "______o_x",
+      "_______ox",
+      "____o___x",
+      "__o___x__"
+    ],
+    "xWins": 236633,
+    "oWins": 208785
+  },
+  "_____ox__": {
+    "nextStates": [
+      "_____ox_x",
+      "_____oxx_",
+      "__x___xo_",
+      "____xox__",
+      "___o_x__x",
+      "__xo____x",
+      "__xo___x_"
+    ],
+    "xWins": 60355,
+    "oWins": 51353
+  },
+  "_____ox_x": {
+    "nextStates": [
+      "_____oxox",
+      "__xo___ox",
+      "__oo__x_x",
+      "____oox_x",
+      "___o_ox_x",
+      "__o__ox_x"
+    ],
+    "xWins": 18469,
+    "oWins": 12987
+  },
+  "_____oxox": {
+    "nextStates": [
+      "__xo__xox",
+      "__x__oxox",
+      "__xx_o_ox",
+      "____xoxox",
+      "___o_xxox"
+    ],
+    "xWins": 5798,
+    "oWins": 4812
+  },
+  "__xo__xox": {
+    "nextStates": [
+      "__xo_oxox",
+      "__xoo_xox",
+      "o_xo__xox",
+      "_oxo__xox"
+    ],
+    "xWins": 3364,
+    "oWins": 2884
+  },
+  "__xoxoxo_": {
+    "nextStates": [],
+    "xWins": 24004,
+    "oWins": 0
+  },
+  "______o_x": {
+    "nextStates": [
+      "_____xo_x",
+      "_____xx_o",
+      "____x_o_x",
+      "______oxx",
+      "__ox____x",
+      "__o___x_x",
+      "__x___x_o"
+    ],
+    "xWins": 58729,
+    "oWins": 52691
+  },
+  "_____xo_x": {
+    "nextStates": [
+      "__ox__x_o",
+      "____oxo_x",
+      "___o_xo_x",
+      "_____xoox",
+      "__o___oxx",
+      "__oo___xx"
+    ],
+    "xWins": 17408,
+    "oWins": 14707
+  },
+  "__ox__x_o": {
+    "nextStates": [
+      "_xox__x_o",
+      "__oxx_x_o",
+      "o_o___xxx",
+      "__ox__xxo",
+      "__ox_xx_o"
+    ],
+    "xWins": 5493,
+    "oWins": 5193
+  },
+  "_xox__x_o": {
+    "nextStates": [
+      "o_o__xxxo",
+      "_xox_ox_o",
+      "_xox__xoo",
+      "_xoxo_x_o"
+    ],
+    "xWins": 2378,
+    "oWins": 3997
+  },
+  "o_o__xxxo": {
+    "nextStates": [
+      "__oxx_oxo",
+      "_xox__oxo",
+      "__o_oxxxo",
+      "o_o_x_oxx",
+      "o_xx__oxo",
+      "o_ox_xo_x",
+      "_xox_ox_o",
+      "_oox__oxx",
+      "__ox_ooxx",
+      "_xoxo_x_o",
+      "_xox__xoo",
+      "__ox_xoxo",
+      "__oxo_oxx",
+      "o_o_xxx_o",
+      "o_o__xoxx",
+      "__oo_xxxo",
+      "__xo_xoxo"
+    ],
+    "xWins": 17969,
+    "oWins": 25518
+  },
+  "__oxx_oxo": {
+    "nextStates": [
+      "__ooxx_xo",
+      "__oxxxo_o",
+      "_xoxx_o_o",
+      "_xox__oxo",
+      "o_o__xxxo",
+      "__oxxoox_",
+      "__o_xxoxo",
+      "o_o_x_oxx",
+      "___oxxoxo",
+      "__oxx_oxo",
+      "o_o_xxx_o",
+      "_ooxx__xo",
+      "__oxxo_xo",
+      "__ox_xoxo"
+    ],
+    "xWins": 21464,
+    "oWins": 18088
+  },
+  "__ooxx_xo": {
+    "nextStates": [
+      "__ooxxx_o",
+      "_o_oxx_xo",
+      "__o_xxoxo",
+      "_oxxx_o_o",
+      "__oox_xxo",
+      "_o_x_xoxo",
+      "_o_oxxox_",
+      "_o_xxxo_o",
+      "_oxx__oxo",
+      "___oxxoxo",
+      "__oo_xxxo",
+      "__ooxx_xo",
+      "__oxxoox_",
+      "__oxx_oxo",
+      "_ooxx__xo",
+      "__ooxxox_"
+    ],
+    "xWins": 26229,
+    "oWins": 21776
+  },
+  "__ooxxx_o": {
+    "nextStates": [
+      "__ooxxxo_",
+      "__o_xxxoo",
+      "__xox_oxo",
+      "__oxxoo_x",
+      "__ooxx_xo",
+      "__ooxxx_o",
+      "_o_oxxx_o",
+      "_oxx__oxo",
+      "__xxxooo_",
+      "o_o_xxx_o",
+      "__oox_xxo",
+      "__xxxoo_o",
+      "___oxxxoo",
+      "_oxxx_o_o",
+      "__oo_xxxo",
+      "o_o_x_xox",
+      "o_xx_oo_x"
+    ],
+    "xWins": 26771,
+    "oWins": 26270
+  },
+  "__ooxxxo_": {
+    "nextStates": [
+      "__ooxxxo_",
+      "___oxxxoo",
+      "__oox_xox",
+      "__xxxooo_",
+      "_oxx_oo_x",
+      "_oxxx_o_o",
+      "__xxxoo_o",
+      "_o_oxxx_o",
+      "__ooxxx_o",
+      "_o_oxxxo_",
+      "_o_oxx_xo",
+      "__oo_xxox",
+      "_oxx_oox_",
+      "__xoxoox_",
+      "__ooxx_ox",
+      "__oxxo_ox",
+      "__o_xxxoo"
+    ],
+    "xWins": 26627,
+    "oWins": 25512
+  },
+  "___oxxxoo": {
+    "nextStates": [
+      "__xx_ooox",
+      "__xoxo_xo",
+      "__o_xxxoo",
+      "__xo_xxoo",
+      "_o_oxxxo_",
+      "__o_xoxox",
+      "_o_oxxox_",
+      "__oxxo_ox",
+      "__xxxooo_",
+      "__oxx_oox",
+      "__ooxxxo_",
+      "__xoxx_oo",
+      "_oxx_o_xo",
+      "__xox_xoo",
+      "__ooxxx_o",
+      "_o_oxxx_o",
+      "__oxxoo_x"
+    ],
+    "xWins": 26839,
+    "oWins": 22135
+  },
+  "__xx_ooox": {
+    "nextStates": [
+      "_oxx_oo_x",
+      "__xxo_oox",
+      "o_xx__oox",
+      "___oxxxoo",
+      "__xo_xxoo",
+      "o_xx_oo_x",
+      "__ox_oxox",
+      "_ooo_xxx_",
+      "__xxooo_x",
+      "o_xo__xox",
+      "_ooo_xx_x",
+      "__o_xoxox",
+      "_oxx_o_ox",
+      "__xxxooo_",
+      "__xxoo_ox",
+      "_oxx__oox",
+      "_oxx_o_xo"
+    ],
+    "xWins": 26331,
+    "oWins": 25278
+  },
+  "_oxx_oo_x": {
+    "nextStates": [
+      "__oo_xxox",
+      "_oxx_o_ox",
+      "__xxoo_ox",
+      "o_xx_oo_x",
+      "o_xx__oox",
+      "_oxxo_o_x",
+      "_oxx_oox_",
+      "__oox_xox",
+      "_o_o_xxxo",
+      "o_x__oxox",
+      "__xxooo_x",
+      "_oxx__oox",
+      "_oxo__xxo",
+      "__xx_ooox",
+      "_o_oxxx_o",
+      "__ooxxxo_"
+    ],
+    "xWins": 26364,
+    "oWins": 25783
+  },
+  "__oo_xxox": {
+    "nextStates": [
+      "o_o__xxox",
+      "_oxx_oox_",
+      "__oox_xox",
+      "o_x__oxox",
+      "_oxx_oo_x",
+      "__ox_oxox",
+      "__ooxx_ox",
+      "__o_oxxox",
+      "__ooxxxo_",
+      "_ooo_xx_x",
+      "_oxo__xxo",
+      "_o_o_xxxo",
+      "__xo_ooxx",
+      "_o_o_xxox",
+      "___ooxxox",
+      "__oooxx_x",
+      "o_oo_xx_x"
+    ],
+    "xWins": 25660,
+    "oWins": 25816
+  },
+  "o_o__xxox": {
+    "nextStates": [
+      "o_o_x_xox",
+      "__o_oxxox",
+      "__oxo_xox",
+      "__xo_ooxx",
+      "_oxx_xo_o",
+      "__ox_oxox",
+      "o_xo__oxx",
+      "_oxxx_o_o",
+      "o_xx_oo_x",
+      "__oox_xxo",
+      "__oo_xxxo",
+      "__oo_xxox",
+      "o_o__xxox",
+      "o_o_oxx_x",
+      "_oxx__oxo",
+      "_oox__xox",
+      "o_oo_xx_x"
+    ],
+    "xWins": 21527,
+    "oWins": 26312
+  },
+  "o_o_x_xox": {
+    "nextStates": [
+      "__oox_xox",
+      "__xoxoo_x",
+      "o_o_xox_x",
+      "__o_xoxox",
+      "_oxxx_o_o",
+      "__oox_xxo",
+      "o_xx_oo_x",
+      "__ooxxx_o",
+      "o_o__xxox",
+      "o_xox_o_x"
+    ],
+    "xWins": 11367,
+    "oWins": 13026
+  },
+  "__oox_xox": {
+    "nextStates": [
+      "__oox_xox",
+      "__xoxoo_x",
+      "o_x__oxox",
+      "__ooxx_ox",
+      "_ooox_x_x",
+      "o_o_xox_x",
+      "__ooxxxo_",
+      "_o_oxxx_o",
+      "o_o_x_xox",
+      "__oo_xxox",
+      "_oxx_oo_x",
+      "__o_xoxox",
+      "__ooxox_x",
+      "_oxox_x_o",
+      "___oxoxox",
+      "__xoxo_ox"
+    ],
+    "xWins": 26357,
+    "oWins": 21604
+  },
+  "__xoxoo_x": {
+    "nextStates": [
+      "__xoxox_o",
+      "__ooxox_x",
+      "_oox__xox",
+      "___oxooxx",
+      "__xo_ooxx",
+      "__xoxoox_",
+      "o_xox_o_x",
+      "_ooxx__ox",
+      "o_o_x_xox",
+      "__xoxo_ox",
+      "__xoxoo_x",
+      "__oox_xox",
+      "o_xo_ox_x",
+      "__xox_oox",
+      "__o_xoxox",
+      "__ooxoxx_",
+      "_ooox_x_x"
+    ],
+    "xWins": 22543,
+    "oWins": 20848
+  },
+  "__xoxox_o": {
+    "nextStates": [],
+    "xWins": 24210,
+    "oWins": 0
+  },
+  "____x__xo": {
+    "nextStates": [
+      "____xo_xo",
+      "____xxo_o",
+      "__o_x_ox_",
+      "____x_oxo",
+      "____xoox_",
+      "___oxx__o"
+    ],
+    "xWins": 18180,
+    "oWins": 13458
+  },
+  "____xo_xo": {
+    "nextStates": [
+      "____xoxxo",
+      "__xox_ox_",
+      "____xxxoo",
+      "___xxx_oo",
+      "___oxxox_"
+    ],
+    "xWins": 5696,
+    "oWins": 4776
+  },
+  "____xoxxo": {
+    "nextStates": [
+      "__o_xoxxo",
+      "___oxooxx",
+      "__oox_oxx",
+      "__xoxx_oo"
+    ],
+    "xWins": 2815,
+    "oWins": 3572
+  },
+  "__o_xoxxo": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 24973
+  },
+  "__oo___xx": {
+    "nextStates": [
+      "_oxx__x_o",
+      "__oo_x_xx",
+      "_o_x_xo_x",
+      "__oo__xxx",
+      "__oox__xx"
+    ],
+    "xWins": 6402,
+    "oWins": 4295
+  },
+  "_oxx__x_o": {
+    "nextStates": [
+      "o_x__oxxo",
+      "_oxx_ox_o",
+      "_oxx__xoo",
+      "_oxxo_x_o"
+    ],
+    "xWins": 3461,
+    "oWins": 2990
+  },
+  "o_x__oxxo": {
+    "nextStates": [
+      "_xox__oox",
+      "o_xo_xx_o",
+      "__x_ooxxo",
+      "o_xo__xxo",
+      "o_x_x_xoo",
+      "_oxxo_x_o",
+      "_oxx__xoo",
+      "_oox_xo_x",
+      "__ox_xoox",
+      "__xo_xxoo",
+      "__oo_xoxx",
+      "o_x_o_xxo",
+      "__oxx_oox",
+      "__oox_oxx",
+      "_oxx_ox_o",
+      "__xo_oxxo"
+    ],
+    "xWins": 21206,
+    "oWins": 20903
+  },
+  "_xox__oox": {
+    "nextStates": [
+      "_xoxo_o_x",
+      "__ooxxox_",
+      "_oxx__oxo",
+      "o_x__oxxo",
+      "__xx_ooxo",
+      "_xox__oox",
+      "__oxx_oox",
+      "__oxxoo_x",
+      "_oxxo__xo",
+      "__oo_xoxx",
+      "o_xo_xx_o",
+      "__ox_xoox",
+      "_oox_xox_",
+      "__ox_ooxx",
+      "_oxx_o_xo",
+      "o_xx__oxo",
+      "__xxoo_xo"
+    ],
+    "xWins": 22002,
+    "oWins": 25068
+  },
+  "_xoxo_o_x": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 13935
+  },
+  "_______ox": {
+    "nextStates": [
+      "__x___xo_",
+      "_____ox_x",
+      "_____xxo_",
+      "______xox",
+      "___o_xx__",
+      "____x__ox",
+      "_____o_xx"
+    ],
+    "xWins": 60621,
+    "oWins": 50080
+  },
+  "__x___xo_": {
+    "nextStates": [
+      "__xo__xo_",
+      "__xo__x_o",
+      "__x_o_xo_",
+      "__x__oxo_",
+      "__xo_ox__",
+      "__x___xoo"
+    ],
+    "xWins": 17840,
+    "oWins": 13670
+  },
+  "__xo__xo_": {
+    "nextStates": [
+      "__xo_xxo_",
+      "__xo__xox",
+      "__xox_xo_"
+    ],
+    "xWins": 3312,
+    "oWins": 1982
+  },
+  "__xo_xxo_": {
+    "nextStates": [
+      "__xooxxo_",
+      "__xo_xxoo",
+      "_oxo_oxx_",
+      "_oxx_ox_o"
+    ],
+    "xWins": 3590,
+    "oWins": 2845
+  },
+  "__xooxxo_": {
+    "nextStates": [
+      "__xoox_ox",
+      "__x_ooxxo",
+      "__xxoo_ox",
+      "_oxxo_x_o",
+      "__xoo_xox",
+      "___ooxxox",
+      "__xo_xxoo",
+      "_o_oox_xx",
+      "__xooxxo_",
+      "__xxooxo_",
+      "_oxxoo_x_",
+      "__xooxx_o",
+      "_oxo_oxx_",
+      "__xxoox_o",
+      "_o_ooxx_x",
+      "__xoooxx_",
+      "_oxx_ox_o"
+    ],
+    "xWins": 22033,
+    "oWins": 21838
+  },
+  "__xoox_ox": {
+    "nextStates": [],
+    "xWins": 23292,
+    "oWins": 0
+  },
+  "_____xo__": {
+    "nextStates": [
+      "__ox____x",
+      "____xxo__",
+      "__ox___x_",
+      "_____xox_",
+      "___x_x__o",
+      "__o___xx_",
+      "_____xo_x"
+    ],
+    "xWins": 56109,
+    "oWins": 55143
+  },
+  "__ox____x": {
+    "nextStates": [
+      "__xx___oo",
+      "__oxo___x",
+      "__ox___ox",
+      "__ox_o__x",
+      "__xx__o_o",
+      "__ox__o_x"
+    ],
+    "xWins": 15244,
+    "oWins": 16534
+  },
+  "__xx___oo": {
+    "nextStates": [
+      "__xxx__oo",
+      "__xx_x_oo",
+      "_oox___xx",
+      "_oox__x_x",
+      "__xx__xoo"
+    ],
+    "xWins": 4795,
+    "oWins": 5768
+  },
+  "__xxx__oo": {
+    "nextStates": [
+      "_ooxx_o_x",
+      "_ooxx__ox",
+      "__xxx_ooo",
+      "__xxxo_oo"
+    ],
+    "xWins": 2939,
+    "oWins": 3453
+  },
+  "_ooxx_o_x": {
+    "nextStates": [
+      "__oox_oxx",
+      "_oox_xo_x",
+      "_oox__oxx",
+      "__oxxoo_x",
+      "_ooxx__ox",
+      "__oxxxoo_",
+      "__oxx_oox",
+      "o_o_xxx_o",
+      "__o_xooxx",
+      "o_xo__xxo",
+      "_o_oxxx_o",
+      "__xox_oxo",
+      "o_x_x_xoo",
+      "__xxxo_oo",
+      "__xxx_ooo",
+      "__ooxxo_x",
+      "__xoxo_xo",
+      "__oxxoox_"
+    ],
+    "xWins": 21590,
+    "oWins": 17592
+  },
+  "__oox_oxx": {
+    "nextStates": [
+      "__ooxo_xx",
+      "__ooxxox_",
+      "__ooxxo_x",
+      "o_x__oxxo",
+      "_oox_xo_x",
+      "__oxxxoo_",
+      "_ooxx_o_x",
+      "__xoxx_oo",
+      "__o_xooxx",
+      "___oxooxx",
+      "__oo_xoxx",
+      "_ooxx_x_o",
+      "o_x_x_xoo",
+      "__o_xoxxo",
+      "__oxx_oox",
+      "o_o_x_oxx",
+      "_o_oxxo_x"
+    ],
+    "xWins": 20918,
+    "oWins": 17457
+  },
+  "__ooxo_xx": {
+    "nextStates": [
+      "_ooxx__ox",
+      "_o_x_xoox",
+      "__xoxo_xo",
+      "__ooxoxx_",
+      "_o_oxxo_x",
+      "__oox_oxx",
+      "___oxxoox",
+      "__xoxox_o",
+      "_oxx__xoo",
+      "__ooxox_x",
+      "__oo_oxxx",
+      "_o_xxx_oo",
+      "_o_oxo_xx",
+      "__oxx_xoo",
+      "__o_xooxx",
+      "___oxooxx",
+      "_ooxx_x_o"
+    ],
+    "xWins": 23854,
+    "oWins": 14008
+  },
+  "_ooxx__ox": {
+    "nextStates": [
+      "_ooxx_o_x",
+      "_o_xxx_oo",
+      "_o_oxxxo_",
+      "_oxx__xoo",
+      "_oox_x_ox",
+      "__xoxox_o",
+      "___oxooxx",
+      "_oxxx_o_o",
+      "__xxx_ooo",
+      "__xoxo_xo",
+      "__oxxo_ox",
+      "_oox__xox",
+      "__xoxoo_x",
+      "__xoxoox_",
+      "__ooxo_xx",
+      "__ooxoxx_",
+      "__oxx_oox",
+      "__xxxo_oo"
+    ],
+    "xWins": 21683,
+    "oWins": 17040
+  },
+  "_oox_xo_x": {
+    "nextStates": [
+      "_oox_xx_o",
+      "_oox__oxx",
+      "__oxoxo_x",
+      "_o_xoxo_x",
+      "_oox_xox_",
+      "__ox_xoox",
+      "_o_x_xoox",
+      "_oox_x_ox",
+      "__xxox_oo",
+      "o_ox_xo_x",
+      "__oox_oxx",
+      "__xx_xooo",
+      "o_x__oxxo",
+      "__oxxxoo_",
+      "o_xo__xxo",
+      "__oo_xoxx",
+      "_ooxx_o_x"
+    ],
+    "xWins": 17477,
+    "oWins": 20710
+  },
+  "_oox_xx_o": {
+    "nextStates": [
+      "o_o__oxxx",
+      "__oxoxx_o",
+      "o_ox_xo_x",
+      "_oox_xxo_",
+      "__xx_xooo",
+      "_ooxx_x_o",
+      "__ox_xxoo",
+      "_o_x_xoox",
+      "__xxoxoo_",
+      "__oxxx_oo",
+      "_oox__xxo",
+      "__xox_oxo",
+      "_oox_x_xo",
+      "o_xx__oox",
+      "__xo_xoxo",
+      "_o_xoxo_x",
+      "_oox_xo_x"
+    ],
+    "xWins": 20667,
+    "oWins": 17999
+  },
+  "o_o__oxxx": {
+    "nextStates": [],
+    "xWins": 22962,
+    "oWins": 0
+  },
+  "____x____": {
+    "nextStates": [
+      "____x__o_",
+      "____x___o"
+    ],
+    "xWins": 60310,
+    "oWins": 50490
+  },
+  "____x__o_": {
+    "nextStates": [
+      "____xox__",
+      "____xo_x_",
+      "____x__ox",
+      "___oxx___"
+    ],
+    "xWins": 30848,
+    "oWins": 24539
+  },
+  "____xox__": {
+    "nextStates": [
+      "____xox_o",
+      "___oxo__x",
+      "__oox___x",
+      "__xox__o_",
+      "__o_xox__",
+      "____xoxo_"
+    ],
+    "xWins": 18585,
+    "oWins": 13297
+  },
+  "____xox_o": {
+    "nextStates": [
+      "____xoxxo",
+      "__xox_o_x",
+      "___oxxo_x",
+      "__x_x_xoo",
+      "__xxx__oo"
+    ],
+    "xWins": 5584,
+    "oWins": 4932
+  },
+  "___oxooxx": {
+    "nextStates": [
+      "__xo_ooxx",
+      "__xoxo_xo",
+      "__xoxoox_",
+      "_ooxx__ox",
+      "_o_oxo_xx",
+      "__oox_oxx",
+      "_o_xxx_oo",
+      "__xoxx_oo",
+      "__ooxx_ox",
+      "__oox_xxo",
+      "__xoxoo_x",
+      "__ooxo_xx",
+      "__o_xooxx",
+      "_oox_x_ox",
+      "__xoxox_o",
+      "__ooxoxx_",
+      "__o_xoxxo",
+      "__xo_oxxo"
+    ],
+    "xWins": 22198,
+    "oWins": 17832
+  },
+  "__xo_ooxx": {
+    "nextStates": [
+      "__oo_xxox",
+      "__o_oxxox",
+      "_oxx__oox",
+      "_o_o_xxox",
+      "_oox_xxo_",
+      "__xoxoo_x",
+      "__xoxoox_",
+      "_ooo_xx_x",
+      "__xoo_oxx",
+      "o_xo_ox_x",
+      "__xooo_xx",
+      "o_o__xxox",
+      "_oox__xox",
+      "o_xo__oxx",
+      "_oox_x_ox",
+      "___oxooxx",
+      "__xo_oxxo"
+    ],
+    "xWins": 18351,
+    "oWins": 24521
+  },
+  "_oxx_oox_": {
+    "nextStates": [
+      "_oxx_o_xo",
+      "__xxooox_",
+      "_oxx_oo_x",
+      "_oxxoo_x_",
+      "_o_o_xxxo",
+      "__xx_ooxo",
+      "__oo_xxox",
+      "__ooxxxo_",
+      "_o_oxx_xo",
+      "_oxx__oxo"
+    ],
+    "xWins": 13360,
+    "oWins": 13459
+  },
+  "_oxx_o_xo": {
+    "nextStates": [
+      "__oxxo_ox",
+      "__xx_ooxo",
+      "_oxx_ox_o",
+      "_o_oxxox_",
+      "___oxxxoo",
+      "__xx_ooox",
+      "_xox__oox",
+      "_oxxoo_x_",
+      "__ox_oxox",
+      "_o_o_xoxx",
+      "_oxxo__xo",
+      "_oxx__oxo",
+      "__xxoo_xo",
+      "_ooo_xxx_",
+      "_oxx_oox_",
+      "_oxx_o_xo",
+      "__xo_xxoo"
+    ],
+    "xWins": 25681,
+    "oWins": 25233
+  },
+  "__oxxo_ox": {
+    "nextStates": [
+      "_ooxx__ox",
+      "_oxx_o_xo",
+      "__oxxoxo_",
+      "___oxxxoo",
+      "__xox_xoo",
+      "__xxxoo_o",
+      "_o_oxxox_",
+      "__o_xoxox",
+      "__ox_oxox",
+      "__xxxo_oo",
+      "_o_oxxo_x",
+      "_o_oxxxo_",
+      "__oxx_oox",
+      "__oxxoo_x",
+      "_oxx_ox_o",
+      "_oxxx_o_o",
+      "__ooxxxo_"
+    ],
+    "xWins": 25909,
+    "oWins": 21329
+  },
+  "_o_xxx_oo": {
+    "nextStates": [],
+    "xWins": 22373,
+    "oWins": 0
+  },
+  "_____xx_o": {
+    "nextStates": [
+      "_____xxoo",
+      "___o_xx_o",
+      "____oxx_o",
+      "__xo___xo",
+      "__o__xx_o",
+      "__ox__o_x"
+    ],
+    "xWins": 15897,
+    "oWins": 15920
+  },
+  "_____xxoo": {
+    "nextStates": [
+      "____xxxoo",
+      "__xx_o_xo",
+      "__x__oxxo",
+      "___x_xoox",
+      "__xx__oox"
+    ],
+    "xWins": 6048,
+    "oWins": 4678
+  },
+  "____xxxoo": {
+    "nextStates": [
+      "__xoxo_xo",
+      "__o_xxxoo",
+      "___oxxxoo",
+      "__oxx_oox"
+    ],
+    "xWins": 3678,
+    "oWins": 2694
+  },
+  "__xoxo_xo": {
+    "nextStates": [
+      "_o_xxx_oo",
+      "_ooxx_o_x",
+      "__xoxoox_",
+      "__xoxox_o",
+      "__xox_oxo",
+      "__ooxo_xx",
+      "__ooxox_x",
+      "__o_xxxoo",
+      "_oxx__oox",
+      "_ooxx__ox",
+      "___oxooxx",
+      "__xo_oxxo",
+      "__oxx_oox",
+      "___oxxxoo",
+      "_o_x_xoox",
+      "_o_oxxx_o",
+      "_o_oxxxo_"
+    ],
+    "xWins": 25700,
+    "oWins": 16683
+  },
+  "____xxo_o": {
+    "nextStates": [
+      "__oxx__xo",
+      "____xxoxo",
+      "__o_x_xxo",
+      "__xxx_o_o",
+      "___xxxo_o"
+    ],
+    "xWins": 5576,
+    "oWins": 4972
+  },
+  "__oxx__xo": {
+    "nextStates": [
+      "__oxx_oxo",
+      "_xoxx_o_o",
+      "__oxxo_xo",
+      "_ooxx__xo"
+    ],
+    "xWins": 2700,
+    "oWins": 3483
+  },
+  "__oxxxo_o": {
+    "nextStates": [],
+    "xWins": 23073,
+    "oWins": 0
+  },
+  "___x_x__o": {
+    "nextStates": [
+      "__ox_x__o",
+      "___xox__o",
+      "___x_xo_o",
+      "__ox_x_o_",
+      "___x_x_oo",
+      "__ox_xo__"
+    ],
+    "xWins": 16664,
+    "oWins": 15001
+  },
+  "__ox_x__o": {
+    "nextStates": [
+      "__ox_xx_o",
+      "__ox_x_xo",
+      "__oxxx__o"
+    ],
+    "xWins": 3096,
+    "oWins": 2066
+  },
+  "__ox_xx_o": {
+    "nextStates": [
+      "__ox_xxoo",
+      "__oxoxx_o",
+      "o_ox_xo_x",
+      "_oox_xx_o"
+    ],
+    "xWins": 3281,
+    "oWins": 2960
+  },
+  "__ox_xxoo": {
+    "nextStates": [
+      "_xox__xoo",
+      "__oxxx_oo",
+      "__oxx_xoo",
+      "_oox_xx_o",
+      "__o_xxxoo",
+      "_oox_x_xo",
+      "__ox_xoox",
+      "___xoxoox",
+      "_oxx_xo_o",
+      "__oxoxx_o",
+      "o_o__oxxx",
+      "__oxoxxo_",
+      "o_xx__oox",
+      "_oox_xxo_",
+      "o_ox_xo_x",
+      "__xx_ooxo",
+      "_o_x_xoox"
+    ],
+    "xWins": 24413,
+    "oWins": 17946
+  },
+  "_xox__xoo": {
+    "nextStates": [
+      "__oo_xxxo",
+      "_ooxx__xo",
+      "o_o__oxxx",
+      "__oooxxx_",
+      "_xoxo_x_o",
+      "__ox_ooxx",
+      "o_o__xxxo",
+      "_oox_x_xo",
+      "_oox_o_xx",
+      "_oox__xxo",
+      "__ox_xxoo",
+      "__oxoo_xx",
+      "__xxxoo_o",
+      "__oxx_xoo",
+      "_ooo_xxx_",
+      "__xx_ooxo",
+      "o_oo_xx_x",
+      "_xox_ox_o"
+    ],
+    "xWins": 21231,
+    "oWins": 21676
+  },
+  "__ooxxox_": {
+    "nextStates": [
+      "_xoxx_o_o",
+      "__ooxxox_",
+      "_oox_xox_",
+      "_xox__oox",
+      "_ooxx__xo",
+      "__ooxx_xo",
+      "__o_xxoxo",
+      "__oxx_oox",
+      "__oxxxoo_",
+      "__oxxoox_",
+      "___oxxoxo",
+      "__oxxo_xo",
+      "__oxxoo_x",
+      "_o_oxxox_",
+      "__ooxxo_x",
+      "__oo_xoxx",
+      "__oox_oxx"
+    ],
+    "xWins": 22212,
+    "oWins": 21108
+  },
+  "_xoxx_o_o": {
+    "nextStates": [
+      "o_o_x_oxx",
+      "_ooxx__xo",
+      "__oxx_oxo",
+      "_xox__oxo",
+      "__ooxxox_",
+      "__o_xxoxo",
+      "__oxxxo_o",
+      "__oxxo_xo",
+      "o_o__xoxx"
+    ],
+    "xWins": 8921,
+    "oWins": 8805
+  },
+  "o_o_x_oxx": {
+    "nextStates": [
+      "__o_xoxxo",
+      "__o_xooxx",
+      "o_o_xxx_o",
+      "__ooxxo_x",
+      "__oxx_xoo",
+      "__oox_xxo",
+      "o_o__xxxo",
+      "__oxxxo_o",
+      "__xoxxo_o",
+      "_xoxx_o_o",
+      "o_o__xoxx",
+      "__oox_oxx",
+      "__oxxox_o",
+      "o_ox_xo_x",
+      "o_o_x_oxx",
+      "__oxx_oxo",
+      "_ooxx_x_o"
+    ],
+    "xWins": 18571,
+    "oWins": 21405
+  },
+  "__ox__ox_": {
+    "nextStates": [
+      "__ox__oxx",
+      "__ox_xox_",
+      "__oxx_ox_"
+    ],
+    "xWins": 2303,
+    "oWins": 2855
+  },
+  "__ox__oxx": {
+    "nextStates": [
+      "_oox__oxx",
+      "o_o__xxxo",
+      "__ox_ooxx",
+      "__oxo_oxx"
+    ],
+    "xWins": 2257,
+    "oWins": 3848
+  },
+  "_oox__oxx": {
+    "nextStates": [
+      "o_xo_xx_o",
+      "_xox_ox_o",
+      "o_o__xxxo",
+      "__ox_ooxx",
+      "_oox_o_xx",
+      "_oox_xo_x",
+      "_oox_xox_",
+      "_ooxx_o_x",
+      "__oxo_oxx",
+      "__xoox_xo",
+      "o_xo__xxo",
+      "__ooxxo_x",
+      "__oxxoox_",
+      "__oo_xoxx",
+      "_o_o_xxxo",
+      "_ooxo__xx",
+      "__xo_xoxo"
+    ],
+    "xWins": 18226,
+    "oWins": 24540
+  },
+  "o_xo_xx_o": {
+    "nextStates": [
+      "__xxoox_o",
+      "o_x_o_xxo",
+      "_oox__oxx",
+      "o_x__oxxo",
+      "o_x_x_xoo",
+      "__oo_xoxx",
+      "__ox_ooxx",
+      "__ooxxo_x",
+      "__oxxoo_x",
+      "o_xo__xxo",
+      "_oxx_ox_o",
+      "__xo_xxoo",
+      "_xox__oox",
+      "__xooxx_o",
+      "_oxo__xxo",
+      "__xx_oxoo"
+    ],
+    "xWins": 22473,
+    "oWins": 21970
+  },
+  "__xxoox_o": {
+    "nextStates": [
+      "o_xoo_x_x",
+      "__xxo_xoo",
+      "__xooxo_x",
+      "__oxoox_x",
+      "o_x_o_xxo",
+      "__oxoo_xx",
+      "__xx_oxoo",
+      "__xooxx_o",
+      "__x_ooxxo",
+      "o_xo_xx_o",
+      "_ooxo__xx",
+      "__xooxxo_",
+      "___ooxoxx",
+      "__xxoo_xo",
+      "_oxxo_x_o",
+      "_oxx_ox_o",
+      "__xxooxo_"
+    ],
+    "xWins": 21757,
+    "oWins": 21532
+  },
+  "o_xoo_x_x": {
+    "nextStates": [
+      "__xooox_x",
+      "o_x_o_xox",
+      "__xoo_xox",
+      "_oxoo_x_x",
+      "__o_ooxxx",
+      "__xxo_xoo",
+      "__oxoox_x",
+      "__x_ooxxo",
+      "o_xo_ox_x",
+      "__xxo_oox",
+      "__xoo_oxx",
+      "__xxoox_o",
+      "__xooxo_x",
+      "o_xo__xox",
+      "_ooxo_x_x",
+      "ooxo__x_x",
+      "o_xoo_x_x"
+    ],
+    "xWins": 21635,
+    "oWins": 18176
+  },
+  "__xooox_x": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 25028
+  },
+  "__xo___ox": {
+    "nextStates": [
+      "__xox__ox",
+      "_oxo__x_x",
+      "_o_o_xx_x",
+      "__xo_x_ox",
+      "__xo__xox"
+    ],
+    "xWins": 6830,
+    "oWins": 3807
+  },
+  "__xox__ox": {
+    "nextStates": [
+      "_ooox_x_x",
+      "__xoxo_ox",
+      "_o_oxox_x",
+      "__xox_oox"
+    ],
+    "xWins": 3867,
+    "oWins": 2449
+  },
+  "_ooox_x_x": {
+    "nextStates": [
+      "__xoxx_oo",
+      "_ooo__xxx",
+      "__xox_xoo",
+      "__xoxo_ox",
+      "__xxxooo_",
+      "__xox_oox",
+      "o_o_xox_x",
+      "o_xo__xox",
+      "o_xox_o_x",
+      "_ooo_xx_x",
+      "__o_xoxox",
+      "__ooxox_x",
+      "__oox_xox",
+      "__xoxoo_x",
+      "_o_oxox_x",
+      "__oxxoxo_",
+      "_o_oxxo_x"
+    ],
+    "xWins": 21873,
+    "oWins": 17703
+  },
+  "__xoxx_oo": {
+    "nextStates": [
+      "___oxooxx",
+      "__xoxxoo_",
+      "_ooox_x_x",
+      "_o_oxxo_x",
+      "__oox_oxx",
+      "_o_oxo_xx",
+      "_o_o_xoxx",
+      "_o_oxxox_",
+      "__xo_xxoo",
+      "__o_xoxxo",
+      "__xoxxo_o",
+      "__xox_xoo",
+      "__ooxxo_x",
+      "__xxxooo_",
+      "_ooo_xx_x",
+      "___oxxxoo",
+      "__ooxx_ox"
+    ],
+    "xWins": 21695,
+    "oWins": 21256
+  },
+  "_xox_ox_o": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 25416
+  },
+  "____x_o_x": {
+    "nextStates": [
+      "____xox_o",
+      "____x_oox",
+      "__oox___x",
+      "__o_x_x_o",
+      "____xoo_x",
+      "__o_x_o_x"
+    ],
+    "xWins": 18166,
+    "oWins": 13433
+  },
+  "__xox_o_x": {
+    "nextStates": [
+      "__xox_oox",
+      "__xoxoo_x",
+      "_ooox_x_x",
+      "o_xox_o_x"
+    ],
+    "xWins": 2843,
+    "oWins": 3492
+  },
+  "__xox_oox": {
+    "nextStates": [
+      "__xox_oox",
+      "_ooox_x_x",
+      "__xoxoo_x",
+      "__o_xoxox",
+      "__xoxxoo_",
+      "o_xox_o_x",
+      "__xo_xoox",
+      "__xoxo_ox",
+      "ooxo__x_x",
+      "_oox_ox_x",
+      "_o_oxox_x",
+      "__xxxo_oo",
+      "___oxxoox",
+      "__x_xoxoo",
+      "__ooxox_x",
+      "o_o_xox_x"
+    ],
+    "xWins": 21819,
+    "oWins": 17237
+  },
+  "_ooo__xxx": {
+    "nextStates": [],
+    "xWins": 22999,
+    "oWins": 0
+  },
+  "__xo__x_o": {
+    "nextStates": [
+      "o_x___xox",
+      "__xo__xxo",
+      "__xo_xx_o",
+      "_oxx__x_o",
+      "__xox_x_o"
+    ],
+    "xWins": 6234,
+    "oWins": 4428
+  },
+  "o_x___xox": {
+    "nextStates": [
+      "o_xo__xox",
+      "o_x__oxox",
+      "o_xo_ox_x",
+      "o_x_o_xox"
+    ],
+    "xWins": 3566,
+    "oWins": 2851
+  },
+  "o_xo__xox": {
+    "nextStates": [
+      "__xx_ooox",
+      "_ooo_xx_x",
+      "o_x_o_xox",
+      "o_xo_ox_x",
+      "__xoo_xox",
+      "__xo_oxox",
+      "__xox_xoo",
+      "_ooox_x_x",
+      "o_xoo_x_x",
+      "_oxo__xox",
+      "ooxo__x_x",
+      "__o_xoxox",
+      "__xo_xxoo",
+      "o_x__oxox",
+      "_oxx_ox_o",
+      "_ooo__xxx",
+      "__ox_oxox"
+    ],
+    "xWins": 24885,
+    "oWins": 17359
+  },
+  "__xxo_oox": {
+    "nextStates": [
+      "__xxoxoo_",
+      "_oxxo_o_x",
+      "__o_ooxxx",
+      "__x_ooxxo",
+      "__xxoo_xo",
+      "___xoxoox",
+      "__xooxox_",
+      "__xxooo_x",
+      "__xxoo_ox",
+      "_oxx__oox",
+      "o_xoo_x_x",
+      "o_xxo_o_x",
+      "__xoo_oxx",
+      "__oxoox_x",
+      "_oxxo__ox",
+      "__xx_ooox",
+      "o_xx__oox"
+    ],
+    "xWins": 22164,
+    "oWins": 21900
+  },
+  "__oxoxx_o": {
+    "nextStates": [
+      "o_xxo_o_x",
+      "_xoxo_x_o",
+      "__oxoxx_o",
+      "___xoxoox",
+      "__oxoxxo_",
+      "__xxoxoo_",
+      "__oxoxo_x",
+      "__xxoxo_o",
+      "__o_oxxxo",
+      "_o_xoxo_x",
+      "o_o_o_xxx",
+      "__oxo_xxo",
+      "_oox_xx_o",
+      "__oxox_xo",
+      "o_ox_xo_x",
+      "__xxo_oxo",
+      "__ox_xxoo"
+    ],
+    "xWins": 21212,
+    "oWins": 22189
+  },
+  "o_xxo_o_x": {
+    "nextStates": [
+      "o_xx_oo_x",
+      "o_xx__oox",
+      "__xxo_oox",
+      "o_o_oxx_x",
+      "_oxxo_o_x",
+      "__xxooo_x",
+      "__oxoxx_o",
+      "__o_oxxxo",
+      "__xxo_oxo",
+      "o_o_o_xxx"
+    ],
+    "xWins": 12926,
+    "oWins": 11326
+  },
+  "o_xx_oo_x": {
+    "nextStates": [
+      "o_o_x_xox",
+      "o_o__xxox",
+      "_oxx__oxo",
+      "__ooxxx_o",
+      "__oo_xxxo",
+      "__xx_ooox",
+      "_oxx_oo_x",
+      "o_xxo_o_x",
+      "o_xx__oox",
+      "__xxooo_x"
+    ],
+    "xWins": 13604,
+    "oWins": 13703
+  },
+  "__ooxox_x": {
+    "nextStates": [
+      "___oxoxox",
+      "o_o_xox_x",
+      "_o_oxox_x",
+      "__xox_oox",
+      "__oo_oxxx",
+      "__oox_xox",
+      "__xoxo_xo",
+      "_ooox_x_x",
+      "__ooxoxx_",
+      "_oxx__oox",
+      "__xoxoo_x",
+      "__ooxox_x",
+      "__xoxox_o",
+      "__o_xoxox",
+      "o_xo_ox_x",
+      "__ooxo_xx",
+      "__xoxoox_"
+    ],
+    "xWins": 25923,
+    "oWins": 17100
+  },
+  "___oxoxox": {
+    "nextStates": [
+      "_o_oxxxo_",
+      "__xo_oxox",
+      "__ooxox_x",
+      "__xoxoxo_",
+      "__xoxo_ox",
+      "_o_oxox_x",
+      "_oxx_o_ox",
+      "__oox_xox",
+      "__o_xoxox"
+    ],
+    "xWins": 13100,
+    "oWins": 8910
+  },
+  "_o_oxxxo_": {
+    "nextStates": [
+      "__oxxo_ox",
+      "_o_oxxxo_",
+      "__xxxooo_",
+      "__xxxo_oo",
+      "_o_oxo_xx",
+      "__xoxoox_",
+      "__xoxo_xo",
+      "_o_oxxx_o",
+      "___oxoxox",
+      "__ooxxxo_",
+      "__xoxoxo_",
+      "_oxx_o_ox",
+      "_o_o_xxox",
+      "___oxxxoo",
+      "_oxo_oxx_",
+      "__xoxo_ox",
+      "_ooxx__ox"
+    ],
+    "xWins": 26257,
+    "oWins": 20100
+  },
+  "__xx_ooxo": {
+    "nextStates": [
+      "_oox_x_xo",
+      "__xxoo_xo",
+      "_oxx_o_xo",
+      "__xxxoo_o",
+      "_oxx__oxo",
+      "__xxo_oxo",
+      "_xox__xoo",
+      "o_xx__oxo",
+      "o_oo_xx_x",
+      "__xxooox_",
+      "o_xx__oox",
+      "__ox_xxoo",
+      "_xox__oox",
+      "___oxxoxo",
+      "_oxx_oox_",
+      "__xo_xoxo",
+      "__o_xxxoo"
+    ],
+    "xWins": 25986,
+    "oWins": 25466
+  },
+  "_oox_x_xo": {
+    "nextStates": [
+      "__ox_xoxo",
+      "__xo_xoxo",
+      "_o_xox_xo",
+      "__oxxx_oo",
+      "_xox__xoo",
+      "_oox__xxo",
+      "_xox__oxo",
+      "__oxox_xo",
+      "_ooxox_x_",
+      "_oox_xox_",
+      "___oxxoxo",
+      "__ox_xxoo",
+      "_oox_xx_o",
+      "_o_x_xoxo",
+      "__xx_ooxo",
+      "_ooxx__xo",
+      "_x_x_xooo"
+    ],
+    "xWins": 20889,
+    "oWins": 21766
+  },
+  "__ox_xoxo": {
+    "nextStates": [
+      "o_ox_xo_x",
+      "__ox_xoxo",
+      "_xox__oxo",
+      "___xoxoxo",
+      "__oxxxo_o",
+      "_o_x_xoxo",
+      "__o_xxoxo",
+      "__oxx_oxo",
+      "o_xx__oxo",
+      "o_o__xxxo",
+      "__oxoxox_",
+      "__oxox_xo",
+      "_oox_x_xo",
+      "_oox_xox_"
+    ],
+    "xWins": 20517,
+    "oWins": 21368
+  },
+  "o_ox_xo_x": {
+    "nextStates": [
+      "_oxx_xo_o",
+      "__xx_xooo",
+      "o_o__xxxo",
+      "_xox__oxo",
+      "__ox_xoxo",
+      "o_o__xoxx",
+      "__oxxxo_o",
+      "o_o_xxx_o",
+      "__ox_xxoo",
+      "__ox_xoox",
+      "__oxoxx_o",
+      "__xxoxo_o",
+      "_oox_xx_o",
+      "o_o_x_oxx",
+      "__oxoxo_x",
+      "o_xx__oxo",
+      "_oox_xo_x"
+    ],
+    "xWins": 18486,
+    "oWins": 22525
+  },
+  "_oxx_xo_o": {
+    "nextStates": [
+      "o_o__xxox",
+      "__ox_xoox",
+      "_oxx_xo_o",
+      "_oox_x_ox",
+      "__ox_xxoo",
+      "o_ox_xo_x",
+      "__oox_xxo",
+      "_o_x_xoxo",
+      "__oxoxxo_",
+      "_o_xxxo_o",
+      "_oxx__oxo",
+      "_oxxx_o_o",
+      "_oox_xxo_",
+      "__xxoxo_o",
+      "__oo_xxxo",
+      "__xx_xooo",
+      "__oxox_ox"
+    ],
+    "xWins": 20656,
+    "oWins": 22240
+  },
+  "__o_oxxox": {
+    "nextStates": [
+      "o_x_o_xox",
+      "__oxoxxo_",
+      "___ooxxxo",
+      "_oxxo_o_x",
+      "__oxox_ox",
+      "__xooo_xx",
+      "__oo_xxox",
+      "___ooxxox",
+      "__xo_ooxx",
+      "__xoo_oxx",
+      "o_o__xxox",
+      "__oxo_xox",
+      "__xxooo_x",
+      "o_o_oxx_x",
+      "__xoo_xxo",
+      "__xxooox_",
+      "__oooxx_x"
+    ],
+    "xWins": 21554,
+    "oWins": 26809
+  },
+  "o_x_o_xox": {
+    "nextStates": [
+      "__xooox_x",
+      "__oxo_xox",
+      "_oxxo_x_o",
+      "__xxooo_x",
+      "__x_ooxox",
+      "o_x__oxox",
+      "__xoo_xox",
+      "__oooxx_x",
+      "o_xo_ox_x",
+      "o_xoo_x_x",
+      "__xooxx_o",
+      "__o_oxxox",
+      "__ooo_xxx",
+      "__xoo_xxo",
+      "o_x_o_xox",
+      "o_xo__xox",
+      "_oxxo_o_x"
+    ],
+    "xWins": 22002,
+    "oWins": 22132
+  },
+  "__oxo___x": {
+    "nextStates": [
+      "__xxo_x_o",
+      "__oxox__x",
+      "__xxo__xo",
+      "__oxo__xx",
+      "__oxo_x_x"
+    ],
+    "xWins": 4419,
+    "oWins": 6193
+  },
+  "__xxo_x_o": {
+    "nextStates": [
+      "o_x_o_xxo",
+      "__xxoox_o",
+      "_oxxo_x_o",
+      "__xxo_xoo"
+    ],
+    "xWins": 2626,
+    "oWins": 3894
+  },
+  "o_x_o_xxo": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 26926
+  },
+  "____o__x_": {
+    "nextStates": [
+      "____oxx__",
+      "____o__xx",
+      "____ox_x_",
+      "___xox___"
+    ],
+    "xWins": 27677,
+    "oWins": 27803
+  },
+  "____oxx__": {
+    "nextStates": [
+      "__o_oxx__",
+      "__xoo__x_",
+      "__oxo___x",
+      "____oxx_o",
+      "____oxxo_",
+      "___ooxx__"
+    ],
+    "xWins": 15254,
+    "oWins": 16541
+  },
+  "__o_oxx__": {
+    "nextStates": [
+      "__o_oxx_x",
+      "__o_oxxx_",
+      "__oxoxx__",
+      "__xxo_o_x",
+      "__xxo_ox_"
+    ],
+    "xWins": 5505,
+    "oWins": 5086
+  },
+  "__o_oxx_x": {
+    "nextStates": [
+      "o_o_oxx_x",
+      "__o_oxxox",
+      "__xoo_oxx",
+      "__oooxx_x"
+    ],
+    "xWins": 3253,
+    "oWins": 3230
+  },
+  "o_o_oxx_x": {
+    "nextStates": [
+      "o_xxo_o_x",
+      "__oxo_xxo",
+      "__xxoxo_o",
+      "o_o_o_xxx",
+      "o_oo_xx_x",
+      "_ooxo_x_x",
+      "__o_oxxox",
+      "_xoxo_x_o",
+      "o_o__xxox",
+      "__oooxx_x",
+      "o_o_oxx_x",
+      "__oxo_xox",
+      "__xoo_oxx",
+      "__xxo_oxo",
+      "__o_oxxxo",
+      "o_xo__oxx",
+      "__oxoox_x"
+    ],
+    "xWins": 21543,
+    "oWins": 22550
+  },
+  "o_xx__oox": {
+    "nextStates": [
+      "__o_xxxoo",
+      "o_xx_oo_x",
+      "_oox_xx_o",
+      "_oxx__oox",
+      "__xx_ooox",
+      "__xx_ooxo",
+      "__xxo_oox",
+      "__xo_xoxo",
+      "o_o_xox_x",
+      "__xox_oxo",
+      "o_oo_xx_x",
+      "_oxx_oo_x",
+      "o_o__oxxx",
+      "o_xxo_o_x",
+      "_oxxo_o_x",
+      "o_xx__oox",
+      "__ox_xxoo"
+    ],
+    "xWins": 26437,
+    "oWins": 21557
+  },
+  "__o_xxxoo": {
+    "nextStates": [
+      "__xoxoox_",
+      "__xx_ooxo",
+      "__ooxxxo_",
+      "__oxx_xoo",
+      "___oxxoxo",
+      "__oxxx_oo",
+      "_oxxx_o_o",
+      "__xxxoo_o",
+      "__ox_xxoo",
+      "o_xx__oox",
+      "__xoxo_xo",
+      "__xox_oxo",
+      "__ooxxx_o",
+      "o_o_xox_x",
+      "o_o_xxx_o",
+      "__oxx_oox",
+      "___oxxxoo"
+    ],
+    "xWins": 26652,
+    "oWins": 21375
+  },
+  "__xoxoox_": {
+    "nextStates": [
+      "__xoxo_xo",
+      "__ooxoxx_",
+      "__o_xxxoo",
+      "_o_oxxxo_",
+      "_oxxx_o_o",
+      "_oxx__oox",
+      "__xxxooo_",
+      "___oxooxx",
+      "__ooxxxo_",
+      "__xox_oxo",
+      "__xoxoo_x",
+      "_oox_xxo_",
+      "__xo_ooxx",
+      "_o_xxx_oo",
+      "__ooxox_x",
+      "_ooxx__ox",
+      "__xxx_ooo"
+    ],
+    "xWins": 22931,
+    "oWins": 20273
+  },
+  "__ooxoxx_": {
+    "nextStates": [
+      "__oxxoxo_",
+      "__ooxox_x",
+      "__oox_xxo",
+      "__oxx_xoo",
+      "__xoxxoo_",
+      "_ooxx__ox",
+      "_o_oxo_xx",
+      "_o_xxx_oo",
+      "_ooxx_x_o",
+      "__ooxo_xx",
+      "__o_xoxxo",
+      "___oxooxx",
+      "__oo_oxxx",
+      "_oox__xox",
+      "__xoxoo_x",
+      "_oox_xxo_",
+      "__xoxoox_"
+    ],
+    "xWins": 21672,
+    "oWins": 17191
+  },
+  "__oxxoxo_": {
+    "nextStates": [
+      "_ooo__xxx",
+      "_o_oxxo_x",
+      "__xoxxo_o",
+      "___oxxoox",
+      "_o_oxo_xx",
+      "__o_xoxox",
+      "__ox_oxox",
+      "_o_oxxox_",
+      "_ooox_x_x",
+      "__oxxo_ox",
+      "__xxxooo_",
+      "__oxxox_o",
+      "__oxx_xoo",
+      "__ooxx_ox",
+      "_ooo_xxx_",
+      "__xoxxoo_",
+      "__ooxoxx_",
+      "__oox_xxo"
+    ],
+    "xWins": 21773,
+    "oWins": 21170
+  },
+  "______oxx": {
+    "nextStates": [
+      "__o___oxx",
+      "_____oxxo",
+      "__o___xxo",
+      "__oo_x__x",
+      "____o_oxx",
+      "_____ooxx"
+    ],
+    "xWins": 14183,
+    "oWins": 17323
+  },
+  "__o___oxx": {
+    "nextStates": [
+      "__ox__oxx",
+      "o_x___xxo",
+      "__o_x_oxx",
+      "__o__xoxx",
+      "__ox_xo_x"
+    ],
+    "xWins": 4528,
+    "oWins": 5888
+  },
+  "_xox__oxo": {
+    "nextStates": [
+      "_x_xoxo_o",
+      "__oxxxo_o",
+      "__oxox_xo",
+      "__ox_xoxo",
+      "_xoxx_o_o",
+      "__oxoxox_",
+      "__oxx_oxo",
+      "o_o__xxxo",
+      "_xox__oxo",
+      "_x_x_xooo",
+      "_oox_x_xo",
+      "_oox_xox_",
+      "o_o__xoxx",
+      "o_ox_xo_x"
+    ],
+    "xWins": 17153,
+    "oWins": 21330
+  },
+  "_x_xoxo_o": {
+    "nextStates": [
+      "__xxoxo_o",
+      "_xoxo_x_o",
+      "__oxoxox_",
+      "__oxox_xo",
+      "__oxo_xxo",
+      "_xox__oxo",
+      "_ooxox_x_",
+      "___xoxoxo",
+      "_x_x_xooo"
+    ],
+    "xWins": 7082,
+    "oWins": 12373
+  },
+  "__xxo_xoo": {
+    "nextStates": [
+      "__xoooxx_",
+      "__xxoox_o",
+      "__x_ooxxo",
+      "__xx_oxoo",
+      "__xxooxo_",
+      "__o_ooxxx",
+      "_oxx__xoo",
+      "o_xoo_x_x",
+      "o_x_o_xxo",
+      "_ooxo_x_x",
+      "o_xo__xxo",
+      "__oxoo_xx",
+      "___xoxoox",
+      "__xoo_xxo",
+      "__xxox_oo",
+      "_ooxo__xx",
+      "_oxxo_x_o"
+    ],
+    "xWins": 17884,
+    "oWins": 21306
+  },
+  "__xoooxx_": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 24923
+  },
+  "_____oxxo": {
+    "nextStates": [
+      "__xo__oxx",
+      "____xoxxo",
+      "___o_xoxx",
+      "__x__oxxo",
+      "__xx_x_oo"
+    ],
+    "xWins": 4662,
+    "oWins": 5904
+  },
+  "__xo__oxx": {
+    "nextStates": [
+      "__xoo_oxx",
+      "_ooo_xx_x",
+      "__xo_ooxx",
+      "o_xo__oxx"
+    ],
+    "xWins": 2490,
+    "oWins": 3829
+  },
+  "__xoo_oxx": {
+    "nextStates": [
+      "o_xoo_x_x",
+      "o_xo__oxx",
+      "o_o_oxx_x",
+      "___ooxoxx",
+      "_ooo_xx_x",
+      "__xooo_xx",
+      "__xooxo_x",
+      "__xooxox_",
+      "__x_ooxxo",
+      "__xxo_oox",
+      "_ooxo_x_x",
+      "__xo_ooxx",
+      "__xxox_oo",
+      "__o_oxxox",
+      "_o_ooxx_x",
+      "__oooxx_x",
+      "__xxoxoo_"
+    ],
+    "xWins": 18612,
+    "oWins": 21554
+  },
+  "__oxo_xox": {
+    "nextStates": [
+      "__o_oxxox",
+      "_oxxo__xo",
+      "o_o_oxx_x",
+      "_ooxo_x_x",
+      "__oooxxx_",
+      "__ooo_xxx",
+      "__oxoxxo_",
+      "__ox_oxox",
+      "___ooxxox",
+      "__xxooo_x",
+      "_oxxo_x_o",
+      "_oox__xox",
+      "__oxoox_x",
+      "__xooo_xx",
+      "o_x_o_xox",
+      "__oxox_ox",
+      "o_o__xxox"
+    ],
+    "xWins": 21454,
+    "oWins": 22650
+  },
+  "__oxoxxo_": {
+    "nextStates": [
+      "__ox_xxoo",
+      "__oooxxx_",
+      "__oxox_ox",
+      "_o_xoxo_x",
+      "_o_xox_xo",
+      "__xxooox_",
+      "_oxx_xo_o",
+      "__o_oxxox",
+      "___xoxoox",
+      "__xxoxoo_",
+      "_o_xox_ox",
+      "_oox_xxo_",
+      "__oxoxx_o",
+      "__oxo_xox",
+      "_oxxo_o_x",
+      "__ooo_xxx",
+      "__xxoxo_o"
+    ],
+    "xWins": 21025,
+    "oWins": 22325
+  },
+  "__oxxx_oo": {
+    "nextStates": [],
+    "xWins": 23213,
+    "oWins": 0
+  },
+  "_oxx_ox_o": {
+    "nextStates": [
+      "__xo_xxoo",
+      "__xxoox_o",
+      "__xx_oxoo",
+      "o_xo__xox",
+      "_oxx_o_xo",
+      "__xox_xoo",
+      "o_xo_xx_o",
+      "_o_oxxo_x",
+      "o_x__oxxo",
+      "_o_o_xoxx",
+      "_oxx__xoo",
+      "_oxxo_x_o",
+      "_ooo__xxx",
+      "__xooxxo_",
+      "__ox_oxox",
+      "__oxxo_ox",
+      "_oxo_oxx_"
+    ],
+    "xWins": 24818,
+    "oWins": 17681
+  },
+  "__xo_xxoo": {
+    "nextStates": [
+      "__x_ooxxo",
+      "__xoxx_oo",
+      "_oxx_ox_o",
+      "o_x__oxxo",
+      "_oxo_oxx_",
+      "__xooxx_o",
+      "__xox_xoo",
+      "o_xo__xox",
+      "___oxxxoo",
+      "_ooo_xx_x",
+      "_o_o_xoxx",
+      "__xooxxo_",
+      "_oxx_o_xo",
+      "__xo_oxxo",
+      "_oxo__xxo",
+      "__xx_ooox",
+      "o_xo_xx_o"
+    ],
+    "xWins": 25181,
+    "oWins": 21438
+  },
+  "__x_ooxxo": {
+    "nextStates": [
+      "__xxo_oox",
+      "___ooxoxx",
+      "__xooxxo_",
+      "o_x__oxxo",
+      "__xoo_xxo",
+      "__xxoox_o",
+      "__xxox_oo",
+      "o_x_o_xxo",
+      "_oxxo_x_o",
+      "__xo_oxxo",
+      "__xoo_oxx",
+      "__xo_xxoo",
+      "__xoooxx_",
+      "o_xoo_x_x",
+      "__xxo_xoo",
+      "__xooxx_o",
+      "___xoxoox",
+      "__xxoo_xo"
+    ],
+    "xWins": 18388,
+    "oWins": 24979
+  },
+  "_oxxo_o_x": {
+    "nextStates": [
+      "_o_xoxo_x",
+      "__oxoxxo_",
+      "_oxxo__ox",
+      "__xoox_xo",
+      "o_xxo_o_x",
+      "o_x_o_xox",
+      "__xxooo_x",
+      "__o_oxxox",
+      "__xxo_oox",
+      "o_xx__oox",
+      "_oxx_oo_x",
+      "__xxooox_",
+      "__xoo_xxo",
+      "__ooo_xxx",
+      "__xxoo_ox",
+      "__oooxx_x",
+      "_oxx__oox"
+    ],
+    "xWins": 22103,
+    "oWins": 22222
+  },
+  "_o_xoxo_x": {
+    "nextStates": [
+      "___xoxoox",
+      "__xoo_xxo",
+      "__oxoxo_x",
+      "_oxxo_o_x",
+      "__xxox_oo",
+      "_oxxo_x_o",
+      "_o_xox_xo",
+      "__ooo_xxx",
+      "__xxoxoo_",
+      "_o_xox_ox",
+      "_oox_xx_o",
+      "_o_x_xoox",
+      "__oxoxx_o",
+      "__oxoxxo_",
+      "__xoox_xo",
+      "__ooox_xx",
+      "_oox_xo_x",
+      "__oxox_ox"
+    ],
+    "xWins": 17262,
+    "oWins": 21511
+  },
+  "__oxoo_xx": {
+    "nextStates": [
+      "_xox__xoo",
+      "__xxoo_xo",
+      "__xxo_xoo",
+      "___ooxxxo",
+      "_ooxo__xx",
+      "_o_ooxxx_",
+      "__ox_ooxx",
+      "__xxoox_o",
+      "__o_ooxxx",
+      "_ooxox_x_",
+      "__oxoox_x",
+      "___xoxoox",
+      "__oxooxx_",
+      "_xoxo_x_o",
+      "__oxo_oxx",
+      "__oooxxx_",
+      "_oox_o_xx"
+    ],
+    "xWins": 21396,
+    "oWins": 21522
+  },
+  "_ooxx__xo": {
+    "nextStates": [
+      "_o_oxxox_",
+      "__oxx_xoo",
+      "__oxx_oxo",
+      "___oxxoxo",
+      "_oox__xxo",
+      "__xxxoo_o",
+      "_oox_x_xo",
+      "__xoxxo_o",
+      "__ooxxox_",
+      "_ooxxo_x_",
+      "__ooxx_xo",
+      "__oxxoox_",
+      "__oxxo_xo",
+      "_xox__xoo",
+      "__oxxx_oo",
+      "_xoxx_o_o",
+      "_ooxx_x_o"
+    ],
+    "xWins": 18439,
+    "oWins": 21137
+  },
+  "_o_oxxox_": {
+    "nextStates": [
+      "___oxxxoo",
+      "_o_oxxox_",
+      "__oxxo_ox",
+      "__ooxxox_",
+      "_ooo_xxx_",
+      "_ooxxo_x_",
+      "_o_oxxo_x",
+      "_ooxx__xo",
+      "_oxx_o_xo",
+      "___oxxoxo",
+      "_o_o_xoxx",
+      "__xxxooo_",
+      "__xoxx_oo",
+      "__ooxx_xo",
+      "_o_oxx_xo",
+      "__oxxoxo_",
+      "__oxxo_xo"
+    ],
+    "xWins": 21819,
+    "oWins": 25316
+  },
+  "____xxo__": {
+    "nextStates": [
+      "____xxoo_",
+      "__oxx___o",
+      "__oox__x_",
+      "___oxxo__",
+      "__o_x_ox_",
+      "____xxo_o"
+    ],
+    "xWins": 17683,
+    "oWins": 13919
+  },
+  "____xxoo_": {
+    "nextStates": [
+      "__o_xoxx_",
+      "__xxx__oo",
+      "__oxxo_x_",
+      "____xxoox",
+      "___xxx_oo"
+    ],
+    "xWins": 5957,
+    "oWins": 4743
+  },
+  "__o_xoxx_": {
+    "nextStates": [
+      "_ooxx_x_o",
+      "__o_xoxxo",
+      "__xoxxoo_",
+      "__ooxoxx_"
+    ],
+    "xWins": 2797,
+    "oWins": 3761
+  },
+  "_ooxx_x_o": {
+    "nextStates": [
+      "__xox_oxo",
+      "o_o_xox_x",
+      "o_o__oxxx",
+      "__oxxx_oo",
+      "__o_xoxxo",
+      "__oox_oxx",
+      "__xoxxoo_",
+      "__ooxoxx_",
+      "__oxx_xoo",
+      "_oox__xxo",
+      "_ooxx__xo",
+      "__ooxo_xx",
+      "_o_oxxo_x",
+      "__oxxox_o",
+      "__xoxxo_o",
+      "_oox_xx_o",
+      "o_o_x_oxx"
+    ],
+    "xWins": 17918,
+    "oWins": 17504
+  },
+  "__xox_oxo": {
+    "nextStates": [
+      "_o_oxxx_o",
+      "o_xx__oox",
+      "o_o_xxx_o",
+      "__o_xxxoo",
+      "_oox_xx_o",
+      "__xoxxo_o",
+      "___oxxoxo",
+      "__xxxooo_",
+      "_ooxx_x_o",
+      "__oxxx_oo",
+      "o_o_xox_x",
+      "__xxx_ooo",
+      "__xoxoox_",
+      "__xo_xoxo",
+      "_ooxx_o_x",
+      "__ooxxx_o",
+      "__xoxo_xo"
+    ],
+    "xWins": 22790,
+    "oWins": 21458
+  },
+  "_o_oxxx_o": {
+    "nextStates": [
+      "_o_o_xxxo",
+      "__xox_oxo",
+      "_oxox_x_o",
+      "_ooxx_o_x",
+      "___oxxxoo",
+      "__ooxx_ox",
+      "__ooxxx_o",
+      "_oxo__xxo",
+      "__oox_xox",
+      "_o_oxx_xo",
+      "__xxxooo_",
+      "_o_oxxxo_",
+      "__oxxoo_x",
+      "__ooxxxo_",
+      "__xoxo_xo",
+      "_oxx_oo_x",
+      "__xxxo_oo"
+    ],
+    "xWins": 25997,
+    "oWins": 21560
+  },
+  "_o_o_xxxo": {
+    "nextStates": [
+      "__oo_xxxo",
+      "_oox__oxx",
+      "_o_oxx_xo",
+      "__ooxx_ox",
+      "_oxx_oox_",
+      "_o_oxxx_o",
+      "___ooxxxo",
+      "__oo_xxox",
+      "__ox_ooxx",
+      "_oxo__xxo",
+      "_ooo_xxx_",
+      "_oxx_oo_x",
+      "_oox_o_xx",
+      "_o_ooxxx_",
+      "__xoox_xo",
+      "__xo_xoxo",
+      "_o_o_xxxo"
+    ],
+    "xWins": 25662,
+    "oWins": 25675
+  },
+  "__xoo_xox": {
+    "nextStates": [
+      "_oxoo_x_x",
+      "__xoox_ox",
+      "__xo_oxox",
+      "__xooxxo_",
+      "__x_ooxox",
+      "_oxo__xox",
+      "__xoo_xox",
+      "__xooox_x",
+      "__xxoo_ox",
+      "o_x_o_xox",
+      "___ooxxox",
+      "o_xo__xox",
+      "_o_ooxx_x",
+      "o_xoo_x_x"
+    ],
+    "xWins": 18395,
+    "oWins": 21375
+  },
+  "_oxoo_x_x": {
+    "nextStates": [
+      "__xooox_x",
+      "__xoo_xox",
+      "__x_ooxox",
+      "__xxooxo_",
+      "__xoox_ox",
+      "_oxo__xox",
+      "_o_ooxx_x",
+      "o_xoo_x_x",
+      "ooxo__x_x"
+    ],
+    "xWins": 9029,
+    "oWins": 8726
+  },
+  "____o___x": {
+    "nextStates": [
+      "__x_o_x__",
+      "____o__xx",
+      "____oxx__",
+      "____o_x_x"
+    ],
+    "xWins": 27680,
+    "oWins": 28098
+  },
+  "__x_o_x__": {
+    "nextStates": [
+      "__x_o_xo_",
+      "__x_o_x_o"
+    ],
+    "xWins": 3550,
+    "oWins": 4393
+  },
+  "__x_o_xo_": {
+    "nextStates": [
+      "__x_ooxx_",
+      "__xoo_xx_",
+      "__xoo_x_x",
+      "__x_o_xox",
+      "__xooxx__"
+    ],
+    "xWins": 4450,
+    "oWins": 6032
+  },
+  "__x_ooxx_": {
+    "nextStates": [
+      "__xoooxx_",
+      "_oxxo_x_o",
+      "__x_ooxxo",
+      "__xooxxo_"
+    ],
+    "xWins": 2377,
+    "oWins": 3872
+  },
+  "__o__xx__": {
+    "nextStates": [
+      "__o__xx_o",
+      "__o__xxo_",
+      "__oo_xx__",
+      "__xo__ox_",
+      "__xx__o_o",
+      "__o_oxx__"
+    ],
+    "xWins": 15408,
+    "oWins": 16149
+  },
+  "__o__xx_o": {
+    "nextStates": [
+      "__xx__oxo",
+      "__ox_xx_o",
+      "__o__xxxo",
+      "__o_xxx_o",
+      "o_xx__o_x"
+    ],
+    "xWins": 5614,
+    "oWins": 4892
+  },
+  "__xo__xxo": {
+    "nextStates": [
+      "o_xo__xxo",
+      "_oxo__xxo",
+      "__xoo_xxo",
+      "__xo_oxxo"
+    ],
+    "xWins": 3125,
+    "oWins": 3227
+  },
+  "o_xo__xxo": {
+    "nextStates": [
+      "_oox__oxx",
+      "__xo_oxxo",
+      "__ox_xoox",
+      "o_xo_xx_o",
+      "__o_xooxx",
+      "__xx_oxoo",
+      "o_x_o_xxo",
+      "o_x__oxxo",
+      "_oxo__xxo",
+      "__xxo_xoo",
+      "__ox_ooxx",
+      "_oox_xo_x",
+      "_ooxx_o_x",
+      "__xoo_xxo",
+      "_oxx__xoo",
+      "o_x_x_xoo"
+    ],
+    "xWins": 21266,
+    "oWins": 20764
+  },
+  "_xoxo_x_o": {
+    "nextStates": [
+      "__oxo_oxx",
+      "__xooxox_",
+      "__oxo_xxo",
+      "_x_xoxo_o",
+      "_xox_ox_o",
+      "_ooxo__xx",
+      "__oooxxx_",
+      "o_o_o_xxx",
+      "__oxoxx_o",
+      "__oxoo_xx",
+      "__xxoxo_o",
+      "o_o__xxxo",
+      "__oxox_xo",
+      "__xxo_oxo",
+      "o_o_oxx_x",
+      "_xox__xoo",
+      "__o_oxxxo"
+    ],
+    "xWins": 17847,
+    "oWins": 22030
+  },
+  "__oxo_oxx": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 27447
+  },
+  "__oxox__x": {
+    "nextStates": [
+      "__xxox_oo",
+      "__oxoxo_x",
+      "__xxoxo_o",
+      "__oxox_ox"
+    ],
+    "xWins": 2067,
+    "oWins": 4265
+  },
+  "_ooxox_x_": {
+    "nextStates": [
+      "_o_xox_xo",
+      "_oox_x_xo",
+      "_x_x_xooo",
+      "__oxooxx_",
+      "__xxox_oo",
+      "__xxoxoo_",
+      "__xxoo_xo",
+      "_x_xoxo_o",
+      "___xoxoox",
+      "__oxoo_xx",
+      "___ooxoxx",
+      "_ooxo__xx",
+      "__xooxox_",
+      "_ooxox_x_",
+      "__oxox_xo",
+      "_oox_xox_",
+      "__oxoxox_"
+    ],
+    "xWins": 17351,
+    "oWins": 25248
+  },
+  "_o_xox_xo": {
+    "nextStates": [
+      "__ooox_xx",
+      "__oxoxxo_",
+      "_o_xox_xo",
+      "__xxooox_",
+      "__oooxxx_",
+      "__oxox_xo",
+      "_oox_x_xo",
+      "_o_x_xoxo",
+      "__oxoxox_",
+      "__xoox_xo",
+      "__oxox_ox",
+      "___xoxoxo",
+      "___ooxxxo",
+      "_o_xoxo_x",
+      "_ooxox_x_",
+      "_oxxo__xo",
+      "_oox_xox_"
+    ],
+    "xWins": 20760,
+    "oWins": 25998
+  },
+  "__ooox_xx": {
+    "nextStates": [
+      "_oox__xxo",
+      "___ooxoxx",
+      "__oxo_xxo",
+      "__oooxxx_",
+      "__ooo_xxx",
+      "__oxooxx_",
+      "__o_oxoxx",
+      "__oo_xoxx",
+      "_o_oox_xx",
+      "_o_xox_xo",
+      "_oxxo_x_o",
+      "_oxxo__xo",
+      "_o_xoxo_x",
+      "_o_o_xoxx",
+      "__xoox_xo",
+      "__xooxx_o",
+      "__oooxx_x"
+    ],
+    "xWins": 21301,
+    "oWins": 21600
+  },
+  "_oox__xxo": {
+    "nextStates": [
+      "o_oo_xx_x",
+      "o_o__oxxx",
+      "__xoxxo_o",
+      "__ox_oxxo",
+      "__oxo_xxo",
+      "_oox_xx_o",
+      "_oox_oxx_",
+      "_xox__xoo",
+      "__xo_xoxo",
+      "__ooox_xx",
+      "_ooxx_x_o",
+      "o_o__xoxx",
+      "_o_o_xoxx",
+      "__oxooxx_",
+      "_ooxx__xo",
+      "_oox_x_xo",
+      "__oo_xoxx"
+    ],
+    "xWins": 17426,
+    "oWins": 21360
+  },
+  "o_oo_xx_x": {
+    "nextStates": [
+      "o_xo__oxx",
+      "o_o_xox_x",
+      "__oo_xxox",
+      "o_xx__oox",
+      "__xx_ooxo",
+      "__xxxoo_o",
+      "_ooo_xx_x",
+      "o_o_oxx_x",
+      "_oox_ox_x",
+      "__oooxx_x",
+      "__xoxxo_o",
+      "_oox__xxo",
+      "__xo_xoxo",
+      "o_o__oxxx",
+      "__oxoox_x",
+      "_xox__xoo",
+      "__ox_oxox",
+      "o_o__xxox"
+    ],
+    "xWins": 23092,
+    "oWins": 22420
+  },
+  "o_xo__oxx": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 25371
+  },
+  "__oo__x_x": {
+    "nextStates": [
+      "o_x___xox",
+      "__oo_xx_x",
+      "__oo__xxx",
+      "_oxx__o_x",
+      "__oox_x_x"
+    ],
+    "xWins": 6298,
+    "oWins": 4332
+  },
+  "o_x__oxox": {
+    "nextStates": [
+      "_oxo__xxo",
+      "o_x_o_xox",
+      "__xo_oxox",
+      "_oxox_x_o",
+      "__oo_xxox",
+      "__oox_xox",
+      "_oxx_oo_x",
+      "__x_ooxox",
+      "o_xo_ox_x",
+      "o_xo__xox"
+    ],
+    "xWins": 12720,
+    "oWins": 10781
+  },
+  "_oxo__xxo": {
+    "nextStates": [
+      "__xo_xxoo",
+      "o_x__oxox",
+      "o_xo_xx_o",
+      "__xoo_xxo",
+      "_o_oxxx_o",
+      "__xxooxo_",
+      "__ooxx_ox",
+      "_o_o_xxxo",
+      "_oxox_x_o",
+      "__xooxx_o",
+      "__oo_xxox",
+      "__xx_oxoo",
+      "__xo_oxxo",
+      "_oxx_oo_x",
+      "o_xo__xxo",
+      "_oxo_oxx_",
+      "_oxo__xxo"
+    ],
+    "xWins": 25263,
+    "oWins": 21546
+  },
+  "__xoxxoo_": {
+    "nextStates": [
+      "__xxxo_oo",
+      "_o_oxo_xx",
+      "__xoxxoo_",
+      "_o_oxxo_x",
+      "__xox_oox",
+      "__o_xoxxo",
+      "___oxxoox",
+      "_ooxx_x_o",
+      "__ooxoxx_",
+      "_ooxxo_x_",
+      "__xoxxo_o",
+      "__xoxx_oo",
+      "_oox_oxx_",
+      "__oxxox_o",
+      "__oxxoxo_",
+      "_oox_ox_x",
+      "__xo_xoox"
+    ],
+    "xWins": 18304,
+    "oWins": 20832
+  },
+  "__xxxo_oo": {
+    "nextStates": [
+      "__xxx_ooo",
+      "__xx_oxoo",
+      "_ooxxo_x_",
+      "_o_oxxxo_",
+      "__xoxxoo_",
+      "__oxxoo_x",
+      "__xox_oox",
+      "_o_oxxx_o",
+      "_oox_o_xx",
+      "_ooxx__ox",
+      "__x_xoxoo",
+      "___oxxoox",
+      "_oox_ox_x",
+      "__oxxo_ox",
+      "__xxxooo_",
+      "__xxxoo_o",
+      "_ooxx_o_x"
+    ],
+    "xWins": 21933,
+    "oWins": 20655
+  },
+  "__xxx_ooo": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 25850
+  },
+  "__xxoo_xo": {
+    "nextStates": [
+      "__oxoox_x",
+      "__xxo_oxo",
+      "__oxoo_xx",
+      "_oxxo__xo",
+      "_ooxox_x_",
+      "___xoxoox",
+      "__x_ooxxo",
+      "__xxo_oox",
+      "_xoxo_o_x",
+      "__xxoox_o",
+      "_oxx_o_xo",
+      "_xox__oox",
+      "__xooxox_",
+      "_oxxoo_x_",
+      "__xx_ooxo",
+      "___ooxoxx",
+      "__xxooox_"
+    ],
+    "xWins": 22236,
+    "oWins": 25413
+  },
+  "__oxoox_x": {
+    "nextStates": [
+      "o_o_oxx_x",
+      "o_oo_xx_x",
+      "__oxoo_xx",
+      "o_xoo_x_x",
+      "__oooxx_x",
+      "__oxooxx_",
+      "__xooxox_",
+      "_oox_ox_x",
+      "__o_ooxxx",
+      "__xxo_oox",
+      "___ooxxox",
+      "__oxo_xox",
+      "__xxoo_xo",
+      "__ox_oxox",
+      "__xxoox_o",
+      "_ooxo_x_x",
+      "_o_ooxx_x",
+      "__xooxo_x"
+    ],
+    "xWins": 25318,
+    "oWins": 18161
+  },
+  "__o_oxoxx": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 13104
+  },
+  "____o__xx": {
+    "nextStates": [
+      "____oo_xx",
+      "__o_o_xx_",
+      "___oox__x",
+      "____ooxx_",
+      "____o_oxx",
+      "____oxo_x"
+    ],
+    "xWins": 16974,
+    "oWins": 14867
+  },
+  "____oo_xx": {
+    "nextStates": [
+      "____ooxxx",
+      "___xox_ox",
+      "____oxxox",
+      "__xoo_xx_",
+      "___ooxxx_"
+    ],
+    "xWins": 5423,
+    "oWins": 5219
+  },
+  "____ooxxx": {
+    "nextStates": [],
+    "xWins": 6370,
+    "oWins": 0
+  },
+  "____xo_x_": {
+    "nextStates": [
+      "____xoox_",
+      "___oxo_x_",
+      "__oox__x_",
+      "____xo_xo",
+      "____xxoo_",
+      "___oxx_o_"
+    ],
+    "xWins": 18499,
+    "oWins": 13174
+  },
+  "____xoox_": {
+    "nextStates": [
+      "__xox__xo",
+      "___oxx_xo",
+      "__o_xxxo_",
+      "__oxxx_o_",
+      "____xooxx"
+    ],
+    "xWins": 6318,
+    "oWins": 4308
+  },
+  "__xox__xo": {
+    "nextStates": [
+      "_ooxx_o_x",
+      "__xoxo_xo",
+      "_o_oxxx_o",
+      "__xox_oxo"
+    ],
+    "xWins": 3676,
+    "oWins": 2764
+  },
+  "__o_xooxx": {
+    "nextStates": [
+      "___oxxoox",
+      "o_x_x_xoo",
+      "__oxxxoo_",
+      "__ox_ooxx",
+      "__oxx_oox",
+      "__ooxxo_x",
+      "__ooxo_xx",
+      "o_o_x_oxx",
+      "_ooxx_o_x",
+      "__oxxoo_x",
+      "o_xo__xxo",
+      "___oxooxx",
+      "__oox_oxx",
+      "__oxx_xoo",
+      "__oox_xxo",
+      "__oxxoox_",
+      "__ox_xoox",
+      "__ooxx_ox"
+    ],
+    "xWins": 25071,
+    "oWins": 17766
+  },
+  "___oxxoox": {
+    "nextStates": [
+      "_ooxxo_x_",
+      "__xx_oxoo",
+      "__xox_oox",
+      "__o_xooxx",
+      "__xxxo_oo",
+      "__oxxox_o",
+      "__oxxoxo_",
+      "__xoxxoo_",
+      "__ooxo_xx",
+      "__x_xoxoo",
+      "_o_oxxo_x",
+      "_oox_o_xx",
+      "_o_oxo_xx",
+      "__xo_xoox",
+      "__ooxx_ox",
+      "__ooxxo_x",
+      "__oxx_xoo"
+    ],
+    "xWins": 22120,
+    "oWins": 18483
+  },
+  "_ooxxo_x_": {
+    "nextStates": [
+      "_o_oxx_xo",
+      "__oxxoox_",
+      "___oxxoox",
+      "_ooxx__xo",
+      "_oox_oxx_",
+      "_o_oxxox_",
+      "__oxxo_xo",
+      "_oox_o_xx",
+      "__xoxxoo_",
+      "__xxxo_oo"
+    ],
+    "xWins": 8953,
+    "oWins": 12480
+  },
+  "_o_oxx_xo": {
+    "nextStates": [
+      "_o_oxxx_o",
+      "_o_o_xxxo",
+      "__ooxx_ox",
+      "__ooxx_xo",
+      "_oxx_oox_",
+      "__ooxxxo_",
+      "_o_oxxox_",
+      "__oxxoox_",
+      "_ooxxo_x_",
+      "___oxxoxo"
+    ],
+    "xWins": 12752,
+    "oWins": 12985
+  },
+  "___ooxxxo": {
+    "nextStates": [
+      "__oooxxx_",
+      "__oxox_ox",
+      "__xooxx_o",
+      "__xoox_xo",
+      "__xxooo_x",
+      "__o_oxxxo",
+      "__o_oxxox",
+      "_oxxo__xo",
+      "__oxoo_xx",
+      "_o_o_xxxo",
+      "__oo_xxxo",
+      "__xxooox_",
+      "__oxo_oxx",
+      "_o_xox_xo",
+      "_o_ooxxx_",
+      "__xoo_xxo",
+      "__ox_ooxx"
+    ],
+    "xWins": 22207,
+    "oWins": 27066
+  },
+  "__oooxxx_": {
+    "nextStates": [
+      "__ooox_xx",
+      "_xox__xoo",
+      "__oo_xxxo",
+      "_o_ooxxx_",
+      "_ooo_xxx_",
+      "__ooo_xxx",
+      "__oxoxxo_",
+      "__xooxox_",
+      "_xoxo_x_o",
+      "__oxo_xox",
+      "__xxooo_x",
+      "__oooxx_x",
+      "__oxoo_xx",
+      "__o_oxxxo",
+      "___ooxxxo",
+      "__xxooox_",
+      "_oxxo__xo",
+      "_o_xox_xo"
+    ],
+    "xWins": 25555,
+    "oWins": 22138
+  },
+  "___ooxoxx": {
+    "nextStates": [
+      "__xoo_oxx",
+      "_o_oox_xx",
+      "__ox_oxxo",
+      "__o_oxoxx",
+      "__oo_xoxx",
+      "__xxoox_o",
+      "__oxo_xxo",
+      "__xxox_oo",
+      "__ooox_xx",
+      "__x_ooxxo",
+      "__oxooxx_",
+      "_ooxo__xx",
+      "__xooxo_x",
+      "_o_o_xoxx",
+      "__xooxox_",
+      "__xxoo_xo",
+      "_ooxox_x_"
+    ],
+    "xWins": 18757,
+    "oWins": 21821
+  },
+  "____oox_x": {
+    "nextStates": [
+      "____ooxxx",
+      "___ooxx_x",
+      "__xoo_x_x",
+      "__xxo__ox",
+      "__x_o_xox"
+    ],
+    "xWins": 5500,
+    "oWins": 4860
+  },
+  "__xoo__x_": {
+    "nextStates": [
+      "__xxo__ox",
+      "__xoo__xx",
+      "__xoo_xx_",
+      "__xoox_x_",
+      "__xxox_o_"
+    ],
+    "xWins": 4557,
+    "oWins": 6106
+  },
+  "__xxo__ox": {
+    "nextStates": [
+      "_oxxo_o_x",
+      "_oxxo__ox",
+      "__xxo_oox",
+      "__xxoo_ox"
+    ],
+    "xWins": 2730,
+    "oWins": 3631
+  },
+  "__oxx_xoo": {
+    "nextStates": [
+      "__oxxox_o",
+      "_ooxx_x_o",
+      "__oxxx_oo",
+      "o_o_xox_x",
+      "o_o_x_oxx",
+      "__xxxoo_o",
+      "o_o__oxxx",
+      "__ooxoxx_",
+      "__o_xooxx",
+      "___oxxoox",
+      "_xox__xoo",
+      "__ooxo_xx",
+      "_ooxx__xo",
+      "__oox_xxo",
+      "__o_xxxoo",
+      "__ox_xxoo",
+      "__oxxoxo_"
+    ],
+    "xWins": 21554,
+    "oWins": 18329
+  },
+  "__oxxox_o": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 25035
+  },
+  "__oxx_x_o": {
+    "nextStates": [
+      "__oxxox_o",
+      "__oxx_xoo",
+      "_ooxx_x_o",
+      "o_o_x_oxx"
+    ],
+    "xWins": 2726,
+    "oWins": 3688
+  },
+  "___o_x__x": {
+    "nextStates": [
+      "___o_x_ox",
+      "__xo_x_o_",
+      "___o_xo_x",
+      "__oo_x__x",
+      "___oox__x",
+      "__ox_ox__"
+    ],
+    "xWins": 17648,
+    "oWins": 14049
+  },
+  "___o_x_ox": {
+    "nextStates": [
+      "___oxx_ox",
+      "_o_o_xxx_",
+      "__xx_oxo_",
+      "__xo_x_ox",
+      "___o_xxox"
+    ],
+    "xWins": 6388,
+    "oWins": 4253
+  },
+  "___oxx_ox": {
+    "nextStates": [
+      "__oxxoxo_",
+      "__ooxx_ox",
+      "_o_oxo_xx",
+      "___oxxoox"
+    ],
+    "xWins": 3536,
+    "oWins": 2789
+  },
+  "_o_oxxo_x": {
+    "nextStates": [
+      "_ooxx_x_o",
+      "__oxxox_o",
+      "__xoxx_oo",
+      "_oxx_ox_o",
+      "__oxxo_ox",
+      "__oxxoxo_",
+      "_ooo__xxx",
+      "_o_o_xoxx",
+      "___oxxoox",
+      "__ooxo_xx",
+      "_o_oxo_xx",
+      "_ooox_x_x",
+      "__xox_xoo",
+      "__xoxxoo_",
+      "_o_oxxox_",
+      "__oox_oxx",
+      "__ooxxo_x"
+    ],
+    "xWins": 21105,
+    "oWins": 17604
+  },
+  "o_o_xxx_o": {
+    "nextStates": [
+      "o_ox_xo_x",
+      "__xxxoo_o",
+      "o_o__xxxo",
+      "o_o_x_oxx",
+      "o_o_xxx_o",
+      "__xox_oxo",
+      "o_xx__oxo",
+      "_oxxx_o_o",
+      "__oxx_oxo",
+      "__o_xxoxo",
+      "__o_xxxoo",
+      "__oxx_oox",
+      "__xxx_ooo",
+      "__oxxxo_o",
+      "_ooxx_o_x",
+      "__ooxxx_o",
+      "__oxxoo_x"
+    ],
+    "xWins": 22645,
+    "oWins": 21694
+  },
+  "___o_x___": {
+    "nextStates": [
+      "___o_xx__",
+      "___o_x_x_",
+      "___oxx___",
+      "___o_x__x"
+    ],
+    "xWins": 29922,
+    "oWins": 25254
+  },
+  "___o_xx__": {
+    "nextStates": [
+      "___o_xxo_",
+      "___ooxx__",
+      "__ox_o__x",
+      "__xx_o_o_",
+      "__oo_xx__",
+      "___o_xx_o"
+    ],
+    "xWins": 16132,
+    "oWins": 15321
+  },
+  "___o_xxo_": {
+    "nextStates": [
+      "___o_xxox",
+      "__xo_xxo_",
+      "___oxxxo_",
+      "_oxx_o_x_",
+      "__xx_o_ox"
+    ],
+    "xWins": 5620,
+    "oWins": 4927
+  },
+  "___o_xxox": {
+    "nextStates": [
+      "__oo_xxox",
+      "_o_o_xxox",
+      "___ooxxox",
+      "__ox_oxox"
+    ],
+    "xWins": 3244,
+    "oWins": 3136
+  },
+  "_____xxo_": {
+    "nextStates": [
+      "__o__xxo_",
+      "___o_xxo_",
+      "_____xxoo",
+      "__xo_o_x_",
+      "____oxxo_",
+      "__ox___ox"
+    ],
+    "xWins": 16078,
+    "oWins": 15906
+  },
+  "__o__xxo_": {
+    "nextStates": [
+      "_oxx__o_x",
+      "__o_xxxo_",
+      "__ox_xxo_",
+      "__xx_oox_",
+      "__o__xxox"
+    ],
+    "xWins": 5495,
+    "oWins": 5090
+  },
+  "_oxx__o_x": {
+    "nextStates": [
+      "o_xx__oox",
+      "_oxx_oo_x",
+      "_oxxo_o_x",
+      "_oxx__oox"
+    ],
+    "xWins": 3381,
+    "oWins": 2986
+  },
+  "__xooxox_": {
+    "nextStates": [
+      "___ooxoxx",
+      "__xxoxoo_",
+      "__xoo_oxx",
+      "__xoox_xo",
+      "__xxo_oox",
+      "__o_oxxxo",
+      "_ooxo__xx",
+      "__oxooxx_",
+      "_xox_ox_o",
+      "__oooxxx_",
+      "__xooxo_x",
+      "_o_ooxxx_",
+      "_ooxox_x_",
+      "_xoxo_x_o",
+      "__xo_xoxo",
+      "__xxoo_xo",
+      "__oxoox_x",
+      "_ooo_xxx_"
+    ],
+    "xWins": 21805,
+    "oWins": 21656
+  },
+  "_o_oox_xx": {
+    "nextStates": [
+      "_o_ooxx_x",
+      "___ooxoxx",
+      "_o_ooxxx_",
+      "__oxooxx_",
+      "__ooox_xx",
+      "__xoox_ox",
+      "_oxxoo_x_",
+      "__xooxxo_",
+      "_o_o_xoxx",
+      "_oox_oxx_"
+    ],
+    "xWins": 12462,
+    "oWins": 8819
+  },
+  "_o_ooxx_x": {
+    "nextStates": [
+      "_ooo_xx_x",
+      "_o_ooxxx_",
+      "_o_oox_xx",
+      "_oxoo_x_x",
+      "_o_o_xxox",
+      "__xoox_ox",
+      "__xooo_xx",
+      "__xoo_xox",
+      "___ooxxox",
+      "__xxooxo_",
+      "__oxoox_x",
+      "_ooxo_x_x",
+      "__xooxxo_",
+      "__oooxx_x",
+      "__xoo_oxx",
+      "__xxoo_ox",
+      "_oox_ox_x"
+    ],
+    "xWins": 21606,
+    "oWins": 17966
+  },
+  "_ooo_xx_x": {
+    "nextStates": [
+      "_ooo__xxx",
+      "__oo_xxox",
+      "__xx_ooox",
+      "o_xo__oxx",
+      "__xoxx_oo",
+      "o_xo__xox",
+      "__xo_xxoo",
+      "_o_o_xxox",
+      "_o_ooxx_x",
+      "_ooo_xxx_",
+      "_ooox_x_x",
+      "_oox_ox_x",
+      "__xoo_oxx",
+      "__xxxooo_",
+      "_o_o_xoxx",
+      "__xo_ooxx",
+      "__oooxx_x",
+      "o_oo_xx_x"
+    ],
+    "xWins": 22240,
+    "oWins": 21089
+  },
+  "__oxoxo_x": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 26232
+  },
+  "____x___o": {
+    "nextStates": [
+      "____x_o_x",
+      "____x__xo",
+      "____xxo__",
+      "__o_x_x__"
+    ],
+    "xWins": 29462,
+    "oWins": 25951
+  },
+  "____x_oox": {
+    "nextStates": [
+      "__oxxo__x",
+      "____xxoox",
+      "__o_xox_x",
+      "__x_x_xoo",
+      "____xxxoo"
+    ],
+    "xWins": 6671,
+    "oWins": 3862
+  },
+  "__oxxo__x": {
+    "nextStates": [
+      "__xxxo_oo",
+      "__oxxoo_x",
+      "__xxxoo_o",
+      "__oxxo_ox"
+    ],
+    "xWins": 3280,
+    "oWins": 3082
+  },
+  "__xx_oxoo": {
+    "nextStates": [
+      "__xxooxo_",
+      "__xo_xoox",
+      "_oxx__xoo",
+      "_oxx_ox_o",
+      "ooxo__x_x",
+      "_oox_o_xx",
+      "_oox_ox_x",
+      "o_xo_xx_o",
+      "__xxxo_oo",
+      "___oxxoox",
+      "_oxo__xxo",
+      "__xx_oxoo",
+      "_oxo_oxx_",
+      "__x_xoxoo",
+      "o_xo__xxo",
+      "__xxo_xoo",
+      "__xxoox_o"
+    ],
+    "xWins": 24630,
+    "oWins": 17091
+  },
+  "__xxooxo_": {
+    "nextStates": [
+      "_o_ooxxx_",
+      "__xoox_ox",
+      "__xx_oxoo",
+      "__xoooxx_",
+      "___ooxxox",
+      "__x_ooxox",
+      "__xxooxo_",
+      "__xxo_xoo",
+      "_oxo__xxo",
+      "_o_ooxx_x",
+      "__xxoox_o",
+      "__xoo_xxo",
+      "_oxoo_x_x",
+      "__xxoo_ox",
+      "_oxo_oxx_",
+      "__xooxx_o",
+      "__xooxxo_"
+    ],
+    "xWins": 21565,
+    "oWins": 21879
+  },
+  "_o_ooxxx_": {
+    "nextStates": [
+      "__oxoo_xx",
+      "_o_o_xxxo",
+      "__xxooxo_",
+      "__xxoo_ox",
+      "___ooxxox",
+      "_oxxoo_x_",
+      "_oox_o_xx",
+      "_ooo_xxx_",
+      "_o_oox_xx",
+      "__xoox_xo",
+      "___ooxxxo",
+      "_o_ooxx_x",
+      "__oooxxx_",
+      "_ooxo__xx",
+      "_o_ooxxx_",
+      "__xoox_ox",
+      "__xooxox_"
+    ],
+    "xWins": 25357,
+    "oWins": 21344
+  },
+  "__xxo_oxo": {
+    "nextStates": [
+      "__oxox_xo",
+      "_xoxo_o_x",
+      "__o_oxxxo",
+      "o_xxo_o_x",
+      "__oxoxx_o",
+      "o_xx__oxo",
+      "_xoxo_x_o",
+      "__xxo_oxo",
+      "o_o_oxx_x",
+      "__xxooox_",
+      "___xoxoxo",
+      "__xx_ooxo",
+      "_oxxo__xo",
+      "_oxx__oxo",
+      "__xxoxo_o",
+      "__xxoo_xo"
+    ],
+    "xWins": 22167,
+    "oWins": 26193
+  },
+  "__oxox_xo": {
+    "nextStates": [
+      "_xox__oxo",
+      "_o_xox_xo",
+      "__oxoxx_o",
+      "___xoxoxo",
+      "__oxo_xxo",
+      "__oxoxox_",
+      "_xoxo_x_o",
+      "__ox_xoxo",
+      "__o_oxxxo",
+      "_ooxox_x_",
+      "__oxox_xo",
+      "_x_xoxo_o",
+      "__xxo_oxo",
+      "_oox_x_xo"
+    ],
+    "xWins": 17567,
+    "oWins": 25148
+  },
+  "__o_x_ox_": {
+    "nextStates": [
+      "__oxxxo__",
+      "__oxx_ox_",
+      "__o_xxox_",
+      "__o_x_oxx",
+      "__oxx_o_x"
+    ],
+    "xWins": 6526,
+    "oWins": 4013
+  },
+  "__oxxxo__": {
+    "nextStates": [],
+    "xWins": 3092,
+    "oWins": 0
+  },
+  "___oxo__x": {
+    "nextStates": [
+      "__xoxox__",
+      "__xoxo__x",
+      "___oxo_xx",
+      "__xoxo_x_",
+      "___oxox_x"
+    ],
+    "xWins": 6918,
+    "oWins": 3610
+  },
+  "__xoxox__": {
+    "nextStates": [],
+    "xWins": 3098,
+    "oWins": 0
+  },
+  "__ox___ox": {
+    "nextStates": [
+      "__ox_x_ox",
+      "_oxx___xo",
+      "_oxx__x_o",
+      "__oxx__ox",
+      "__ox__xox"
+    ],
+    "xWins": 5640,
+    "oWins": 4941
+  },
+  "__ox_x_ox": {
+    "nextStates": [
+      "_oxx_xo_o",
+      "__oxox_ox",
+      "_oox_x_ox",
+      "__ox_xoox"
+    ],
+    "xWins": 2904,
+    "oWins": 3382
+  },
+  "_oox__xox": {
+    "nextStates": [
+      "o_xo__oxx",
+      "o_o__xxox",
+      "__ooxoxx_",
+      "_oox_x_ox",
+      "_o_o_xxox",
+      "__oo_oxxx",
+      "__xooo_xx",
+      "_ooxx__ox",
+      "__oxo_xox",
+      "__xo_ooxx",
+      "__xoxoo_x",
+      "_oxx__xoo",
+      "o_xo_ox_x",
+      "__ox_oxox",
+      "_ooxo_x_x",
+      "_oox_xxo_",
+      "_oox_ox_x"
+    ],
+    "xWins": 18284,
+    "oWins": 20476
+  },
+  "___oxo_x_": {
+    "nextStates": [
+      "___oxo_xx",
+      "__xoxo_x_",
+      "_o_xxx_o_"
+    ],
+    "xWins": 3485,
+    "oWins": 1667
+  },
+  "___oxo_xx": {
+    "nextStates": [
+      "__ooxo_xx",
+      "__ooxoxx_",
+      "___oxooxx",
+      "_o_oxo_xx"
+    ],
+    "xWins": 3905,
+    "oWins": 2376
+  },
+  "_o_x_xoox": {
+    "nextStates": [
+      "_oox_xo_x",
+      "_o_xoxo_x",
+      "__ox_xoox",
+      "_o_xxx_oo",
+      "__oo_oxxx",
+      "__ooxo_xx",
+      "___xoxoox",
+      "_oox_x_ox",
+      "_oox_xx_o",
+      "__ox_xxoo",
+      "_o_xox_ox",
+      "_oox_xxo_",
+      "_oxx__xoo",
+      "__xoxo_xo",
+      "_oxx__oox",
+      "__xo_oxxo"
+    ],
+    "xWins": 20907,
+    "oWins": 17075
+  },
+  "_oox_o_xx": {
+    "nextStates": [
+      "_oox_ox_x",
+      "__xx_oxoo",
+      "_o_ooxxx_",
+      "___oxxoox",
+      "_o_o_xxxo",
+      "__xxxo_oo",
+      "_xox__xoo",
+      "_ooxxo_x_",
+      "_oox__oxx",
+      "__ox_ooxx",
+      "__xo_xoox",
+      "_oox_oxx_",
+      "_ooxo__xx",
+      "__oxoo_xx",
+      "_oox_o_xx",
+      "_xox_ox_o",
+      "_ooo_xxx_"
+    ],
+    "xWins": 21670,
+    "oWins": 20836
+  },
+  "_oox_ox_x": {
+    "nextStates": [
+      "_o_o_xxox",
+      "__xox_oox",
+      "__xxxo_oo",
+      "_o_ooxx_x",
+      "_oox__xox",
+      "_ooxo_x_x",
+      "__xx_oxoo",
+      "_oox_o_xx",
+      "__xo_xoox",
+      "__oxoox_x",
+      "ooxo__x_x",
+      "__xoxxoo_",
+      "__ox_oxox",
+      "o_oo_xx_x",
+      "_ooo_xx_x",
+      "o_xo__oxx",
+      "_oox_oxx_"
+    ],
+    "xWins": 21754,
+    "oWins": 16993
+  },
+  "__o_o_xx_": {
+    "nextStates": [
+      "__oxo_x_x",
+      "__o_o_xxx",
+      "__oxoxx__",
+      "__oxo_xx_",
+      "__o_oxxx_"
+    ],
+    "xWins": 6259,
+    "oWins": 4422
+  },
+  "__oxo_x_x": {
+    "nextStates": [
+      "o_o_oxx_x",
+      "__oxo_xox",
+      "_ooxo_x_x",
+      "__oxoox_x"
+    ],
+    "xWins": 3566,
+    "oWins": 2863
+  },
+  "_oxxo__xo": {
+    "nextStates": [
+      "_oxxoo_x_",
+      "__xxooo_x",
+      "_oxx_o_xo",
+      "_o_xox_xo",
+      "__xooxx_o",
+      "__xxoo_xo",
+      "__oxox_ox",
+      "_oxx__oxo",
+      "___ooxxxo",
+      "__oxo_xox",
+      "__xxo_oxo",
+      "_xox__oox",
+      "__xxooox_",
+      "__ooox_xx",
+      "_xoxo_o_x",
+      "__oooxxx_",
+      "_oxxo_x_o"
+    ],
+    "xWins": 21929,
+    "oWins": 26068
+  },
+  "_oxxoo_x_": {
+    "nextStates": [
+      "__xooxxo_",
+      "_oxx_o_xo",
+      "_o_oox_xx",
+      "_o_ooxxx_",
+      "__xxoo_xo",
+      "__xxoo_ox",
+      "___ooxxox",
+      "__xxooox_",
+      "_oxx_oox_",
+      "_oxxo__xo"
+    ],
+    "xWins": 13045,
+    "oWins": 12622
+  },
+  "__ox_oxxo": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 24471
+  },
+  "___oxxo_x": {
+    "nextStates": [
+      "__ooxxo_x",
+      "___oxxoox",
+      "_o_oxxo_x",
+      "__oxxox_o"
+    ],
+    "xWins": 2818,
+    "oWins": 3555
+  },
+  "__ooxxo_x": {
+    "nextStates": [
+      "__oxxoox_",
+      "o_o_x_oxx",
+      "__ooxxox_",
+      "_o_oxxo_x",
+      "__oxxoo_x",
+      "___oxxoox",
+      "__ooxx_ox",
+      "__oo_xoxx",
+      "_oox__oxx",
+      "__o_xooxx",
+      "__xoxxo_o",
+      "__oox_oxx",
+      "o_xo_xx_o",
+      "__oxxox_o",
+      "_ooxx_o_x",
+      "o_x_x_xoo",
+      "__xoxx_oo"
+    ],
+    "xWins": 21888,
+    "oWins": 21254
+  },
+  "__oxxoox_": {
+    "nextStates": [
+      "_o_oxx_xo",
+      "_ooxx_o_x",
+      "__ooxxo_x",
+      "__ooxx_xo",
+      "_ooxxo_x_",
+      "__oxxoo_x",
+      "__ooxxox_",
+      "__oxxoox_",
+      "_ooxx__xo",
+      "__oxx_oxo",
+      "___oxxoxo",
+      "__oxxxoo_",
+      "_oox__oxx",
+      "_oox_xox_",
+      "__ox_ooxx",
+      "__oxxo_xo",
+      "__o_xooxx"
+    ],
+    "xWins": 21997,
+    "oWins": 21418
+  },
+  "__xooxo_x": {
+    "nextStates": [],
+    "xWins": 23234,
+    "oWins": 0
+  },
+  "____oxx_o": {
+    "nextStates": [
+      "__xxo_o_x",
+      "___xoxo_x",
+      "__xxo__xo",
+      "__x_o_xxo",
+      "____oxxxo"
+    ],
+    "xWins": 4332,
+    "oWins": 6189
+  },
+  "__xxo_o_x": {
+    "nextStates": [
+      "__xxo_oox",
+      "_oxxo_o_x",
+      "__xxooo_x",
+      "o_xxo_o_x"
+    ],
+    "xWins": 3327,
+    "oWins": 2962
+  },
+  "__o_ooxxx": {
+    "nextStates": [],
+    "xWins": 22687,
+    "oWins": 0
+  },
+  "__o_oxxx_": {
+    "nextStates": [
+      "_xoxo_x_o",
+      "__o_oxxxo",
+      "__oooxxx_",
+      "__xooxox_"
+    ],
+    "xWins": 3349,
+    "oWins": 3111
+  },
+  "___x_x_o_": {
+    "nextStates": [
+      "__ox_x_o_",
+      "_o_x_x_o_",
+      "___x_x_oo",
+      "___xox_o_"
+    ],
+    "xWins": 8143,
+    "oWins": 7455
+  },
+  "__ox_x_o_": {
+    "nextStates": [
+      "__oxxx_o_",
+      "_o_x_x_xo",
+      "__ox_x_ox",
+      "__ox_xxo_",
+      "_o_x_xo_x"
+    ],
+    "xWins": 6169,
+    "oWins": 4232
+  },
+  "__oxxx_o_": {
+    "nextStates": [],
+    "xWins": 6461,
+    "oWins": 0
+  },
+  "__xxxooo_": {
+    "nextStates": [
+      "_ooo_xx_x",
+      "__xx_ooox",
+      "__xoxoox_",
+      "__xoxx_oo",
+      "_o_oxxxo_",
+      "_ooo_xxx_",
+      "_o_oxxox_",
+      "__xxxo_oo",
+      "___oxxxoo",
+      "__ooxxx_o",
+      "__xxx_ooo",
+      "__xox_oxo",
+      "__ooxxxo_",
+      "__o_xoxox",
+      "_ooox_x_x",
+      "_o_oxxx_o",
+      "__xxxoo_o",
+      "__oxxoxo_"
+    ],
+    "xWins": 23058,
+    "oWins": 25425
+  },
+  "_oxxo_x_o": {
+    "nextStates": [
+      "__xoooxx_",
+      "__xooxx_o",
+      "__ooox_xx",
+      "__xoo_xxo",
+      "_oxxo__xo",
+      "__xooxxo_",
+      "__xxoox_o",
+      "o_x__oxxo",
+      "__oxo_xox",
+      "__ooo_xxx",
+      "o_x_o_xxo",
+      "__oxox_ox",
+      "__xxo_xoo",
+      "_o_xoxo_x",
+      "__x_ooxxo",
+      "_oxx__xoo",
+      "o_x_o_xox",
+      "_oxx_ox_o"
+    ],
+    "xWins": 17814,
+    "oWins": 21761
+  },
+  "__oox___x": {
+    "nextStates": [
+      "__xox_x_o",
+      "__ooxx__x",
+      "__oox_x_x",
+      "__xox__xo",
+      "__oox__xx"
+    ],
+    "xWins": 6362,
+    "oWins": 4168
+  },
+  "__xox_x_o": {
+    "nextStates": [],
+    "xWins": 6379,
+    "oWins": 0
+  },
+  "___o_x_x_": {
+    "nextStates": [
+      "__oo_x_x_",
+      "___o_x_xo",
+      "__ox_o_x_",
+      "_o_o_x_x_",
+      "___oox_x_",
+      "___o_xox_"
+    ],
+    "xWins": 15401,
+    "oWins": 16370
+  },
+  "__oo_x_x_": {
+    "nextStates": [
+      "__ooxx_x_",
+      "_oxx___xo",
+      "__oo_x_xx",
+      "__oo_xxx_",
+      "_o_x_x_xo"
+    ],
+    "xWins": 5645,
+    "oWins": 4906
+  },
+  "__ooxx_x_": {
+    "nextStates": [
+      "_ooxx__xo",
+      "__ooxxox_",
+      "__ooxx_xo",
+      "_o_oxxox_"
+    ],
+    "xWins": 3153,
+    "oWins": 3096
+  },
+  "o_o_xox_x": {
+    "nextStates": [
+      "__oox_xox",
+      "o_oo_xx_x",
+      "__o_xoxox",
+      "__oxx_xoo",
+      "__xxxoo_o",
+      "_ooxx_x_o",
+      "o_xx__oox",
+      "o_o__oxxx",
+      "o_o_x_xox",
+      "o_xox_o_x",
+      "__ooxox_x",
+      "__xox_oox",
+      "__o_xxxoo",
+      "_ooox_x_x",
+      "__xoxxo_o",
+      "__xox_oxo",
+      "o_o_xox_x"
+    ],
+    "xWins": 22795,
+    "oWins": 21980
+  },
+  "__xoxo_ox": {
+    "nextStates": [
+      "_ooox_x_x",
+      "_o_o_xxox",
+      "__o_xoxox",
+      "__xoxoo_x",
+      "___oxoxox",
+      "__xo_oxox",
+      "_o_oxo_xx",
+      "__xox_oox",
+      "_o_oxox_x",
+      "_oxo__xox",
+      "__oox_xox",
+      "__xoxoxo_",
+      "__xoxo_ox",
+      "_o_oxxxo_"
+    ],
+    "xWins": 24840,
+    "oWins": 16746
+  },
+  "__xox_xoo": {
+    "nextStates": [],
+    "xWins": 24815,
+    "oWins": 0
+  },
+  "__oxoxox_": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 26285
+  },
+  "__xo_xoox": {
+    "nextStates": [],
+    "xWins": 22332,
+    "oWins": 0
+  },
+  "__o___xxo": {
+    "nextStates": [
+      "__o_x_xxo",
+      "__ox__xxo",
+      "__o__xxxo",
+      "__xx_xo_o",
+      "o_o__xx_x"
+    ],
+    "xWins": 4386,
+    "oWins": 6143
+  },
+  "__o_x_xxo": {
+    "nextStates": [
+      "__o_xoxxo",
+      "__oox_xxo",
+      "o_o_x_oxx",
+      "__xoxxo_o"
+    ],
+    "xWins": 2430,
+    "oWins": 3918
+  },
+  "__ox__xxo": {
+    "nextStates": [
+      "__ox_oxxo",
+      "o_o__xoxx",
+      "_oox__xxo",
+      "__oxo_xxo"
+    ],
+    "xWins": 2290,
+    "oWins": 4127
+  },
+  "______xox": {
+    "nextStates": [
+      "__xo_o__x",
+      "__o___xox",
+      "____o_xox",
+      "_____oxox"
+    ],
+    "xWins": 7559,
+    "oWins": 8228
+  },
+  "__xo_o__x": {
+    "nextStates": [
+      "__xo_o_xx",
+      "__xo_ox_x",
+      "__xoxo__x"
+    ],
+    "xWins": 2513,
+    "oWins": 2775
+  },
+  "__oxxoo_x": {
+    "nextStates": [
+      "_xox__oox",
+      "_o_oxxx_o",
+      "o_o_xxx_o",
+      "o_xo_xx_o",
+      "__ooxxox_",
+      "__xxxo_oo",
+      "__ooxxo_x",
+      "__xxxoo_o",
+      "__oxxoox_",
+      "_ooxx_o_x",
+      "__oxxo_ox",
+      "__o_xooxx",
+      "__ooxxx_o",
+      "__ox_ooxx",
+      "__oxx_oox",
+      "o_x_x_xoo",
+      "___oxxxoo"
+    ],
+    "xWins": 26143,
+    "oWins": 21693
+  },
+  "__o_oxxxo": {
+    "nextStates": [
+      "__xxo_oxo",
+      "o_xxo_o_x",
+      "__oo_xxxo",
+      "__xooxox_",
+      "__xxoxo_o",
+      "o_o_oxx_x",
+      "__oxo_oxx",
+      "__xo_xoxo",
+      "__oxo_xxo",
+      "___xoxoxo",
+      "___ooxxxo",
+      "o_o__xxxo",
+      "__xoox_xo",
+      "__oxox_xo",
+      "__oooxxx_",
+      "_xoxo_x_o",
+      "__oxoxx_o"
+    ],
+    "xWins": 21582,
+    "oWins": 26219
+  },
+  "____x__ox": {
+    "nextStates": [
+      "___oxo__x",
+      "____xoxo_",
+      "____x_oox",
+      "__o_x_xo_",
+      "____xoo_x",
+      "____xo_ox"
+    ],
+    "xWins": 18595,
+    "oWins": 13013
+  },
+  "__xoxo__x": {
+    "nextStates": [
+      "__xoxoo_x",
+      "__xoxo_ox"
+    ],
+    "xWins": 1814,
+    "oWins": 1407
+  },
+  "__oo_xx_x": {
+    "nextStates": [
+      "_ooo_xx_x",
+      "__oooxx_x",
+      "__oo_xxox",
+      "o_oo_xx_x"
+    ],
+    "xWins": 3244,
+    "oWins": 3056
+  },
+  "_o_oxo_xx": {
+    "nextStates": [
+      "_o_o_xxox",
+      "___oxxoox",
+      "__ooxo_xx",
+      "__xoxo_ox",
+      "__xoxoxo_",
+      "__oxxoxo_",
+      "__xoxxoo_",
+      "_o_oxxxo_",
+      "___oxooxx",
+      "_o_oxox_x",
+      "_o_o_oxxx",
+      "__ooxoxx_",
+      "_o_oxxo_x",
+      "__ooxx_ox",
+      "__xoxx_oo",
+      "_o_oxo_xx",
+      "_oxo_oxx_"
+    ],
+    "xWins": 24926,
+    "oWins": 16798
+  },
+  "__ooxx_ox": {
+    "nextStates": [
+      "__oox_xxo",
+      "_oxox_x_o",
+      "__xoxx_oo",
+      "_o_oxo_xx",
+      "_oxo__xxo",
+      "___oxooxx",
+      "___oxxoox",
+      "_o_o_xxxo",
+      "__oo_xxox",
+      "_o_oxxx_o",
+      "_o_oxx_xo",
+      "__ooxxo_x",
+      "__o_xooxx",
+      "__oxxoxo_",
+      "__oox_xox",
+      "__xoxxo_o",
+      "__ooxxxo_"
+    ],
+    "xWins": 25175,
+    "oWins": 21449
+  },
+  "__oox_xxo": {
+    "nextStates": [
+      "_oxxx_o_o",
+      "__ooxoxx_",
+      "__o_xooxx",
+      "__oo_xxxo",
+      "___oxooxx",
+      "_o_xxxo_o",
+      "__ooxxx_o",
+      "o_o__xxox",
+      "__ooxx_ox",
+      "o_o_x_oxx",
+      "__o_xoxxo",
+      "__oxx_xoo",
+      "o_o_x_xox",
+      "__oxxoxo_",
+      "_oxx_xo_o",
+      "__xoxxo_o",
+      "__ooxx_xo"
+    ],
+    "xWins": 21852,
+    "oWins": 21903
+  },
+  "_oxxx_o_o": {
+    "nextStates": [
+      "_ooxx__ox",
+      "__oox_xxo",
+      "__ooxx_xo",
+      "__oxx_oox",
+      "_o_xxxo_o",
+      "o_o__xxox",
+      "o_o_x_xox",
+      "__oxxo_ox",
+      "o_o_xxx_o",
+      "__xoxoox_",
+      "__xxx_ooo",
+      "__ooxxxo_",
+      "_oxx_xo_o",
+      "_oxx__oxo",
+      "__o_xxxoo",
+      "__ooxxx_o",
+      "__xxxoo_o"
+    ],
+    "xWins": 22287,
+    "oWins": 21922
+  },
+  "_oxx__xoo": {
+    "nextStates": [
+      "__xxo_xoo",
+      "_o_x_xoox",
+      "__xoxox_o",
+      "o_xo__xxo",
+      "_oxxo_x_o",
+      "__oo_oxxx",
+      "_oox__xox",
+      "__xo_oxxo",
+      "_oox_x_ox",
+      "__xoooxx_",
+      "__xx_oxoo",
+      "__ooxo_xx",
+      "o_x__oxxo",
+      "o_xo_ox_x",
+      "_oxo_oxx_",
+      "_oxx_ox_o",
+      "_ooxx__ox"
+    ],
+    "xWins": 20935,
+    "oWins": 17003
+  },
+  "__xxoo_ox": {
+    "nextStates": [
+      "__xxooo_x",
+      "___ooxxox",
+      "__xx_ooox",
+      "__xooxxo_",
+      "_oxx_o_ox",
+      "__x_ooxox",
+      "_o_ooxx_x",
+      "_o_ooxxx_",
+      "__xoo_xox",
+      "__xxoo_ox",
+      "_oxxoo_x_",
+      "_oxxo_o_x",
+      "_oxx_oo_x",
+      "__xxo_oox",
+      "__xxooxo_",
+      "_oxxo__ox"
+    ],
+    "xWins": 21958,
+    "oWins": 25848
+  },
+  "__xxooo_x": {
+    "nextStates": [
+      "__oooxxx_",
+      "__xxoo_ox",
+      "__xx_ooox",
+      "__xxooo_x",
+      "__xooxx_o",
+      "o_x_o_xox",
+      "_oxx_oo_x",
+      "__o_oxxox",
+      "_oxxo__xo",
+      "__xxooox_",
+      "o_xx_oo_x",
+      "__oxo_xox",
+      "__xxo_oox",
+      "o_xxo_o_x",
+      "_oxxo_o_x",
+      "__oooxx_x",
+      "___ooxxxo"
+    ],
+    "xWins": 26017,
+    "oWins": 26669
+  },
+  "___ooxx__": {
+    "nextStates": [
+      "___ooxxx_",
+      "__xooxx__",
+      "__xxoo__x",
+      "__xxoo_x_",
+      "___ooxx_x"
+    ],
+    "xWins": 5787,
+    "oWins": 4804
+  },
+  "___ooxxx_": {
+    "nextStates": [
+      "__oooxxx_",
+      "___ooxxxo",
+      "_o_ooxxx_",
+      "__oxoo_xx"
+    ],
+    "xWins": 3286,
+    "oWins": 3105
+  },
+  "o_o_o_xxx": {
+    "nextStates": [],
+    "xWins": 11661,
+    "oWins": 0
+  },
+  "___oxxxo_": {
+    "nextStates": [
+      "__oxxo_ox",
+      "__ooxxxo_",
+      "_o_oxxxo_",
+      "___oxxxoo"
+    ],
+    "xWins": 3392,
+    "oWins": 3027
+  },
+  "__xoxxo_o": {
+    "nextStates": [
+      "__xox_oxo",
+      "__oxxox_o",
+      "__xoxxoo_",
+      "o_o_x_oxx",
+      "__xoxx_oo",
+      "_ooxx_x_o",
+      "__xxxoo_o",
+      "__oxxoxo_",
+      "_oox__xxo",
+      "__oox_xxo",
+      "__o_xoxxo",
+      "o_o_xox_x",
+      "__ooxxo_x",
+      "___oxxoxo",
+      "_ooxx__xo",
+      "__xo_xoxo",
+      "__ooxx_ox",
+      "o_oo_xx_x"
+    ],
+    "xWins": 18657,
+    "oWins": 25349
+  },
+  "__ox___x_": {
+    "nextStates": [
+      "__ox_o_x_",
+      "__ox__ox_",
+      "__oxo__x_",
+      "__ox___xo"
+    ],
+    "xWins": 7128,
+    "oWins": 8762
+  },
+  "__ox_o_x_": {
+    "nextStates": [
+      "__oxxo_x_",
+      "__ox_o_xx",
+      "_oox___xx",
+      "__ox_oxx_",
+      "_oox_x_x_"
+    ],
+    "xWins": 4721,
+    "oWins": 5890
+  },
+  "__oxxo_x_": {
+    "nextStates": [
+      "__oxxo_xo",
+      "__oxxoox_",
+      "_ooxxo_x_",
+      "_ooxx__xo"
+    ],
+    "xWins": 2432,
+    "oWins": 3797
+  },
+  "__oxxo_xo": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 25085
+  },
+  "____o_x_x": {
+    "nextStates": [
+      "____oox_x",
+      "____o_xox",
+      "__o_o_x_x",
+      "__xoo___x"
+    ],
+    "xWins": 8727,
+    "oWins": 7186
+  },
+  "__xoo_xx_": {
+    "nextStates": [
+      "__xoo_xxo",
+      "__xoooxx_",
+      "__xxo_xoo",
+      "__xxooxo_"
+    ],
+    "xWins": 2435,
+    "oWins": 3949
+  },
+  "__xoo_xxo": {
+    "nextStates": [
+      "__oxox_ox",
+      "__xxooxo_",
+      "o_x_o_xxo",
+      "__o_oxxox",
+      "__xooxx_o",
+      "_oxxo_x_o",
+      "o_x_o_xox",
+      "_o_xoxo_x",
+      "__xxo_xoo",
+      "_oxo__xxo",
+      "__x_ooxxo",
+      "__xo_oxxo",
+      "_oxxo_o_x",
+      "__xoox_xo",
+      "___ooxxxo",
+      "o_xo__xxo",
+      "__xoooxx_"
+    ],
+    "xWins": 18193,
+    "oWins": 25480
+  },
+  "__oxox_ox": {
+    "nextStates": [
+      "__xxoxo_o",
+      "__xxox_oo",
+      "___xoxoox",
+      "__o_oxxox",
+      "__xoo_xxo",
+      "__oxoxxo_",
+      "__oxo_xox",
+      "___ooxxxo",
+      "__ox_xoox",
+      "_o_xox_xo",
+      "_oxx_xo_o",
+      "_o_xoxo_x",
+      "_oxxo_x_o",
+      "_oox_x_ox",
+      "_o_xox_ox",
+      "__oxoxo_x",
+      "_oxxo__xo"
+    ],
+    "xWins": 17333,
+    "oWins": 25662
+  },
+  "___o_x_xo": {
+    "nextStates": [
+      "___oxx_xo",
+      "___o_xxxo",
+      "__xo_x_xo",
+      "_o_x_x_xo",
+      "__xx_oox_"
+    ],
+    "xWins": 5542,
+    "oWins": 5085
+  },
+  "___oxx_xo": {
+    "nextStates": [
+      "___oxxoxo",
+      "__ooxx_xo",
+      "_o_oxx_xo",
+      "__oxxoox_"
+    ],
+    "xWins": 3379,
+    "oWins": 3060
+  },
+  "___oxxoxo": {
+    "nextStates": [
+      "_ooxx__xo",
+      "_o_oxxox_",
+      "__oxxoox_",
+      "__ooxxox_",
+      "__xx_ooxo",
+      "__oxx_oxo",
+      "__xox_oxo",
+      "__o_xxxoo",
+      "__xxxoo_o",
+      "__xo_xoxo",
+      "_oox_x_xo",
+      "__ooxx_xo",
+      "__o_xxoxo",
+      "__xoxxo_o",
+      "__oxxx_oo",
+      "__oxxo_xo",
+      "_o_oxx_xo"
+    ],
+    "xWins": 22993,
+    "oWins": 22261
+  },
+  "__oxx___o": {
+    "nextStates": [
+      "__oxxx__o",
+      "__oxx__xo",
+      "__oxx_x_o"
+    ],
+    "xWins": 2647,
+    "oWins": 2657
+  },
+  "__oxxx__o": {
+    "nextStates": [],
+    "xWins": 3160,
+    "oWins": 0
+  },
+  "_____o_xx": {
+    "nextStates": [
+      "___o_x_ox",
+      "__oo__xx_",
+      "___o_o_xx",
+      "____oo_xx",
+      "_____ooxx",
+      "_____xoox"
+    ],
+    "xWins": 18083,
+    "oWins": 13803
+  },
+  "_oxox_x_o": {
+    "nextStates": [],
+    "xWins": 12911,
+    "oWins": 0
+  },
+  "_oxxo__ox": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 12950
+  },
+  "___o_ox_x": {
+    "nextStates": [
+      "__xo_ox_x",
+      "___oxox_x",
+      "_oxx___ox",
+      "___o_oxxx"
+    ],
+    "xWins": 3064,
+    "oWins": 2150
+  },
+  "__xo_ox_x": {
+    "nextStates": [
+      "o_xo_ox_x",
+      "__xooox_x",
+      "_oxo__xox",
+      "__xo_oxox"
+    ],
+    "xWins": 2837,
+    "oWins": 3443
+  },
+  "o_xo_ox_x": {
+    "nextStates": [
+      "__xo_ooxx",
+      "_oxx__oox",
+      "__ooxox_x",
+      "_oxx__xoo",
+      "__xoxox_o",
+      "o_xoo_x_x",
+      "__xooox_x",
+      "__xo_oxxo",
+      "__oo_oxxx",
+      "o_xo__xox",
+      "_oox__xox",
+      "__xo_oxox",
+      "ooxo__x_x",
+      "_oxo__xox",
+      "__xoxoo_x",
+      "o_x_o_xox",
+      "o_x__oxox"
+    ],
+    "xWins": 22467,
+    "oWins": 17864
+  },
+  "___o_xoxx": {
+    "nextStates": [
+      "__oo_xoxx",
+      "_o_o_xoxx",
+      "__ox_oxxo",
+      "___ooxoxx"
+    ],
+    "xWins": 2464,
+    "oWins": 3984
+  },
+  "__oo_xoxx": {
+    "nextStates": [
+      "_oox_xox_",
+      "___ooxoxx",
+      "_oox_xo_x",
+      "o_xo_xx_o",
+      "__ox_oxxo",
+      "_o_o_xoxx",
+      "_oox__oxx",
+      "_xox__oox",
+      "o_o__xoxx",
+      "__oox_oxx",
+      "_oox__xxo",
+      "__ooxxox_",
+      "__o_oxoxx",
+      "o_x__oxxo",
+      "__ooox_xx",
+      "__ooxxo_x",
+      "__oo_xoxx"
+    ],
+    "xWins": 17749,
+    "oWins": 24607
+  },
+  "_oox_xox_": {
+    "nextStates": [
+      "_o_x_xoxo",
+      "__oo_xoxx",
+      "_oox_x_xo",
+      "__oxoxox_",
+      "__ox_ooxx",
+      "__oxxxoo_",
+      "_o_xox_xo",
+      "_oox_xo_x",
+      "__ox_xoxo",
+      "__oxxoox_",
+      "__ooxxox_",
+      "_ooxox_x_",
+      "_xox__oox",
+      "_xox__oxo",
+      "_x_x_xooo",
+      "__ox_xoox",
+      "_oox__oxx"
+    ],
+    "xWins": 18134,
+    "oWins": 22091
+  },
+  "_o_x_xoxo": {
+    "nextStates": [
+      "_oxx__oxo",
+      "_oox_xox_",
+      "_o_xox_xo",
+      "__oo_xxxo",
+      "_o_xxxo_o",
+      "__ox_xoxo",
+      "_oox_x_xo",
+      "__ooxx_xo",
+      "_oxx_xo_o",
+      "___xoxoxo"
+    ],
+    "xWins": 12280,
+    "oWins": 10910
+  },
+  "__xxxoo_o": {
+    "nextStates": [
+      "__oxxo_ox",
+      "__xx_ooxo",
+      "_xox__xoo",
+      "__xxxo_oo",
+      "o_o_xxx_o",
+      "__oxxoo_x",
+      "__ooxxxo_",
+      "__xxx_ooo",
+      "__xxxooo_",
+      "o_oo_xx_x",
+      "__xoxxo_o",
+      "__ooxxx_o",
+      "__o_xxxoo",
+      "_oxxx_o_o",
+      "___oxxoxo",
+      "_ooxx__xo",
+      "o_o_xox_x",
+      "__oxx_xoo"
+    ],
+    "xWins": 22573,
+    "oWins": 26274
+  },
+  "__xooxx__": {
+    "nextStates": [
+      "__xooxx_o",
+      "__xxooxo_",
+      "__xxoox_o",
+      "__xooxxo_"
+    ],
+    "xWins": 3116,
+    "oWins": 3044
+  },
+  "__xooxx_o": {
+    "nextStates": [
+      "__xoox_xo",
+      "o_x_o_xxo",
+      "o_xo_xx_o",
+      "__xooxxo_",
+      "__xoo_xxo",
+      "__xxooo_x",
+      "o_x_o_xox",
+      "__ooox_xx",
+      "_oxxo_x_o",
+      "_oxo__xxo",
+      "__xxoox_o",
+      "_oxxo__xo",
+      "___ooxxxo",
+      "__xxooxo_",
+      "__oooxx_x",
+      "__x_ooxxo",
+      "__xo_xxoo"
+    ],
+    "xWins": 22378,
+    "oWins": 25960
+  },
+  "__xoox_xo": {
+    "nextStates": [
+      "__o_oxxxo",
+      "___ooxxxo",
+      "_o_ooxxx_",
+      "_o_o_xxxo",
+      "_o_xox_xo",
+      "__ooox_xx",
+      "__oxo_oxx",
+      "__xxooox_",
+      "_o_xoxo_x",
+      "__xo_xoxo",
+      "_oox__oxx",
+      "__oooxx_x",
+      "_ooxo__xx",
+      "__xooxx_o",
+      "__xoo_xxo",
+      "__xooxox_",
+      "_oxxo_o_x"
+    ],
+    "xWins": 21660,
+    "oWins": 25654
+  },
+  "_____xox_": {
+    "nextStates": [
+      "__oo_x_x_",
+      "__ox___xo",
+      "___o_xox_",
+      "____oxox_",
+      "__o__xox_",
+      "_____xoxo"
+    ],
+    "xWins": 15016,
+    "oWins": 16697
+  },
+  "_oxx___xo": {
+    "nextStates": [
+      "_oxxo__xo",
+      "_oxx__oxo",
+      "_oxx_o_xo",
+      "_xox__oox"
+    ],
+    "xWins": 3087,
+    "oWins": 3236
+  },
+  "___ooxxox": {
+    "nextStates": [
+      "__oooxx_x",
+      "_o_o_xxox",
+      "__xoo_xox",
+      "__oxoox_x",
+      "__oo_xxox",
+      "__oxo_xox",
+      "__o_oxxox",
+      "_oxxoo_x_",
+      "__x_ooxox",
+      "__xoox_ox",
+      "_o_ooxx_x",
+      "__xxoo_ox",
+      "__xooxxo_",
+      "_o_ooxxx_",
+      "__xooo_xx",
+      "__xxooxo_",
+      "__ox_oxox"
+    ],
+    "xWins": 22813,
+    "oWins": 22959
+  },
+  "__oooxx_x": {
+    "nextStates": [
+      "__xxooo_x",
+      "o_x_o_xox",
+      "__o_oxxox",
+      "__xooxx_o",
+      "o_o_oxx_x",
+      "__xoox_xo",
+      "__xxooox_",
+      "__ooo_xxx",
+      "o_oo_xx_x",
+      "__oooxxx_",
+      "__xoo_oxx",
+      "___ooxxox",
+      "_oxxo_o_x",
+      "__oo_xxox",
+      "_ooo_xx_x",
+      "_o_ooxx_x",
+      "__ooox_xx",
+      "__oxoox_x"
+    ],
+    "xWins": 25750,
+    "oWins": 22116
+  },
+  "___o_xx_o": {
+    "nextStates": [
+      "_oxx___xo",
+      "__xo_xx_o",
+      "__xx_oo_x",
+      "___o_xxxo",
+      "___oxxx_o"
+    ],
+    "xWins": 5444,
+    "oWins": 5122
+  },
+  "_oxx__oox": {
+    "nextStates": [
+      "_oxxo_o_x",
+      "__xo_ooxx",
+      "o_xx__oox",
+      "__xxo_oox",
+      "_oxx_oo_x",
+      "_oxxo__ox",
+      "__ooxox_x",
+      "_o_x_xoox",
+      "_oxx__oox",
+      "_oox_xxo_",
+      "_oxx_o_ox",
+      "o_xo_ox_x",
+      "__xoxo_xo",
+      "__xo_oxxo",
+      "__oo_oxxx",
+      "__xoxoox_",
+      "__xx_ooox"
+    ],
+    "xWins": 22850,
+    "oWins": 20161
+  },
+  "__xo_xoxo": {
+    "nextStates": [
+      "o_o__xxxo",
+      "o_xx__oox",
+      "_oox__xxo",
+      "__xoox_xo",
+      "o_oo_xx_x",
+      "_xox_ox_o",
+      "__xooxox_",
+      "__oo_xxxo",
+      "_ooo_xxx_",
+      "__o_oxxxo",
+      "___oxxoxo",
+      "_oox__oxx",
+      "_oox_x_xo",
+      "_o_o_xxxo",
+      "__xox_oxo",
+      "_oox_xx_o",
+      "__xx_ooxo",
+      "__xoxxo_o"
+    ],
+    "xWins": 21893,
+    "oWins": 25525
+  },
+  "o_x_x_xoo": {
+    "nextStates": [],
+    "xWins": 24460,
+    "oWins": 0
+  },
+  "_o_o_xxx_": {
+    "nextStates": [
+      "_oox_o_xx",
+      "_o_ooxxx_",
+      "_o_o_xxxo",
+      "_ooo_xxx_"
+    ],
+    "xWins": 3380,
+    "oWins": 3041
+  },
+  "__oox__x_": {
+    "nextStates": [
+      "__oxxx_o_",
+      "__ooxx_x_",
+      "__oox__xx",
+      "__oox_xx_",
+      "__oxx__ox"
+    ],
+    "xWins": 6516,
+    "oWins": 4096
+  },
+  "___xox__o": {
+    "nextStates": [
+      "__oxox__x",
+      "___xox_xo",
+      "___xoxo_x",
+      "__oxox_x_",
+      "__oxoxx__"
+    ],
+    "xWins": 4357,
+    "oWins": 6217
+  },
+  "__xooo_xx": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 25310
+  },
+  "__ox_o__x": {
+    "nextStates": [
+      "__ox_ox_x",
+      "__ox_o_xx",
+      "__xx_o_xo",
+      "__oxxo__x",
+      "__xx_ox_o"
+    ],
+    "xWins": 6040,
+    "oWins": 4545
+  },
+  "__ox_ox_x": {
+    "nextStates": [
+      "_oox_ox_x",
+      "__ox_oxox",
+      "o_oo_xx_x",
+      "__oxoox_x"
+    ],
+    "xWins": 3669,
+    "oWins": 2735
+  },
+  "o_xx__oxo": {
+    "nextStates": [
+      "__xx_ooxo",
+      "__ox_xoxo",
+      "_oxx__oxo",
+      "__xxo_oxo",
+      "__o_xxoxo",
+      "o_o__xxxo",
+      "_xox__oox",
+      "o_ox_xo_x",
+      "o_o_xxx_o",
+      "_xoxo_o_x"
+    ],
+    "xWins": 11068,
+    "oWins": 12531
+  },
+  "__xo_x_o_": {
+    "nextStates": [
+      "__xo_x_ox",
+      "_o_o_x_xx",
+      "_o_o_xx_x",
+      "__xo_xxo_",
+      "__xoxx_o_"
+    ],
+    "xWins": 6648,
+    "oWins": 3951
+  },
+  "__xo_x_ox": {
+    "nextStates": [],
+    "xWins": 6382,
+    "oWins": 0
+  },
+  "__o___x__": {
+    "nextStates": [
+      "__o___xx_",
+      "__o__xx__",
+      "__o___x_x",
+      "__o_x_x__"
+    ],
+    "xWins": 29248,
+    "oWins": 26563
+  },
+  "__o___xx_": {
+    "nextStates": [
+      "__o___xxo",
+      "__ox_ox__",
+      "__oo__xx_",
+      "__ox__x_o",
+      "__o__oxx_",
+      "__o_o_xx_"
+    ],
+    "xWins": 16966,
+    "oWins": 14658
+  },
+  "__o__xxxo": {
+    "nextStates": [
+      "__oo_xxxo",
+      "__xo_xoxo",
+      "o_o__xxxo",
+      "__o_oxxxo"
+    ],
+    "xWins": 2977,
+    "oWins": 3394
+  },
+  "__ox_ox__": {
+    "nextStates": [
+      "__ox_oxx_",
+      "__ox_ox_x",
+      "__oxxox__",
+      "__xo_xox_",
+      "__xo_xo_x"
+    ],
+    "xWins": 5685,
+    "oWins": 4809
+  },
+  "__ox_oxx_": {
+    "nextStates": [
+      "_oox_oxx_",
+      "__ox_oxxo",
+      "_oox__xxo",
+      "__oxooxx_"
+    ],
+    "xWins": 2712,
+    "oWins": 3713
+  },
+  "_oox_oxx_": {
+    "nextStates": [
+      "_ooxxo_x_",
+      "_oox_ox_x",
+      "_oox_o_xx",
+      "__xo_xoox",
+      "_oox__xxo",
+      "__xoxxoo_",
+      "__ox_oxxo",
+      "__oxooxx_",
+      "_o_o_xoxx",
+      "_o_oox_xx"
+    ],
+    "xWins": 9282,
+    "oWins": 8886
+  },
+  "___ooxx_x": {
+    "nextStates": [
+      "_o_ooxx_x",
+      "__oooxx_x",
+      "___ooxxox",
+      "__oxoox_x"
+    ],
+    "xWins": 3573,
+    "oWins": 2779
+  },
+  "___oox__x": {
+    "nextStates": [
+      "__xoox_x_",
+      "___oox_xx",
+      "__xooxx__",
+      "___ooxx_x",
+      "__xoox__x"
+    ],
+    "xWins": 6292,
+    "oWins": 4162
+  },
+  "__xoox_x_": {
+    "nextStates": [
+      "__xooxox_",
+      "_o_ooxxx_",
+      "_ooxo__xx",
+      "__xoox_xo"
+    ],
+    "xWins": 3277,
+    "oWins": 3052
+  },
+  "__o_xxxo_": {
+    "nextStates": [
+      "_oxxx_o_o",
+      "__xoxoox_",
+      "__ooxxxo_",
+      "__o_xxxoo"
+    ],
+    "xWins": 3337,
+    "oWins": 3018
+  },
+  "__xxooox_": {
+    "nextStates": [
+      "_o_xox_xo",
+      "__xxo_oxo",
+      "_oxx_oox_",
+      "_oxx__oxo",
+      "_oxxo__xo",
+      "_oxxo_o_x",
+      "__oooxxx_",
+      "__o_oxxox",
+      "_oxxoo_x_",
+      "__xxooo_x",
+      "__xxooox_",
+      "__xx_ooxo",
+      "__oooxx_x",
+      "__xoox_xo",
+      "__xxoo_xo",
+      "___ooxxxo",
+      "__oxoxxo_"
+    ],
+    "xWins": 25710,
+    "oWins": 26317
+  },
+  "_oox_xxo_": {
+    "nextStates": [
+      "__oxoxxo_",
+      "__oo_oxxx",
+      "_oxx__oox",
+      "_oox__xox",
+      "_oxx_xo_o",
+      "_o_x_xoox",
+      "_o_xxx_oo",
+      "__xx_xooo",
+      "__ooxoxx_",
+      "__xo_ooxx",
+      "_oox_xx_o",
+      "__ox_xxoo",
+      "_oox_x_ox",
+      "__xoxoox_",
+      "__xxoxoo_",
+      "_o_xox_ox"
+    ],
+    "xWins": 18289,
+    "oWins": 17949
+  },
+  "__oo__xx_": {
+    "nextStates": [
+      "__ox_xxo_",
+      "__oo_xxx_",
+      "__ox__xox",
+      "__oox_xx_",
+      "__oo__xxx"
+    ],
+    "xWins": 6212,
+    "oWins": 4204
+  },
+  "__ox_xxo_": {
+    "nextStates": [
+      "__oxoxxo_",
+      "__ox_xxoo",
+      "_oxx_xo_o",
+      "_oox_xxo_"
+    ],
+    "xWins": 3401,
+    "oWins": 2832
+  },
+  "_o_o_oxxx": {
+    "nextStates": [],
+    "xWins": 11332,
+    "oWins": 0
+  },
+  "_ooo_xxx_": {
+    "nextStates": [
+      "_ooo__xxx",
+      "_xox_ox_o",
+      "__oxxoxo_",
+      "__oooxxx_",
+      "_o_o_xxxo",
+      "__xx_ooox",
+      "_oox_o_xx",
+      "_oxx_o_xo",
+      "__xooxox_",
+      "_xox__xoo",
+      "__xo_xoxo",
+      "_ooo_xx_x",
+      "__oo_xxxo",
+      "__ox_oxox",
+      "_o_o_xoxx",
+      "_o_oxxox_",
+      "__xxxooo_",
+      "_o_ooxxx_"
+    ],
+    "xWins": 22960,
+    "oWins": 22349
+  },
+  "ooxo__x_x": {
+    "nextStates": [
+      "o_xo__xox",
+      "_oxo__xox",
+      "__x_xoxoo",
+      "o_xo_ox_x",
+      "__xo_xoox",
+      "_oox_ox_x",
+      "o_xoo_x_x",
+      "__xx_oxoo",
+      "__xox_oox",
+      "_oxoo_x_x"
+    ],
+    "xWins": 12051,
+    "oWins": 6941
+  },
+  "_oxx_o_ox": {
+    "nextStates": [
+      "_oxo_oxx_",
+      "__xo_oxox",
+      "_oxx__oox",
+      "_oxx_oo_x",
+      "_o_o_xxox",
+      "_o_oxxxo_",
+      "__xx_ooox",
+      "___oxoxox",
+      "_oxxo__ox",
+      "__xxoo_ox"
+    ],
+    "xWins": 10988,
+    "oWins": 12194
+  },
+  "____ooxx_": {
+    "nextStates": [
+      "___oox_xx",
+      "__xxox_o_",
+      "__x_ooxx_",
+      "__xoo__xx",
+      "____ooxxx"
+    ],
+    "xWins": 5549,
+    "oWins": 5097
+  },
+  "___oox_xx": {
+    "nextStates": [
+      "__oxooxx_",
+      "__ooox_xx",
+      "___ooxoxx",
+      "_o_oox_xx"
+    ],
+    "xWins": 3436,
+    "oWins": 2869
+  },
+  "_x_x_xooo": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 12424
+  },
+  "__oo_xx__": {
+    "nextStates": [
+      "__oo_xx_x",
+      "__oo_xxx_",
+      "__xx_oox_",
+      "__ooxxx__",
+      "__xx_oo_x"
+    ],
+    "xWins": 5327,
+    "oWins": 5148
+  },
+  "__x_ooxox": {
+    "nextStates": [
+      "_oxoo_x_x",
+      "__xo_oxox",
+      "__xoo_xox",
+      "__xxoo_ox",
+      "o_x__oxox",
+      "___ooxxox",
+      "__xooox_x",
+      "__xxooxo_",
+      "o_x_o_xox"
+    ],
+    "xWins": 9131,
+    "oWins": 12806
+  },
+  "__xoo__xx": {
+    "nextStates": [
+      "__xoo_oxx",
+      "__xooo_xx",
+      "_o_ooxx_x",
+      "_ooxo_x_x"
+    ],
+    "xWins": 2750,
+    "oWins": 3643
+  },
+  "__xx_o_xo": {
+    "nextStates": [
+      "__xxoo_xo",
+      "_xox__oox",
+      "_oxx_o_xo",
+      "__xx_ooxo"
+    ],
+    "xWins": 3160,
+    "oWins": 3171
+  },
+  "_ooxo__xx": {
+    "nextStates": [
+      "__oxoo_xx",
+      "__oxooxx_",
+      "__xxox_oo",
+      "__xooxo_x",
+      "_ooxox_x_",
+      "___ooxoxx",
+      "_oox__oxx",
+      "__xoox_xo",
+      "_xox_ox_o",
+      "__xxoox_o",
+      "_ooxo_x_x",
+      "_oox_o_xx",
+      "__xooxox_",
+      "_o_ooxxx_",
+      "__xxo_xoo",
+      "__oxo_oxx",
+      "_xoxo_x_o"
+    ],
+    "xWins": 18086,
+    "oWins": 20996
+  },
+  "__ox_oxox": {
+    "nextStates": [
+      "o_oo_xx_x",
+      "__xx_ooox",
+      "_ooo__xxx",
+      "__oxoox_x",
+      "_ooo_xxx_",
+      "_oox_ox_x",
+      "___ooxxox",
+      "_oxx_o_xo",
+      "o_xo__xox",
+      "__o_xoxox",
+      "__oxo_xox",
+      "_oox__xox",
+      "__oxxo_ox",
+      "o_o__xxox",
+      "__oxxoxo_",
+      "_o_o_xxox",
+      "__oo_xxox",
+      "_oxx_ox_o"
+    ],
+    "xWins": 25817,
+    "oWins": 21258
+  },
+  "___xoxoxo": {
+    "nextStates": [
+      "__oxox_xo",
+      "__o_oxxxo",
+      "__xxoxo_o",
+      "_o_x_xoxo",
+      "__xxo_oxo",
+      "_o_xox_xo",
+      "__oxoxox_",
+      "__ox_xoxo",
+      "_x_xoxo_o"
+    ],
+    "xWins": 9056,
+    "oWins": 13198
+  },
+  "__xxo__xo": {
+    "nextStates": [
+      "__xxo_oxo",
+      "__xxoo_xo",
+      "_xoxo_o_x",
+      "_oxxo__xo"
+    ],
+    "xWins": 2572,
+    "oWins": 3854
+  },
+  "_ooxo_x_x": {
+    "nextStates": [
+      "__xxo_xoo",
+      "__o_ooxxx",
+      "__xooo_xx",
+      "o_xoo_x_x",
+      "_oox__xox",
+      "__xoo_oxx",
+      "__xxox_oo",
+      "o_xo__oxx",
+      "__oxoox_x",
+      "__oxo_xox",
+      "__xxoxoo_",
+      "_o_ooxx_x",
+      "_oox_ox_x",
+      "_ooxo__xx",
+      "o_o_oxx_x",
+      "__oxooxx_",
+      "__xooxo_x"
+    ],
+    "xWins": 18137,
+    "oWins": 17779
+  },
+  "__xx_o_o_": {
+    "nextStates": [
+      "_o_o_xx_x",
+      "__xxxo_o_",
+      "__xx_o_ox",
+      "_o_o_xxx_",
+      "__xx_oxo_"
+    ],
+    "xWins": 5864,
+    "oWins": 4734
+  },
+  "_o_o_xx_x": {
+    "nextStates": [
+      "_o_ooxx_x",
+      "_o_o_xxox",
+      "_oox_ox_x",
+      "_ooo_xx_x"
+    ],
+    "xWins": 3509,
+    "oWins": 2849
+  },
+  "__xo____x": {
+    "nextStates": [
+      "__xo_o__x",
+      "__xoo___x",
+      "__xo__o_x",
+      "__xo___ox"
+    ],
+    "xWins": 9203,
+    "oWins": 6930
+  },
+  "__o_xxoxo": {
+    "nextStates": [
+      "__ox_xoxo",
+      "o_xx__oxo",
+      "__oxx_oxo",
+      "__ooxxox_",
+      "__oxxxo_o",
+      "_xoxx_o_o",
+      "__ooxx_xo",
+      "o_o_xxx_o",
+      "___oxxoxo"
+    ],
+    "xWins": 12668,
+    "oWins": 8830
+  },
+  "____xoxo_": {
+    "nextStates": [
+      "__x_xoxo_",
+      "___oxx_ox",
+      "____xoxox",
+      "__xox__ox",
+      "__xxxo_o_"
+    ],
+    "xWins": 6520,
+    "oWins": 4013
+  },
+  "__x_xoxo_": {
+    "nextStates": [],
+    "xWins": 3213,
+    "oWins": 0
+  },
+  "o_o__xoxx": {
+    "nextStates": [
+      "o_o_x_oxx",
+      "_oox__xxo",
+      "_xox__oxo",
+      "_xoxx_o_o",
+      "o_ox_xo_x",
+      "__oo_xoxx",
+      "__oxo_xxo",
+      "o_o__xxxo",
+      "__ox_oxxo",
+      "__o_oxoxx"
+    ],
+    "xWins": 7289,
+    "oWins": 12276
+  },
+  "__oxx_oox": {
+    "nextStates": [
+      "o_x__oxxo",
+      "_ooxx__ox",
+      "__oxxo_ox",
+      "__o_xxxoo",
+      "__oxxxoo_",
+      "__xoxo_xo",
+      "__oox_oxx",
+      "__oxxoo_x",
+      "o_x_x_xoo",
+      "_oxxx_o_o",
+      "___oxxxoo",
+      "_ooxx_o_x",
+      "__ooxxox_",
+      "__o_xooxx",
+      "_xox__oox",
+      "__ox_xoox",
+      "o_o_xxx_o"
+    ],
+    "xWins": 25255,
+    "oWins": 17628
+  },
+  "__oo_oxxx": {
+    "nextStates": [],
+    "xWins": 22250,
+    "oWins": 0
+  },
+  "__o___x_x": {
+    "nextStates": [
+      "__xo__o_x",
+      "o_o___x_x",
+      "__o_o_x_x",
+      "__o__ox_x",
+      "__o___xox",
+      "__oo__x_x"
+    ],
+    "xWins": 18359,
+    "oWins": 13752
+  },
+  "__xo__o_x": {
+    "nextStates": [
+      "_oox__x_x",
+      "__xo_xo_x",
+      "__xo__oxx",
+      "o_xo__x_x",
+      "__xox_o_x"
+    ],
+    "xWins": 6042,
+    "oWins": 4701
+  },
+  "_oox__x_x": {
+    "nextStates": [
+      "_oox_ox_x",
+      "o_xo__oxx",
+      "_oox__xox",
+      "_ooxo_x_x"
+    ],
+    "xWins": 2663,
+    "oWins": 3484
+  },
+  "__o_xoxox": {
+    "nextStates": [
+      "o_xo__xox",
+      "__oxxo_ox",
+      "__xox_xoo",
+      "__xoxoo_x",
+      "__xoxo_ox",
+      "__xxxooo_",
+      "o_o_xox_x",
+      "__oox_xox",
+      "___oxoxox",
+      "__ox_oxox",
+      "o_o_x_xox",
+      "__oxxoxo_",
+      "___oxxxoo",
+      "_ooox_x_x",
+      "__xox_oox",
+      "__xx_ooox",
+      "__ooxox_x"
+    ],
+    "xWins": 26218,
+    "oWins": 21073
+  },
+  "_o_oxox_x": {
+    "nextStates": [
+      "__xoxo_ox",
+      "_o_oxo_xx",
+      "__xoxoxo_",
+      "__ooxox_x",
+      "_o_o_oxxx",
+      "_ooox_x_x",
+      "___oxoxox",
+      "_oxo__xox",
+      "__xox_oox"
+    ],
+    "xWins": 12151,
+    "oWins": 6737
+  },
+  "__ooo_xxx": {
+    "nextStates": [],
+    "xWins": 23833,
+    "oWins": 0
+  },
+  "__xo__ox_": {
+    "nextStates": [
+      "__xo__oxx",
+      "__xx__oox",
+      "__xx_xoo_",
+      "__xox_ox_",
+      "__xo_xox_"
+    ],
+    "xWins": 4832,
+    "oWins": 5747
+  },
+  "__o__oxx_": {
+    "nextStates": [
+      "__o_xoxx_",
+      "_oox__x_x",
+      "__ox_oxx_",
+      "__o__oxxx",
+      "__xx_xoo_"
+    ],
+    "xWins": 5426,
+    "oWins": 5020
+  },
+  "____ox_x_": {
+    "nextStates": [
+      "___oox_x_",
+      "____oxox_",
+      "____ox_xo",
+      "__oxo__x_"
+    ],
+    "xWins": 7530,
+    "oWins": 8414
+  },
+  "___oox_x_": {
+    "nextStates": [
+      "__xoox_x_",
+      "__xxoo_x_",
+      "___oox_xx",
+      "_o_xox_x_",
+      "___ooxxx_"
+    ],
+    "xWins": 5788,
+    "oWins": 4899
+  },
+  "___x_xo_o": {
+    "nextStates": [
+      "_x_x_xo_o",
+      "__xx_xo_o",
+      "___xxxo_o",
+      "___x_xoxo"
+    ],
+    "xWins": 2649,
+    "oWins": 2666
+  },
+  "_x_x_xo_o": {
+    "nextStates": [
+      "_xox__oxo",
+      "_x_x_xooo",
+      "_x_xoxo_o"
+    ],
+    "xWins": 1142,
+    "oWins": 2102
+  },
+  "____o_oxx": {
+    "nextStates": [
+      "__oxox__x",
+      "____oxxxo",
+      "____oxoxx",
+      "__o_oxx_x",
+      "__x_o_xxo"
+    ],
+    "xWins": 4380,
+    "oWins": 6253
+  },
+  "o_xox_o_x": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 12761
+  },
+  "o_o___x_x": {
+    "nextStates": [
+      "o_o__xx_x",
+      "o_xx__o_x",
+      "o_o___xxx",
+      "o_o_x_x_x"
+    ],
+    "xWins": 2797,
+    "oWins": 2576
+  },
+  "o_o__xx_x": {
+    "nextStates": [
+      "o_oo_xx_x",
+      "o_o__xxox",
+      "o_o_oxx_x",
+      "o_xo__oxx"
+    ],
+    "xWins": 2524,
+    "oWins": 3803
+  },
+  "____oxxxo": {
+    "nextStates": [
+      "__oxo_oxx",
+      "__xoox_xo",
+      "__o_oxxxo",
+      "___ooxxxo"
+    ],
+    "xWins": 2434,
+    "oWins": 3973
+  },
+  "__xx__o_o": {
+    "nextStates": [
+      "__xx_xo_o",
+      "__xx__oxo",
+      "_xox__x_o",
+      "__xxx_o_o",
+      "o_o__xx_x"
+    ],
+    "xWins": 4239,
+    "oWins": 6368
+  },
+  "__xx_xo_o": {
+    "nextStates": [
+      "_oxx_xo_o",
+      "__xx_xooo",
+      "o_ox_xo_x",
+      "__xxoxo_o"
+    ],
+    "xWins": 2332,
+    "oWins": 3994
+  },
+  "__ox___xo": {
+    "nextStates": [
+      "__ox__xxo",
+      "__ox_x_xo",
+      "__oxx__xo",
+      "_xox__x_o",
+      "_x_x_xo_o"
+    ],
+    "xWins": 4537,
+    "oWins": 6068
+  },
+  "___oxx___": {
+    "nextStates": [
+      "___oxx_o_",
+      "___oxxo__",
+      "___oxx__o"
+    ],
+    "xWins": 7682,
+    "oWins": 8239
+  },
+  "___oxx_o_": {
+    "nextStates": [
+      "___oxxxo_",
+      "__xxxo_o_",
+      "___oxx_ox",
+      "__xoxx_o_",
+      "_o_oxx_x_"
+    ],
+    "xWins": 5820,
+    "oWins": 4813
+  },
+  "__x___x_o": {
+    "nextStates": [
+      "__xo__x_o",
+      "o_x___x_o",
+      "__x___xoo",
+      "__x_o_x_o"
+    ],
+    "xWins": 9054,
+    "oWins": 6938
+  },
+  "__xo_xx_o": {
+    "nextStates": [
+      "o_xo_xx_o",
+      "__xo_xxoo",
+      "__xooxx_o",
+      "_oxo__xxo"
+    ],
+    "xWins": 3185,
+    "oWins": 3079
+  },
+  "__oxo__xx": {
+    "nextStates": [
+      "_ooxo__xx",
+      "__oxo_oxx",
+      "__oxoo_xx",
+      "_xoxo_x_o"
+    ],
+    "xWins": 2554,
+    "oWins": 3809
+  },
+  "____xxoox": {
+    "nextStates": [
+      "__o_xooxx",
+      "__oxx_xoo",
+      "___oxxoox",
+      "__ooxo_xx"
+    ],
+    "xWins": 3854,
+    "oWins": 2468
+  },
+  "____oxo_x": {
+    "nextStates": [
+      "__xxo_x_o",
+      "____oxoxx",
+      "__o_o_xxx",
+      "___xoxo_x",
+      "__oxo__xx"
+    ],
+    "xWins": 5191,
+    "oWins": 5517
+  },
+  "o_x___x_o": {
+    "nextStates": [
+      "o_x___xxo",
+      "o_x_x_x_o"
+    ],
+    "xWins": 1350,
+    "oWins": 1289
+  },
+  "o_x___xxo": {
+    "nextStates": [
+      "o_xo_xx_o",
+      "o_x_o_xxo",
+      "o_x__oxxo",
+      "o_xo__xxo"
+    ],
+    "xWins": 2663,
+    "oWins": 3665
+  },
+  "__oo_xxx_": {
+    "nextStates": [
+      "__oo_xxxo",
+      "_ooo_xxx_",
+      "_xox__xoo",
+      "__oooxxx_"
+    ],
+    "xWins": 3322,
+    "oWins": 3004
+  },
+  "___x_xoxo": {
+    "nextStates": [
+      "___xoxoxo",
+      "__ox_xoxo",
+      "_o_x_xoxo"
+    ],
+    "xWins": 1628,
+    "oWins": 1554
+  },
+  "__ox_x_xo": {
+    "nextStates": [
+      "_xox__oxo",
+      "__oxox_xo",
+      "_oox_x_xo",
+      "__ox_xoxo"
+    ],
+    "xWins": 3120,
+    "oWins": 3182
+  },
+  "__x__oxxo": {
+    "nextStates": [
+      "o_x__oxxo",
+      "__xo_xxoo",
+      "__xo_oxxo",
+      "__x_ooxxo"
+    ],
+    "xWins": 3189,
+    "oWins": 3119
+  },
+  "____oxxo_": {
+    "nextStates": [
+      "____oxxox",
+      "__xxoo_x_",
+      "__x_ooxx_",
+      "__xxo__ox",
+      "___xox_ox"
+    ],
+    "xWins": 4404,
+    "oWins": 6074
+  },
+  "____oxxox": {
+    "nextStates": [
+      "__oxo_xox",
+      "__o_oxxox",
+      "___ooxxox",
+      "__xooo_xx"
+    ],
+    "xWins": 2511,
+    "oWins": 3793
+  },
+  "__xo___x_": {
+    "nextStates": [
+      "__xo__ox_",
+      "__xo___xo",
+      "__xx_o_o_",
+      "__xx___oo",
+      "__xoo__x_",
+      "__xo_o_x_"
+    ],
+    "xWins": 15560,
+    "oWins": 16455
+  },
+  "__xx__oox": {
+    "nextStates": [
+      "__xxo_oox",
+      "o_xx__oox",
+      "_oxx__oox",
+      "__xx_ooox"
+    ],
+    "xWins": 3423,
+    "oWins": 3008
+  },
+  "____oxox_": {
+    "nextStates": [
+      "__o_oxxx_",
+      "___xox_xo",
+      "__oxox_x_",
+      "__xxo__xo",
+      "____oxoxx"
+    ],
+    "xWins": 4430,
+    "oWins": 6238
+  },
+  "__oxoxx__": {
+    "nextStates": [
+      "__xxoxoo_",
+      "__xxoxo_o",
+      "__oxoxxo_",
+      "__oxoxx_o"
+    ],
+    "xWins": 2994,
+    "oWins": 3243
+  },
+  "__xxxo_o_": {
+    "nextStates": [
+      "__xxxo_oo",
+      "_o_oxxx_o",
+      "__xxxooo_",
+      "_o_oxxxo_"
+    ],
+    "xWins": 3348,
+    "oWins": 3140
+  },
+  "__xo___xo": {
+    "nextStates": [
+      "__xo__xxo",
+      "__xox__xo",
+      "__xo_x_xo",
+      "_o_x_xo_x",
+      "_oxx__o_x"
+    ],
+    "xWins": 5724,
+    "oWins": 4952
+  },
+  "___o_xox_": {
+    "nextStates": [
+      "___o_xoxx",
+      "__xo_xox_",
+      "__xx_o_xo",
+      "_oox_x_x_",
+      "___oxxox_"
+    ],
+    "xWins": 4591,
+    "oWins": 5986
+  },
+  "_o_o_xoxx": {
+    "nextStates": [
+      "_ooo_xx_x",
+      "_o_o_xoxx",
+      "_oxx_o_xo",
+      "_ooo_xxx_",
+      "__oo_xoxx",
+      "_oox__xxo",
+      "___ooxoxx",
+      "__xo_xxoo",
+      "__ooox_xx",
+      "__xoxx_oo",
+      "__ox_oxxo",
+      "_oxx_ox_o",
+      "_o_oox_xx",
+      "_o_oxxo_x",
+      "_o_oxxox_",
+      "_ooo__xxx",
+      "_oox_oxx_"
+    ],
+    "xWins": 21392,
+    "oWins": 21082
+  },
+  "___oxxo__": {
+    "nextStates": [
+      "__oxxo_x_",
+      "___oxxox_",
+      "__oxxo__x",
+      "__oxxox__",
+      "___oxxo_x"
+    ],
+    "xWins": 4696,
+    "oWins": 5788
+  },
+  "__ooxx__x": {
+    "nextStates": [
+      "__xoxx_oo",
+      "__ooxx_ox",
+      "__ooxxo_x",
+      "__xoxxo_o"
+    ],
+    "xWins": 2991,
+    "oWins": 3119
+  },
+  "_o_xxxo_o": {
+    "nextStates": [],
+    "xWins": 11810,
+    "oWins": 0
+  },
+  "___xoxo_x": {
+    "nextStates": [
+      "___xoxoox",
+      "__oxoxx_o",
+      "_o_xoxo_x",
+      "__oxoxo_x"
+    ],
+    "xWins": 2498,
+    "oWins": 3911
+  },
+  "____ox_xo": {
+    "nextStates": [
+      "____oxxxo",
+      "___xox_xo",
+      "__xxo_ox_"
+    ],
+    "xWins": 2155,
+    "oWins": 3086
+  },
+  "__o_x_xo_": {
+    "nextStates": [
+      "__o_xxxo_",
+      "__oox_x_x",
+      "__ooxxx__",
+      "__oox_xx_",
+      "__o_x_xox"
+    ],
+    "xWins": 5715,
+    "oWins": 4874
+  },
+  "___o_xxxo": {
+    "nextStates": [
+      "__oo_xxxo",
+      "__ox_ooxx",
+      "___ooxxxo",
+      "_o_o_xxxo"
+    ],
+    "xWins": 2996,
+    "oWins": 3392
+  },
+  "___o_xo_x": {
+    "nextStates": [
+      "_oox___xx",
+      "__xx_ox_o",
+      "___o_xoxx",
+      "__xo_xo_x",
+      "___oxxo_x"
+    ],
+    "xWins": 5689,
+    "oWins": 5084
+  },
+  "_oox___xx": {
+    "nextStates": [
+      "_ooxo__xx",
+      "_oox__oxx",
+      "_oox_o_xx",
+      "_xox_ox_o"
+    ],
+    "xWins": 2512,
+    "oWins": 3935
+  },
+  "_o_o_x_xx": {
+    "nextStates": [
+      "_oox_oxx_",
+      "_o_o_xoxx",
+      "_o_oox_xx"
+    ],
+    "xWins": 1716,
+    "oWins": 1436
+  },
+  "__ox_xox_": {
+    "nextStates": [
+      "_oox_xox_",
+      "__ox_xoxo",
+      "_xox__oxo",
+      "__oxoxox_"
+    ],
+    "xWins": 2458,
+    "oWins": 3816
+  },
+  "__xo_xo_x": {
+    "nextStates": [],
+    "xWins": 6335,
+    "oWins": 0
+  },
+  "_o_x_x_ox": {
+    "nextStates": [
+      "_oox_xxo_",
+      "_o_x_xoox",
+      "_o_xox_ox",
+      "_oox_x_ox"
+    ],
+    "xWins": 2650,
+    "oWins": 3677
+  },
+  "__o___xox": {
+    "nextStates": [
+      "__o__xxox",
+      "__o_x_xox",
+      "__ox__xox",
+      "o_x___xox",
+      "__xx_oo_x"
+    ],
+    "xWins": 5488,
+    "oWins": 5109
+  },
+  "__o__xxox": {
+    "nextStates": [
+      "__o_oxxox",
+      "__xo_ooxx",
+      "__oo_xxox",
+      "o_o__xxox"
+    ],
+    "xWins": 2846,
+    "oWins": 3585
+  },
+  "__xoo___x": {
+    "nextStates": [
+      "__xoo_x_x",
+      "__xoox__x",
+      "__xoo__xx"
+    ],
+    "xWins": 2632,
+    "oWins": 2643
+  },
+  "__xoo_x_x": {
+    "nextStates": [
+      "__xoo_xox",
+      "o_xoo_x_x",
+      "_oxoo_x_x",
+      "__xooox_x"
+    ],
+    "xWins": 2601,
+    "oWins": 3700
+  },
+  "__x___xoo": {
+    "nextStates": [
+      "__xx__xoo",
+      "o_xo__x_x",
+      "__xx_ox_o",
+      "__x_x_xoo",
+      "__x__oxxo"
+    ],
+    "xWins": 6630,
+    "oWins": 3823
+  },
+  "__xx__xoo": {
+    "nextStates": [
+      "_oxx__xoo",
+      "o_xo__xxo",
+      "__xx_oxoo",
+      "__xxo_xoo"
+    ],
+    "xWins": 3495,
+    "oWins": 2740
+  },
+  "__o_o_x_x": {
+    "nextStates": [
+      "__o_o_xxx",
+      "__xxo_o_x",
+      "o_x_o_x_x",
+      "__oxo_x_x",
+      "__o_oxx_x"
+    ],
+    "xWins": 6281,
+    "oWins": 4416
+  },
+  "__o_o_xxx": {
+    "nextStates": [],
+    "xWins": 6368,
+    "oWins": 0
+  },
+  "__xoxo_x_": {
+    "nextStates": [
+      "_ooxx__ox",
+      "__xoxo_xo",
+      "_o_oxxxo_",
+      "__xoxoox_"
+    ],
+    "xWins": 3741,
+    "oWins": 2606
+  },
+  "___xox_xo": {
+    "nextStates": [
+      "__oxox_xo",
+      "__oxoxox_",
+      "_o_xox_xo",
+      "___xoxoxo"
+    ],
+    "xWins": 2270,
+    "oWins": 4041
+  },
+  "____o_xox": {
+    "nextStates": [
+      "__xxoo__x",
+      "__x_o_xox",
+      "____oxxox"
+    ],
+    "xWins": 2247,
+    "oWins": 3060
+  },
+  "__xxoo__x": {
+    "nextStates": [
+      "__xxoo_ox",
+      "__xxooo_x"
+    ],
+    "xWins": 1542,
+    "oWins": 1638
+  },
+  "__xx_x_oo": {
+    "nextStates": [
+      "__xx_xooo",
+      "__xxox_oo",
+      "_oox_x_ox",
+      "_oox_xo_x"
+    ],
+    "xWins": 2378,
+    "oWins": 3995
+  },
+  "__x_x_xoo": {
+    "nextStates": [],
+    "xWins": 6254,
+    "oWins": 0
+  },
+  "__oxx_ox_": {
+    "nextStates": [
+      "__oxx_oxo",
+      "__oxxoox_"
+    ],
+    "xWins": 1796,
+    "oWins": 1452
+  },
+  "__o_x_x_o": {
+    "nextStates": [
+      "__oxx_x_o",
+      "__xxx_o_o",
+      "o_o_x_x_x",
+      "__o_xxx_o",
+      "__o_x_xxo"
+    ],
+    "xWins": 4519,
+    "oWins": 6060
+  },
+  "__xx_xoo_": {
+    "nextStates": [
+      "_oox_xxo_",
+      "__xxoxoo_",
+      "_oox_xx_o",
+      "__xx_xooo"
+    ],
+    "xWins": 2567,
+    "oWins": 3611
+  },
+  "__xo_x_xo": {
+    "nextStates": [
+      "_oox__oxx",
+      "__xoox_xo",
+      "__xo_xoxo",
+      "_o_o_xxxo"
+    ],
+    "xWins": 2899,
+    "oWins": 3441
+  },
+  "__oo_x__x": {
+    "nextStates": [
+      "__oo_x_xx",
+      "__oo_xx_x",
+      "__xo_xx_o",
+      "__ooxx__x",
+      "__xo_x_xo"
+    ],
+    "xWins": 5555,
+    "oWins": 4908
+  },
+  "__oo_x_xx": {
+    "nextStates": [
+      "_oox__xxo",
+      "__ooox_xx",
+      "__oo_xoxx",
+      "_o_o_xoxx"
+    ],
+    "xWins": 3088,
+    "oWins": 3294
+  },
+  "__xo_xox_": {
+    "nextStates": [
+      "_xox_ox_o",
+      "_ooo_xxx_",
+      "__xo_xoxo",
+      "__xooxox_"
+    ],
+    "xWins": 2592,
+    "oWins": 3717
+  },
+  "__o__ox_x": {
+    "nextStates": [
+      "o_xo__x_x",
+      "__xx__oox",
+      "__ox_ox_x",
+      "__o__oxxx",
+      "__o_xox_x"
+    ],
+    "xWins": 6827,
+    "oWins": 3842
+  },
+  "o_xo__x_x": {
+    "nextStates": [
+      "o_xo__xox",
+      "o_xoo_x_x",
+      "o_xo_ox_x",
+      "ooxo__x_x"
+    ],
+    "xWins": 3925,
+    "oWins": 2557
+  },
+  "__oox_x_x": {
+    "nextStates": [
+      "o_o_xox_x",
+      "__ooxox_x",
+      "__oox_xox",
+      "_ooox_x_x"
+    ],
+    "xWins": 3500,
+    "oWins": 2793
+  },
+  "__xxoo_x_": {
+    "nextStates": [
+      "_oxxoo_x_",
+      "__xxoo_xo",
+      "__xxooox_",
+      "_oxxo__xo"
+    ],
+    "xWins": 3102,
+    "oWins": 3241
+  },
+  "___xox_ox": {
+    "nextStates": [
+      "__oxoxxo_",
+      "___xoxoox",
+      "__oxox_ox",
+      "_o_xox_ox"
+    ],
+    "xWins": 2373,
+    "oWins": 3892
+  },
+  "__o_x_xox": {
+    "nextStates": [
+      "__oox_xox",
+      "__xoxoo_x",
+      "o_o_x_xox",
+      "__o_xoxox"
+    ],
+    "xWins": 3237,
+    "oWins": 3090
+  },
+  "_o_xox_ox": {
+    "nextStates": [],
+    "xWins": 0,
+    "oWins": 24420
+  },
+  "__xo_o_x_": {
+    "nextStates": [
+      "__xo_o_xx",
+      "__xoxo_x_",
+      "_oxx___ox",
+      "_o_x_x_ox",
+      "__xo_oxx_"
+    ],
+    "xWins": 5167,
+    "oWins": 5612
+  },
+  "_____xoox": {
+    "nextStates": [
+      "__o__oxxx",
+      "___x_xoox",
+      "__ox_o_xx",
+      "__xx__xoo",
+      "____xxoox"
+    ],
+    "xWins": 6856,
+    "oWins": 3839
+  },
+  "__o__oxxx": {
+    "nextStates": [],
+    "xWins": 6289,
+    "oWins": 0
+  },
+  "____xoo_x": {
+    "nextStates": [
+      "____xooxx",
+      "__oxx__ox",
+      "___oxxx_o",
+      "__xox_x_o",
+      "__o_x_xox"
+    ],
+    "xWins": 6278,
+    "oWins": 4453
+  },
+  "____xooxx": {
+    "nextStates": [
+      "__oox_xxo",
+      "__ooxx_ox",
+      "___oxooxx",
+      "__o_xooxx"
+    ],
+    "xWins": 3598,
+    "oWins": 2901
+  },
+  "__xox_ox_": {
+    "nextStates": [
+      "__xox_oxo",
+      "__xoxoox_",
+      "__xxx_ooo",
+      "__xxxooo_"
+    ],
+    "xWins": 2707,
+    "oWins": 3735
+  },
+  "_o_o_x_x_": {
+    "nextStates": [
+      "_oxx_o_x_",
+      "_o_o_xxx_",
+      "_o_oxx_x_",
+      "_o_o_x_xx"
+    ],
+    "xWins": 2906,
+    "oWins": 2442
+  },
+  "_oxx_o_x_": {
+    "nextStates": [
+      "_oxx_o_xo",
+      "_oxxoo_x_",
+      "_oxx_oox_"
+    ],
+    "xWins": 1526,
+    "oWins": 1550
+  },
+  "__xx_oxo_": {
+    "nextStates": [
+      "__xx_oxoo",
+      "_oxo__xxo",
+      "_oxo_oxx_",
+      "__xxooxo_"
+    ],
+    "xWins": 3469,
+    "oWins": 2835
+  },
+  "___x_xoox": {
+    "nextStates": [
+      "__ox_xoox",
+      "___xoxoox",
+      "_o_x_xoox",
+      "__ox_xxoo"
+    ],
+    "xWins": 3509,
+    "oWins": 2919
+  },
+  "__xox__o_": {
+    "nextStates": [
+      "__xox_xo_",
+      "__xoxx_o_",
+      "__xox__ox"
+    ],
+    "xWins": 3294,
+    "oWins": 1944
+  },
+  "__xox_xo_": {
+    "nextStates": [],
+    "xWins": 3149,
+    "oWins": 0
+  },
+  "__o_x_x__": {
+    "nextStates": [
+      "__o_x_xo_",
+      "__o_xox__",
+      "__o_x_x_o"
+    ],
+    "xWins": 7855,
+    "oWins": 8231
+  },
+  "__xx_ox_o": {
+    "nextStates": [
+      "__xx_oxoo",
+      "o_xo_xx_o",
+      "__xxoox_o",
+      "_oxx_ox_o"
+    ],
+    "xWins": 3553,
+    "oWins": 2799
+  },
+  "____x_oxo": {
+    "nextStates": [
+      "____xxoxo",
+      "__oxxx__o",
+      "__o_xxx_o"
+    ],
+    "xWins": 3210,
+    "oWins": 2031
+  },
+  "____xxoxo": {
+    "nextStates": [
+      "__oxx_oxo",
+      "__ooxx_xo",
+      "___oxxoxo",
+      "__o_xxoxo"
+    ],
+    "xWins": 3470,
+    "oWins": 2862
+  },
+  "___oxxox_": {
+    "nextStates": [
+      "___oxxoxo",
+      "__oxxo_xo",
+      "_o_oxxox_",
+      "__ooxxox_"
+    ],
+    "xWins": 2526,
+    "oWins": 3680
+  },
+  "__xx_oox_": {
+    "nextStates": [
+      "__xx_ooxo",
+      "_oxx_oox_",
+      "__xxooox_",
+      "_oxx__oxo"
+    ],
+    "xWins": 3112,
+    "oWins": 3168
+  },
+  "__oo__xxx": {
+    "nextStates": [],
+    "xWins": 6360,
+    "oWins": 0
+  },
+  "_o_x_x_o_": {
+    "nextStates": [
+      "_o_x_x_ox",
+      "_o_xxx_o_"
+    ],
+    "xWins": 1390,
+    "oWins": 1267
+  },
+  "o_o___xxx": {
+    "nextStates": [],
+    "xWins": 3212,
+    "oWins": 0
+  },
+  "__xxox_o_": {
+    "nextStates": [
+      "_o_xox_ox",
+      "__xxoxoo_",
+      "__xxox_oo",
+      "_o_xoxo_x"
+    ],
+    "xWins": 2260,
+    "oWins": 4085
+  },
+  "____oxoxx": {
+    "nextStates": [
+      "__ooox_xx",
+      "__o_oxoxx",
+      "__oxo_xxo",
+      "___ooxoxx"
+    ],
+    "xWins": 2447,
+    "oWins": 3864
+  },
+  "__x_o_xox": {
+    "nextStates": [
+      "__xoo_xox",
+      "__xooox_x",
+      "o_x_o_xox",
+      "__x_ooxox"
+    ],
+    "xWins": 2452,
+    "oWins": 3886
+  },
+  "__oox__xx": {
+    "nextStates": [
+      "_ooxx_x_o",
+      "__ooxo_xx",
+      "__oox_oxx",
+      "_o_oxxo_x"
+    ],
+    "xWins": 3769,
+    "oWins": 2542
+  },
+  "_o_xxx_o_": {
+    "nextStates": [],
+    "xWins": 1593,
+    "oWins": 0
+  },
+  "__ox_o_xx": {
+    "nextStates": [
+      "__oxoo_xx",
+      "_xox__xoo",
+      "__ox_ooxx",
+      "_oox_o_xx"
+    ],
+    "xWins": 3280,
+    "oWins": 3125
+  },
+  "_____ooxx": {
+    "nextStates": [
+      "__xo__xxo",
+      "___o_xxxo",
+      "__ox_x_ox",
+      "____xooxx",
+      "__o__xxox"
+    ],
+    "xWins": 5640,
+    "oWins": 5083
+  },
+  "__ox__xox": {
+    "nextStates": [
+      "o_o__xxox",
+      "_oox__xox",
+      "__ox_oxox",
+      "__oxo_xox"
+    ],
+    "xWins": 3128,
+    "oWins": 3268
+  },
+  "__o_xox__": {
+    "nextStates": [
+      "__o_xox_x",
+      "__oxxox__",
+      "__o_xoxx_",
+      "__xox_ox_",
+      "__xox_o_x"
+    ],
+    "xWins": 4918,
+    "oWins": 5869
+  },
+  "__o_xox_x": {
+    "nextStates": [
+      "o_o_xox_x",
+      "__ooxox_x",
+      "__o_xoxox",
+      "__xox_oox"
+    ],
+    "xWins": 3600,
+    "oWins": 2759
+  },
+  "__x_xoxoo": {
+    "nextStates": [],
+    "xWins": 11862,
+    "oWins": 0
+  },
+  "__o__xox_": {
+    "nextStates": [
+      "__ox_xox_",
+      "_xox__o_x",
+      "__o__xoxx",
+      "__o_xxox_"
+    ],
+    "xWins": 2305,
+    "oWins": 2949
+  },
+  "__xx_o_ox": {
+    "nextStates": [
+      "_oxx_oo_x",
+      "_oxx_o_ox",
+      "__xx_ooox",
+      "__xxoo_ox"
+    ],
+    "xWins": 2996,
+    "oWins": 3418
+  },
+  "___oxox_x": {
+    "nextStates": [
+      "_o_oxox_x",
+      "__ooxox_x",
+      "___oxoxox"
+    ],
+    "xWins": 1920,
+    "oWins": 1233
+  },
+  "__xxx_o_o": {
+    "nextStates": [
+      "o_o_xxx_o",
+      "__xxx_ooo",
+      "__xxxoo_o",
+      "_oxxx_o_o"
+    ],
+    "xWins": 2586,
+    "oWins": 3779
+  },
+  "__oxx__ox": {
+    "nextStates": [
+      "__oxxo_ox",
+      "_oxxx_o_o",
+      "_ooxx__ox",
+      "__oxx_oox"
+    ],
+    "xWins": 3585,
+    "oWins": 2789
+  },
+  "__o_x_o_x": {
+    "nextStates": [
+      "__o_x_oxx",
+      "o_x_x_x_o",
+      "__oxx_o_x"
+    ],
+    "xWins": 3301,
+    "oWins": 2065
+  },
+  "__o_x_oxx": {
+    "nextStates": [
+      "__oox_oxx",
+      "o_o_x_oxx",
+      "__o_xooxx",
+      "__ooxxo_x"
+    ],
+    "xWins": 3440,
+    "oWins": 2941
+  },
+  "___xox___": {
+    "nextStates": [
+      "___xox_o_",
+      "___xox__o"
+    ],
+    "xWins": 3322,
+    "oWins": 4500
+  },
+  "___xox_o_": {
+    "nextStates": [
+      "___xox_ox",
+      "__xxox_o_",
+      "_o_xox_x_"
+    ],
+    "xWins": 2118,
+    "oWins": 3023
+  },
+  "___x_x_oo": {
+    "nextStates": [
+      "__xx_x_oo",
+      "___x_xoox",
+      "___xxx_oo",
+      "__xx_xoo_",
+      "_oox_x_x_"
+    ],
+    "xWins": 5770,
+    "oWins": 4822
+  },
+  "__x_o_x_o": {
+    "nextStates": [
+      "__xxo_x_o",
+      "o_x_o_x_x",
+      "__x_o_xxo"
+    ],
+    "xWins": 2306,
+    "oWins": 3014
+  },
+  "__ooxxx__": {
+    "nextStates": [
+      "__ooxxx_o",
+      "__xxxoo_o",
+      "__ooxxxo_",
+      "__xxxooo_"
+    ],
+    "xWins": 3018,
+    "oWins": 3394
+  },
+  "_oxo__x_x": {
+    "nextStates": [
+      "ooxo__x_x",
+      "_oxo__xox",
+      "_oxoo_x_x"
+    ],
+    "xWins": 1994,
+    "oWins": 1344
+  },
+  "____xoxox": {
+    "nextStates": [
+      "___oxoxox",
+      "__xoxo_ox",
+      "__oox_xox",
+      "__o_xoxox"
+    ],
+    "xWins": 3507,
+    "oWins": 2731
+  },
+  "__x__oxo_": {
+    "nextStates": [
+      "_oxo__x_x",
+      "__x_xoxo_",
+      "__xx_oxo_",
+      "__x__oxox"
+    ],
+    "xWins": 3363,
+    "oWins": 2062
+  },
+  "__x__oxox": {
+    "nextStates": [
+      "o_x__oxox",
+      "__xo_oxox",
+      "__x_ooxox"
+    ],
+    "xWins": 1524,
+    "oWins": 1632
+  },
+  "__o_xxox_": {
+    "nextStates": [
+      "__o_xxoxo",
+      "_xoxx_o_o",
+      "__ooxxox_"
+    ],
+    "xWins": 1779,
+    "oWins": 1381
+  },
+  "_oxx___ox": {
+    "nextStates": [
+      "_oxx_o_ox",
+      "_oxxo__ox",
+      "_oxx__oox"
+    ],
+    "xWins": 1411,
+    "oWins": 1814
+  },
+  "_o_xox_x_": {
+    "nextStates": [
+      "_o_xox_xo",
+      "_ooxox_x_"
+    ],
+    "xWins": 1444,
+    "oWins": 1800
+  },
+  "__oxxox__": {
+    "nextStates": [
+      "__oxxoxo_",
+      "__xoxxo_o",
+      "__xoxxoo_",
+      "__oxxox_o"
+    ],
+    "xWins": 2438,
+    "oWins": 3994
+  },
+  "__xo_ox__": {
+    "nextStates": [
+      "__xo_oxx_",
+      "__xo_ox_x",
+      "__xoxox__"
+    ],
+    "xWins": 2799,
+    "oWins": 2371
+  },
+  "__xo_oxx_": {
+    "nextStates": [
+      "_oxo_oxx_",
+      "__xo_oxxo",
+      "_oxx__xoo",
+      "__xoooxx_"
+    ],
+    "xWins": 2887,
+    "oWins": 3364
+  },
+  "__oox_xx_": {
+    "nextStates": [
+      "__oox_xxo",
+      "__oxxoxo_",
+      "__ooxoxx_",
+      "__oxx_xoo"
+    ],
+    "xWins": 3410,
+    "oWins": 2810
+  },
+  "___xxx_oo": {
+    "nextStates": [],
+    "xWins": 6434,
+    "oWins": 0
+  },
+  "__xoxx_o_": {
+    "nextStates": [
+      "_o_oxxo_x",
+      "__xoxx_oo",
+      "_o_oxo_xx",
+      "__xoxxoo_"
+    ],
+    "xWins": 3380,
+    "oWins": 2898
+  },
+  "__oxo__x_": {
+    "nextStates": [
+      "__oxox_x_",
+      "__oxo__xx",
+      "__oxo_xx_"
+    ],
+    "xWins": 2183,
+    "oWins": 3128
+  },
+  "__oxox_x_": {
+    "nextStates": [
+      "_ooxox_x_",
+      "__oxoxox_",
+      "__oxox_xo",
+      "_x_xoxo_o"
+    ],
+    "xWins": 2116,
+    "oWins": 4184
+  },
+  "___oxx__o": {
+    "nextStates": [
+      "__ooxx_x_",
+      "___oxxx_o",
+      "__ooxxx__",
+      "__ooxx__x",
+      "___oxx_xo"
+    ],
+    "xWins": 5597,
+    "oWins": 4926
+  },
+  "__xoox__x": {
+    "nextStates": [],
+    "xWins": 3112,
+    "oWins": 0
+  },
+  "_o_x_x_xo": {
+    "nextStates": [
+      "_o_xox_xo",
+      "_o_x_xoxo",
+      "_oox_x_xo",
+      "_oox_xox_"
+    ],
+    "xWins": 3157,
+    "oWins": 3139
+  },
+  "___o_oxxx": {
+    "nextStates": [],
+    "xWins": 3167,
+    "oWins": 0
+  },
+  "__ox_xo__": {
+    "nextStates": [
+      "__ox_xox_",
+      "__oxxxo__",
+      "__ox_xo_x"
+    ],
+    "xWins": 2580,
+    "oWins": 2663
+  },
+  "____xo_ox": {
+    "nextStates": [
+      "___oxxxo_",
+      "____xoxox",
+      "__xox_xo_"
+    ],
+    "xWins": 3121,
+    "oWins": 2124
+  },
+  "__ox__o_x": {
+    "nextStates": [
+      "__ox__oxx",
+      "o_x___xxo",
+      "_xox__o_x",
+      "__oxx_o_x",
+      "__ox_xo_x"
+    ],
+    "xWins": 4720,
+    "oWins": 5850
+  },
+  "o_o_x_x_x": {
+    "nextStates": [
+      "o_xox_o_x",
+      "o_o_xox_x",
+      "o_o_x_xox"
+    ],
+    "xWins": 1286,
+    "oWins": 1845
+  },
+  "___xxxo_o": {
+    "nextStates": [],
+    "xWins": 3140,
+    "oWins": 0
+  },
+  "___oxxx_o": {
+    "nextStates": [
+      "_o_oxxx_o",
+      "__ooxxx_o",
+      "___oxxxoo",
+      "__oxxoo_x"
+    ],
+    "xWins": 3336,
+    "oWins": 3058
+  },
+  "_xox__o_x": {
+    "nextStates": [
+      "_xox__oox",
+      "_xoxo_o_x",
+      "o_xx__oxo"
+    ],
+    "xWins": 1231,
+    "oWins": 1871
+  },
+  "o_x_x_x_o": {
+    "nextStates": [],
+    "xWins": 1542,
+    "oWins": 0
+  },
+  "__o_xxx_o": {
+    "nextStates": [
+      "__ooxxx_o",
+      "__xox_oxo",
+      "__o_xxxoo",
+      "o_o_xxx_o"
+    ],
+    "xWins": 3412,
+    "oWins": 2997
+  },
+  "__x_o_xxo": {
+    "nextStates": [
+      "__xooxx_o",
+      "__x_ooxxo",
+      "__xoo_xxo",
+      "o_x_o_xxo"
+    ],
+    "xWins": 2382,
+    "oWins": 4038
+  },
+  "__oxx_o_x": {
+    "nextStates": [
+      "__oxxoo_x",
+      "_ooxx_o_x",
+      "__oxx_oox",
+      "o_o_xxx_o"
+    ],
+    "xWins": 3725,
+    "oWins": 2642
+  },
+  "o_x_o_x_x": {
+    "nextStates": [
+      "o_xoo_x_x",
+      "o_x_o_xox"
+    ],
+    "xWins": 1719,
+    "oWins": 1384
+  },
+  "__ox_xo_x": {
+    "nextStates": [
+      "__oxoxo_x",
+      "_oox_xo_x",
+      "__ox_xoox",
+      "o_ox_xo_x"
+    ],
+    "xWins": 2527,
+    "oWins": 3904
+  },
+  "_o_x_xo_x": {
+    "nextStates": [
+      "_o_x_xoox",
+      "_oox_xx_o",
+      "_oox_xo_x",
+      "_o_xoxo_x"
+    ],
+    "xWins": 3394,
+    "oWins": 3047
+  },
+  "__o__xoxx": {
+    "nextStates": [
+      "__oo_xoxx",
+      "o_o__xoxx",
+      "__o_oxoxx"
+    ],
+    "xWins": 1103,
+    "oWins": 2052
+  },
+  "__xx_oo_x": {
+    "nextStates": [
+      "_oxx_oo_x",
+      "__xxooo_x",
+      "o_xx_oo_x",
+      "__xx_ooox"
+    ],
+    "xWins": 3116,
+    "oWins": 3249
+  },
+  "_o_oxx_x_": {
+    "nextStates": [
+      "_o_oxx_xo",
+      "_o_oxxox_",
+      "_ooxxo_x_"
+    ],
+    "xWins": 1398,
+    "oWins": 1860
+  },
+  "__oxo_xx_": {
+    "nextStates": [
+      "__oxo_xxo",
+      "__oxooxx_"
+    ],
+    "xWins": 1691,
+    "oWins": 1543
+  },
+  "o_xx__o_x": {
+    "nextStates": [
+      "o_xx__oox",
+      "o_xx_oo_x",
+      "o_xxo_o_x"
+    ],
+    "xWins": 1620,
+    "oWins": 1515
+  },
+  "_oox_x_x_": {
+    "nextStates": [
+      "_x_x_xooo",
+      "_oox_xox_",
+      "_oox_x_xo",
+      "_ooxox_x_"
+    ],
+    "xWins": 2516,
+    "oWins": 3945
+  },
+  "__xxo_ox_": {
+    "nextStates": [
+      "__xxo_oxo",
+      "__xxooox_"
+    ],
+    "xWins": 1565,
+    "oWins": 1590
+  }
+}
