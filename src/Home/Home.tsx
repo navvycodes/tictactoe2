@@ -5,8 +5,10 @@ import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { GameInstructionsDialog } from "../common/GameInstructionsDialog";
+import PersonIcon from "@mui/icons-material/Person";
+import PeopleIcon from "@mui/icons-material/People";
 export const Home = () => {
-  const [showExplanation, setShowExplanation] = useState(false);
+  const [showExplanation, setShowExplanation] = useState(true);
   const navigate = useNavigate();
   return (
     <Box>
@@ -17,7 +19,6 @@ export const Home = () => {
       <Tooltip title="Home">
         <IconButton
           onClick={() => {
-            // Navigate to home
             navigate("/");
           }}
           sx={{
@@ -72,7 +73,7 @@ export const Home = () => {
         <Box sx={{ width: "100%", maxWidth: 300 }}>
           <Button
             fullWidth
-            // startIcon={<VideogameAssetIcon />}
+            startIcon={<PersonIcon />}
             sx={{
               mb: 2,
               fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" },
@@ -93,7 +94,7 @@ export const Home = () => {
 
           <Button
             fullWidth
-            // startIcon={<CloudIcon />}
+            startIcon={<PeopleIcon />}
             sx={{
               fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" },
               py: { xs: 1.2, sm: 1.5 },
