@@ -1,11 +1,11 @@
 import { Box, Stack, Typography, useMediaQuery } from "@mui/material";
 
 import { TicTacToeGrid } from "../common/TicTacToeGrid";
-import { useGameBoard } from "./hooks/useGameBoard";
-import { usePlacePiece } from "./hooks/usePlacePiece";
-import { useWinner } from "./hooks/useWinner";
-import { useNumOWins } from "./hooks/useNumOWins";
-import { useNumXWins } from "./hooks/useNumXWins";
+import { useGameBoard } from "../hooks/useGameBoard";
+import { usePlacePiece } from "../hooks/usePlacePiece";
+import { useWinner } from "../hooks/useWinner";
+import { useNumOWins } from "../hooks/useNumOWins";
+import { useNumXWins } from "../hooks/useNumXWins";
 
 export const MultiPlayer = () => {
   const gameBoard = useGameBoard();

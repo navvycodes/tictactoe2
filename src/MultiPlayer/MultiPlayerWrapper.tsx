@@ -1,6 +1,6 @@
 import { IconButton, Tooltip } from "@mui/material";
 import { MultiPlayer } from "./MultiPlayer";
-import { TicTacToeMultiProvider } from "./state/TicTacToeMultiProvider";
+import { TicTacToeMultiProvider } from "../state/TicTacToeMultiProvider";
 import HomeIcon from "@mui/icons-material/Home";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useState } from "react";

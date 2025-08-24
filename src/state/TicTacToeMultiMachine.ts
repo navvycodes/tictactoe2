@@ -1,7 +1,7 @@
 // TicTacToeLocalMachine.ts
 import { setup, assign } from "xstate";
-import type { Mark } from "../../types";
-import { boardFull, checkWin, legal } from "../../helpers";
+import type { Mark } from "../types";
+import { boardFull, checkWin, legal } from "../helpers";
 
 export interface TicTacToeContext {
   board: Mark[]; // length 9
@@ -11,6 +11,9 @@ export interface TicTacToeContext {
   winner: Mark | null; // "x" | "o" | null
   numXWins: number;
   numOWins: number;
+  // Single Player States
+  singlePlayerIsX: boolean;
+  singlePlayerDifficulty: "easy" | "medium" | "hard";
 }
 
 type PlaceAtEvent = { type: "PLACE_AT"; index: number };
@@ -52,10 +55,9 @@ export const TicTacToeMultiMachine = setup({
   actions: {
     placeAt: assign(({ context, event }) => {
       if (event.type !== "PLACE_AT") return context;
-      console.log("Placing piece at:", event.index);
+
       const idx = event.index;
-      console.log("Current board:", context.board);
-      console.log("context", context);
+
       if (!legal(context.board, idx) || context.winner) return context;
 
       const next = applyMove(context, idx);
@@ -106,6 +108,8 @@ export const TicTacToeMultiMachine = setup({
     winner: null,
     numXWins: 0,
     numOWins: 0,
+    singlePlayerIsX: true,
+    singlePlayerDifficulty: "easy",
   },
 
   states: {

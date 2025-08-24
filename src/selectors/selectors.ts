@@ -1,4 +1,4 @@
-import { WIN_LINES } from "../../helpers";
+import { WIN_LINES } from "../helpers";
 import type { TicTacToeContext } from "../state/TicTacToeMultiMachine";
 
 export const selectGameBoard = ({ context }: { context: TicTacToeContext }) =>
@@ -20,4 +20,20 @@ export const selectXWins = ({ context }: { context: TicTacToeContext }) => {
 };
 export const selectOWins = ({ context }: { context: TicTacToeContext }) => {
   return context.numOWins;
+};
+
+export const selectIsPlayerX = ({ context }: { context: TicTacToeContext }) => {
+  return context.singlePlayerIsX;
+};
+
+export const selectXTurn = ({ context }: { context: TicTacToeContext }) => {
+  return context.xTurn;
+};
+
+export const selectSinglePlayerDifficulty = ({
+  context,
+}: {
+  context: TicTacToeContext;
+}) => {
+  return context.singlePlayerDifficulty;
 };
