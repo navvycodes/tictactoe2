@@ -9,6 +9,8 @@ export interface TicTacToeContext {
   oQueue: number[]; // O FIFO (max 3)
   xTurn: boolean; // true => X to move
   winner: Mark | null; // "x" | "o" | null
+  numXWins: number;
+  numOWins: number;
 }
 
 type PlaceAtEvent = { type: "PLACE_AT"; index: number };
@@ -50,12 +52,22 @@ export const TicTacToeMultiMachine = setup({
   actions: {
     placeAt: assign(({ context, event }) => {
       if (event.type !== "PLACE_AT") return context;
+      console.log("Placing piece at:", event.index);
       const idx = event.index;
+      console.log("Current board:", context.board);
+      console.log("context", context);
       if (!legal(context.board, idx) || context.winner) return context;
 
       const next = applyMove(context, idx);
-      const mover = context.xTurn ? "x" : "o"; // mover is based on PRE-move xTurn
+      const mover = context.xTurn ? "x" : "o";
       const maybeWinner = checkWin(next.board, mover) ? mover : null;
+      if (maybeWinner) {
+        if (maybeWinner === "x") {
+          context.numXWins += 1;
+        } else if (maybeWinner === "o") {
+          context.numOWins += 1;
+        }
+      }
 
       return { ...context, ...next, winner: maybeWinner };
     }),
@@ -85,26 +97,19 @@ export const TicTacToeMultiMachine = setup({
   },
 }).createMachine({
   id: "TicTacToeMulti",
-  initial: "setup",
+  initial: "playing",
   context: {
     board: Array<Mark>(9).fill("_"),
     xQueue: [],
     oQueue: [],
     xTurn: true,
     winner: null,
-    players: { xName: "Player X", oName: "Player O" },
+    numXWins: 0,
+    numOWins: 0,
   },
 
   states: {
-    setup: {
-      on: {
-        RESET_GAME: { actions: "resetGame" },
-        PLACE_AT: { target: "playing.play", actions: "placeAt" },
-      },
-    },
-
     playing: {
-      entry: "resetGame",
       initial: "play",
       on: {
         RESET_GAME: { actions: "resetGame", target: "playing.play" },
@@ -129,6 +134,10 @@ export const TicTacToeMultiMachine = setup({
 
     results: {
       on: {
+        PLACE_AT: {
+          actions: ["resetGame", "placeAt"],
+          target: "playing.check",
+        },
         RESET_GAME: { target: "playing" },
       },
     },
