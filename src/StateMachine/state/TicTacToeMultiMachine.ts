@@ -14,12 +14,23 @@ export interface TicTacToeContext {
   // Single Player States
   singlePlayerIsX: boolean;
   singlePlayerDifficulty: "easy" | "medium" | "hard";
+  singlePlayerThinkMs: number;
 }
-
+type UpdateSinglePlayerSettingsEvent = {
+  type: "UPDATE_SINGLE_PLAYER_SETTINGS";
+  settings: {
+    singlePlayerIsX: boolean;
+    singlePlayerDifficulty: "easy" | "medium" | "hard";
+    singlePlayerThinkMs: number;
+  };
+};
 type PlaceAtEvent = { type: "PLACE_AT"; index: number };
 type ResetGameEvent = { type: "RESET_GAME" };
 
-export type GameEvent = PlaceAtEvent | ResetGameEvent;
+export type GameEvent =
+  | PlaceAtEvent
+  | ResetGameEvent
+  | UpdateSinglePlayerSettingsEvent;
 
 /** Apply FIFO eviction after 3 pieces, flip turn, return next partial context */
 function applyMove(ctx: TicTacToeContext, index: number) {
@@ -53,6 +64,19 @@ export const TicTacToeMultiMachine = setup({
   },
 
   actions: {
+    updateSinglePlayerSettings: assign(({ context, event }) => {
+      if (event.type !== "UPDATE_SINGLE_PLAYER_SETTINGS") return context;
+      if (!event.settings) return context;
+      if (event.settings.singlePlayerIsX === undefined) return context;
+      if (event.settings.singlePlayerDifficulty === undefined) return context;
+      if (event.settings.singlePlayerThinkMs === undefined) return context;
+      return {
+        ...context,
+        singlePlayerIsX: event.settings.singlePlayerIsX,
+        singlePlayerDifficulty: event.settings.singlePlayerDifficulty,
+        singlePlayerThinkMs: event.settings.singlePlayerThinkMs,
+      };
+    }),
     placeAt: assign(({ context, event }) => {
       if (event.type !== "PLACE_AT") return context;
 
@@ -110,6 +134,7 @@ export const TicTacToeMultiMachine = setup({
     numOWins: 0,
     singlePlayerIsX: true,
     singlePlayerDifficulty: "hard",
+    singlePlayerThinkMs: 1000,
   },
 
   states: {
@@ -121,6 +146,10 @@ export const TicTacToeMultiMachine = setup({
       states: {
         play: {
           on: {
+            UPDATE_SINGLE_PLAYER_SETTINGS: {
+              actions: ["updateSinglePlayerSettings", "resetGame"],
+              target: "play",
+            },
             PLACE_AT: [
               { guard: "canPlace", actions: "placeAt", target: "check" },
             ],
@@ -138,6 +167,10 @@ export const TicTacToeMultiMachine = setup({
 
     results: {
       on: {
+        UPDATE_SINGLE_PLAYER_SETTINGS: {
+          actions: ["updateSinglePlayerSettings", "resetGame"],
+          target: "playing",
+        },
         PLACE_AT: {
           actions: ["resetGame", "placeAt"],
           target: "playing.check",

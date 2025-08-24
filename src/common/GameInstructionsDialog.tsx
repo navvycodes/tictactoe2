@@ -114,6 +114,13 @@ export const GameInstructionsDialog = ({
                   to start again.
                 </Typography>
               </li>
+              <li>
+                <Typography variant="body2">
+                  On single player mode, you can change the level of the AI and
+                  what mark you play as by clicking the settings icon under the
+                  score board.
+                </Typography>
+              </li>
             </ul>
           </Box>
 

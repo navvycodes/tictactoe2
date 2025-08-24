@@ -1,4 +1,4 @@
-import { useMediaQuery, Stack, Box, Typography } from "@mui/material";
+import { useMediaQuery, Stack, Box, Typography, Button } from "@mui/material";
 import { TicTacToeGrid } from "../Common/TicTacToeGrid";
 import { useGameBoard } from "../StateMachine/hooks/useGameBoard";
 import { useNumOWins } from "../StateMachine/hooks/useNumOWins";
@@ -10,10 +10,13 @@ import { useIsSinglePlayerX } from "../StateMachine/hooks/useIsSinglePlayerX";
 import { useIsXTurn } from "../StateMachine/hooks/useIsXTurn";
 import { useSinglePlayerDifficulty } from "../StateMachine/hooks/useSinglePlayerDifficulty";
 import { determineAIMove } from "./utils/GameAI/determineAIMove";
+import { useState } from "react";
+import { SinglePlayerSettingsDialog } from "./SinglePlayerSettingsDialog";
+import { useUpdateSettings } from "../StateMachine/hooks/useSaveNewSettings";
 
 export const SinglePlayer = () => {
   const gameBoard = useGameBoard();
-
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const { winner, combo } = useWinner();
   const { placePiece } = usePlacePiece();
   const numXWins = useNumXWins();
@@ -22,6 +25,7 @@ export const SinglePlayer = () => {
   const isPlayerX = useIsSinglePlayerX();
   const isXTurn = useIsXTurn();
   const singlePlayerDifficulty = useSinglePlayerDifficulty();
+  const updateSettings = useUpdateSettings();
 
   const placePiecePassThrough = (index: number) => {
     if (isPlayerX && isXTurn) {
@@ -30,9 +34,10 @@ export const SinglePlayer = () => {
       placePiece(index);
     }
   };
-  // ...existing code...
+
   useEffect(() => {
     let timeout: ReturnType<typeof setTimeout> | undefined;
+    console.log("AI THINKING");
     if (isPlayerX && !isXTurn && !winner) {
       timeout = setTimeout(() => {
         const aiMove = determineAIMove(
@@ -42,7 +47,7 @@ export const SinglePlayer = () => {
         );
         placePiece(aiMove);
       }, 1000);
-    } else if (!isPlayerX && isXTurn) {
+    } else if ((!isPlayerX && isXTurn) || (winner && !isPlayerX)) {
       timeout = setTimeout(() => {
         const aiMove = determineAIMove(gameBoard, singlePlayerDifficulty, true);
         placePiece(aiMove);
@@ -52,7 +57,7 @@ export const SinglePlayer = () => {
       if (timeout) clearTimeout(timeout);
     };
   }, [isPlayerX, isXTurn, gameBoard, winner]);
-  // ...existing code...
+
   return (
     <Stack
       direction={landscape ? "row" : "column"}
@@ -65,6 +70,24 @@ export const SinglePlayer = () => {
       height={"100vh"}
       width={"100vw"}
     >
+      <SinglePlayerSettingsDialog
+        open={settingsOpen}
+        value={{
+          difficulty: singlePlayerDifficulty,
+          side: isPlayerX ? "x" : "o",
+          thinkMs: 1000,
+        }}
+        onSave={(v) => {
+          // Handle save
+          updateSettings({
+            isPlayerX: v.side === "x",
+            difficulty: v.difficulty,
+            thinkMs: v.thinkMs,
+          });
+          setSettingsOpen(false);
+        }}
+        onClose={() => setSettingsOpen(false)}
+      />
       <TicTacToeGrid
         gameBoard={gameBoard}
         onCellClick={placePiecePassThrough}
@@ -121,6 +144,12 @@ export const SinglePlayer = () => {
             </Typography>
           </Stack>
         </Box>
+        <Box>
+          <Typography variant="body2" sx={{ color: "#E5E7EB" }}>
+            {isPlayerX ? "You are X" : "You are O"}
+          </Typography>
+        </Box>
+        <Button onClick={() => setSettingsOpen(true)}> Settings </Button>
       </Box>
     </Stack>
   );
