@@ -153,8 +153,7 @@ export function TicTacToeGrid({
         maxHeight: 820,
         borderRadius: 4,
         overflow: "hidden",
-        background:
-          "linear-gradient(135deg, rgba(2,6,23,0.9) 0%, rgba(10,10,17,0.9) 100%)",
+        background: "transparent",
         boxShadow:
           "0 0 0 1px rgba(99,102,241,0.25), 0 18px 65px rgba(56,189,248,0.15)",
       }}

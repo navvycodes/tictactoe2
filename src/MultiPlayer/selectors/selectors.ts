@@ -14,3 +14,10 @@ export const selectWinner = ({ context }: { context: TicTacToeContext }) => {
       : null,
   };
 };
+
+export const selectXWins = ({ context }: { context: TicTacToeContext }) => {
+  return context.numXWins;
+};
+export const selectOWins = ({ context }: { context: TicTacToeContext }) => {
+  return context.numOWins;
+};
