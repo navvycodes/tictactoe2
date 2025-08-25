@@ -85,7 +85,7 @@ export const TicTacToeMultiMachine = setup({
       if (!legal(context.board, idx) || context.winner) return context;
 
       const next = applyMove(context, idx);
-      const mover = context.xTurn ? "x" : "o";
+      const mover: Mark = context.xTurn ? "x" : "o";
       const maybeWinner = checkWin(next.board, mover) ? mover : null;
       if (maybeWinner) {
         if (maybeWinner === "x") {
