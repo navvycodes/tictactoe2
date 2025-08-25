@@ -67,12 +67,15 @@ export const Home = () => {
       >
         <Box
           component="img"
-          src="/icons/TicTacToe2.png"
-          alt="Tic Tac Toe"
+          src="/icons/TTT.png"
+          alt="Tri-Tac-Toe"
           sx={{
-            width: { xs: 200, sm: 200, md: 300 },
+            display: "block",
+            margin: "0 auto",
+            maxWidth: 250,
+            width: "100%",
             height: "auto",
-            mb: 3,
+            mb: 1,
           }}
         />
         <Box sx={{ width: "100%", maxWidth: 300 }}>

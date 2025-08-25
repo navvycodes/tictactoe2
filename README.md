@@ -1,1 +1,1 @@
-# tictactoe2
+# tritactoe

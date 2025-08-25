@@ -65,7 +65,7 @@ export const GameInstructionsDialog = ({
       maxWidth="sm"
     >
       <DialogTitle sx={{ fontWeight: 700 }}>
-        How to Play (Tic-Tac-Toe2)
+        How to Play (Tri-Tac-Toe)
       </DialogTitle>
 
       <DialogContent>
