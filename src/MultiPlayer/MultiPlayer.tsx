@@ -1,6 +1,6 @@
 import { Box, Stack, Typography, useMediaQuery } from "@mui/material";
 
-import { TicTacToeGrid } from "../Common/TicTacToeGrid";
+import { TicTacToeGrid } from "../CommonComponents/TicTacToeGrid";
 import { useGameBoard } from "../StateMachine/hooks/useGameBoard";
 import { usePlacePiece } from "../StateMachine/hooks/usePlacePiece";
 import { useWinner } from "../StateMachine/hooks/useWinner";

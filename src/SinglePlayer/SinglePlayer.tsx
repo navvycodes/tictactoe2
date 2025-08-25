@@ -7,7 +7,7 @@ import {
   IconButton,
 } from "@mui/material";
 import SettingsIcon from "@mui/icons-material/Settings";
-import { TicTacToeGrid } from "../Common/TicTacToeGrid";
+import { TicTacToeGrid } from "../CommonComponents/TicTacToeGrid";
 import { useGameBoard } from "../StateMachine/hooks/useGameBoard";
 import { useNumOWins } from "../StateMachine/hooks/useNumOWins";
 import { useNumXWins } from "../StateMachine/hooks/useNumXWins";

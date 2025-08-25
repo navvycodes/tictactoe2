@@ -5,7 +5,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { GameInstructionsDialog } from "../Common/GameInstructionsDialog";
+import { GameInstructionsDialog } from "../CommonComponents/GameInstructionsDialog";
 
 export const MultiPlayerWrapper = () => {
   const navigate = useNavigate();

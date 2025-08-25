@@ -4,13 +4,12 @@ import HomeIcon from "@mui/icons-material/Home";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { GameInstructionsDialog } from "../Common/GameInstructionsDialog";
+import { GameInstructionsDialog } from "../CommonComponents/GameInstructionsDialog";
 import PersonIcon from "@mui/icons-material/Person";
 import PeopleIcon from "@mui/icons-material/People";
 import { getShowInstructions } from "../utils/localStorageHelpers";
 export const Home = () => {
   const showOnInitialLoad = getShowInstructions();
-  console.log("showOnInitialLoad", showOnInitialLoad);
   const [showExplanation, setShowExplanation] = useState(showOnInitialLoad);
   const navigate = useNavigate();
   return (
