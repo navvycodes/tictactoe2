@@ -7,10 +7,8 @@ import { useNavigate } from "react-router";
 import { GameInstructionsDialog } from "../CommonComponents/GameInstructionsDialog";
 import PersonIcon from "@mui/icons-material/Person";
 import PeopleIcon from "@mui/icons-material/People";
-import { getShowInstructions } from "../utils/localStorageHelpers";
 export const Home = () => {
-  const showOnInitialLoad = getShowInstructions();
-  const [showExplanation, setShowExplanation] = useState(showOnInitialLoad);
+  const [showExplanation, setShowExplanation] = useState(false);
   const navigate = useNavigate();
   return (
     <Box>

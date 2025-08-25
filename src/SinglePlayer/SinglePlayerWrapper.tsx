@@ -8,9 +8,12 @@ import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { GameInstructionsDialog } from "../CommonComponents/GameInstructionsDialog";
+import { getShowInstructions } from "../utils/localStorageHelpers";
 
 export const SinglePlayerWrapper = () => {
-  const [showExplanation, setShowExplanation] = useState(false);
+  const showOnInitialLoad = getShowInstructions();
+  const [showExplanation, setShowExplanation] = useState(showOnInitialLoad);
+
   const navigate = useNavigate();
 
   useEffect(() => {
